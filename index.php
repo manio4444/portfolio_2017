@@ -15,10 +15,10 @@ $urlFull = $_SERVER['HTTP_HOST'].substr($_SERVER['REQUEST_URI'], 0, strrpos($_SE
 
   <body>
   <header>
-    <hgroup>
-      <h1>Portfolio - Marcin Kalinowski</h1>
-      <h2>Front-End Developer</h2>
-    </hgroup>
+    <h1>
+      <span>Portfolio - Marcin Kalinowski</span>
+      <span>Front-End Developer</span>
+    </h1>
   </header>
   <nav class="main_navigation">
     <ul>
@@ -30,18 +30,25 @@ $urlFull = $_SERVER['HTTP_HOST'].substr($_SERVER['REQUEST_URI'], 0, strrpos($_SE
     </ul>
   </nav>
   <section id="section_about">
+    <h2>O mnie</h2>
+    <article class="about_element">
 
+    </article>
   </section>
   <section id="section_skills">
+    <h2>Umiejętności</h2>
 
   </section>
   <section id="section_experience">
+    <h2>Doświadczenie zawodowe</h2>
 
   </section>
   <section id="section_projects">
+    <h2>Przykładowe projekty</h2>
 
   </section>
   <section id="section_contact">
+    <h2>Kontakt</h2>
 
   </section>
   <footer>

@@ -5,6 +5,7 @@ $urlFull = $_SERVER['HTTP_HOST'].substr($_SERVER['REQUEST_URI'], 0, strrpos($_SE
 <!-- http://sigmeo.pl/themeforest/_blustein/ -->
 <!-- http://nataliakielbicka.pl/skills -->
 <!-- https://nofluffjobs.com/job/Senior/Scala/Developer/backend/YouGov/Poland/EYAORTIZ?utm_source=facebook&utm_medium=paid_ads&utm_campaign=promoted_ads&utm_content=EYAORTIZ -->
+<!-- http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet.png -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -35,7 +36,7 @@ $urlFull = $_SERVER['HTTP_HOST'].substr($_SERVER['REQUEST_URI'], 0, strrpos($_SE
   <section id="section_about">
     <h2>O mnie</h2>
     <article class="about_element">
-
+      <h3>O mnie element</h3>
     </article>
   </section>
   <section id="section_skills">

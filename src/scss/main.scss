@@ -1,0 +1,18 @@
+@import 'base/reset';
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/settings';
+@import 'base/classes';
+
+// @import 'components/cookies';
+@import 'components/hamburger_init';
+
+@import 'sections/section_first';
+@import 'sections/navigation';
+// @import 'sections/navigation_desktop';
+@import 'sections/section_contact';
+@import 'sections/footer';
+
+@import 'temp';
+@import 'fixes';
+// @import 'lang_fixes';

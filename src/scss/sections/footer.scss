@@ -1,0 +1,26 @@
+#section_footer {
+	color: #9a9a9a;
+	strong {color: rgb(60,60,60);}
+	padding: 42px 0;
+	font-size: 14px;
+	.section_wrapper{display: flex;}
+	.copy, .cms {
+		display: flex;
+		flex-wrap: wrap;
+		&>* {margin-right: 8px;}
+	}
+
+@media (max-width: 1023px) {
+	padding: 18px 0;
+	text-align: center;
+	line-height: 1.5em;
+	transition: margin-bottom .16s linear; //for sscript adding margin for cookie div
+	.section_wrapper{flex-direction: column;}
+	.copy, .cms {justify-content: center;}
+	.copy {margin-bottom: 15px;}
+} //media
+@media (min-width: 1024px) {
+	padding: 42px 0;
+	.section_wrapper{justify-content: space-between;}
+} //media
+} //#section_footer

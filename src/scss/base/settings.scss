@@ -1,0 +1,61 @@
+// ################ GLOBAL SETTINGS ###########
+* { box-sizing:border-box; }
+body{
+  font-family: $font_default;
+  color: $color1;
+  font-weight: $font_weight;
+  background-color: $background;
+}
+
+
+// ################ DEFAULT STRUCTURE SETTINGS ###########
+.page_section {
+	width:100%;
+}
+.wrapper {
+	width: 100%;
+	max-width: $wrapper + $padding + $padding; //double padding added because of box-sizing: border-box
+	margin: 0 auto;
+	padding-left: $padding;
+	padding-right: $padding;
+}
+
+
+// ################ OTHER SETTINGS ###########
+// p { line-height: 24px; }
+strong { font-weight: 900; }
+
+@include selection($color2, $color1);
+
+//hover options not for touch devices - detecting by js: touchscreenDetect()
+body.noTouchscreen {
+	button, a {
+		transition: color .3s ease,
+		background-color .3s ease,
+		border-color .3s ease,
+		opacity .3s ease;
+	}
+	button:hover, a:hover { opacity: 0.7; }
+  a[href^="tel:"] {pointer-events: none;} //disables tel: protocol on most desktop devices
+}
+
+//class to show only first child of element, before scripts load
+.beforeLoad>*:not(:first-of-type) {display: none;}
+
+//pnotify
+.brighttheme-info {
+  background-color: $color1;
+  border: 0 solid $color2;
+  color: $color2;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: $color1;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background-color: $color2;
+  border-left: 1px solid white;
+}

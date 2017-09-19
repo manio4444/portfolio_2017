@@ -1,0 +1,116 @@
+#main_navigation {
+	z-index: 3;
+	position: fixed; //to be on top
+@media (max-width: 1023px) {
+	.hamburger {
+		position: fixed;
+		right: 20px;
+		top: 15px;
+		z-index: 1;
+		outline: none;
+	}
+	.navigation_hamburger.is-active {
+		// transform: translateY(12px);
+	}
+	.navigation_hamburger:not(.is-active) {
+		.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+			box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.66);
+		}
+	}
+	.main_navigation_list {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 100vh;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: $red;
+		color: $white;
+		font-weight: normal;
+		font-family: $font2;
+		font-size: 30px;
+		// text-transform: uppercase;
+		opacity: 0;
+		transition: opacity .2s linear, height .2s ease;
+	}
+	.main_navigation_list_el {
+		transition: transform .2s ease;
+		transition-delay: .3s;
+		position: relative;
+	}
+	.main_navigation_list_el:hover::before {
+		content: '#\00a0';
+		position: absolute;
+		left: -20px;
+		pointer-events: none;
+	}
+	.main_navigation_list_el:not(:last-of-type) {
+		margin-bottom: 25px;
+	}
+	.main_navigation_list:not(.show) {
+		pointer-events: none;
+		.main_navigation_list_el:nth-child(odd) {transform: translateX(-100vw);}
+		.main_navigation_list_el:nth-child(even) {transform: translateX(100vw);}
+	}
+	.main_navigation_list.show {
+		opacity: 1;
+	}
+} //media
+@media (min-width: 1024px) {
+	transition: top .2s linear;
+	.hamburger {display: none;}
+	.main_navigation {display: none !important;}
+
+	.navigation_top {
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: normal;
+		background-color: white;
+		transition: all .2s linear; //for color
+		a:hover {
+			opacity: 1;
+			color: $blue2;
+		}
+	}
+	.navigation_top_wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: $top_menu_height;
+		transition: all .2s linear; //for height
+	}
+
+	.nav_top_logo {
+		height: 42px;
+		transition: all .3s ease; //for height
+		img {width: 100%;}
+
+	}
+	.navigation_top_menu {}
+	.navigation_top_menu ul {display: flex;}
+	.navigation_top_menu li:not(:last-of-type) {margin-right: 20px;}
+
+	//after scrolling down desktop menu settings
+	.navigation_top,
+	.navigation_top_logo img {transition: all .24s ease;}
+	&.scrolled {
+		.navigation_top {
+			box-shadow: 0 0 5px rgba(0,0,0,.5);
+		}
+		.navigation_top_wrapper {
+			height: 60px;
+		}
+		.navigation_top_logo {
+			height: 30px;
+		}
+	}
+	// &.hidden {top: -200px;}
+	//after scrolling down desktop menu settings ## END
+
+} //media
+
+} //#menu

@@ -3,7 +3,7 @@ var concat = require('gulp-concat');
 var sourcemaps = require('gulp-sourcemaps');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
-var cssmin = require('gulp-cssmin');
+let cleanCSS = require('gulp-clean-css');
 var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('default', ['sass:production', 'uglify:production', 'watch:production']);
@@ -15,7 +15,7 @@ gulp.task('sass:production', function() {
   .on('error', swallowError)
   .pipe(concat('styles.all.min.css'))
   // .pipe(autoprefixer({browsers: ['last 2 versions', '> 1% in PL', 'ie >=10']}))
-  .pipe(cssmin())
+  .pipe(cleanCSS())
   .pipe(sourcemaps.write())
   .pipe(gulp.dest('dist'));
 });

@@ -9,7 +9,7 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
 */
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pl">
   <head>
     <meta charset="utf-8">
     <title>Portfolio - Marcin Kalinowski</title>
@@ -31,7 +31,7 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
       </ul>
     </nav>
     <header id="section_first">
-      <img src="img/20347006_1047877912015207_2013755533386842112_n.jpg" alt="" class="section_first_image">
+      <img src="img/20347006_1047877912015207_2013755533386842112_n.jpg" alt="Marcin Kalinowski" class="section_first_image">
       <h1 class="heading section_first_heading" xdata-aos="fade-right">
         <span class="section_first_heading_big">Marcin Kalinowski</span>
         <span class="section_first_heading_small">Front-End Developer Portfolio</span>
@@ -45,8 +45,8 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
       </div>
     </section>
     <section id="section_skills">
-      <div class="wrapper">
-        <h2 class="heading">Umiejętności</h2>
+      <div class="wrapper -section_skills">
+        <h2 class="heading -section_skills">Umiejętności</h2>
         <article class="section_skills_el">
           <h3 class="section_skills_el_title">HTML5</h3>
           <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -132,7 +132,7 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
       <p>Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
     </footer>
     <div id="backtotop" title="Powrót na górę strony"></div>
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,500&amp;subset=latin-ext" rel="stylesheet">
     <script src="dist/scripts.all.min.js"></script>
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBweORh04qPGsjpO-ib0tVSgxlayRjUoM&callback=initMap" type="text/javascript"></script> -->
   </body>

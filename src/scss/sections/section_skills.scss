@@ -1,0 +1,43 @@
+#section_skills {
+
+  .wrapper.-section_skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .heading.-section_skills {
+    flex-basis: 100%;
+  }
+  .section_skills_el {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 20px;
+    padding-left: 150px;
+    background-color: #ccc;
+    min-height: 68px;
+    margin-bottom: 30px;
+    &::before {
+      content: '\f13b';
+      font-family: $awesome;
+      font-size: 3em;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+  }
+  .section_skills_el_title {
+    // font-family: $font2;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+
+
+@media (max-width: 767px) {
+} //media
+@media (min-width: 768px) {
+} //media
+@media (max-width: 1023px) {
+} //media
+@media (min-width: 1024px) {
+} //media
+} //#section_skills

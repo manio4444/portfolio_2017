@@ -48,68 +48,100 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
       <div class="wrapper -section_skills">
         <h2 class="heading -section_skills">Umiejętności</h2>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">HTML5</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">HTML5</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">CSS3</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">CSS3</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">Responsive Web Design</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">Responsive Web Design</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">SASS</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">SASS</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">jQuery</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">jQuery</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">JavaScript</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">JavaScript</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">Vue.js</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">Vue.js</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">Git</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">Git</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">Grunt/Gulp</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">Grunt/Gulp</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">Node package manager</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">Node package manager</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">SQL</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">SQL</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">PHP</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">PHP</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">asdasdasdasdasdasdsa</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">asdasdasdasdasdasdsa</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">asdasdasdasdasdasdsa</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">asdasdasdasdasdasdsa</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">asdasdasdasdasdasdsa</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">asdasdasdasdasdasdsa</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
         <article class="section_skills_el">
-          <h3 class="section_skills_el_title">Photoshop</h3>
-          <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="section_skills_el_content">
+            <h3 class="section_skills_el_title">Photoshop</h3>
+            <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </article>
       </div>
     </section>

@@ -2,12 +2,11 @@
   background-image: url('../img/d509c2a8becfa61e9a33b7d275a866328395bd9a.png');
   background-attachment: fixed;
   color: $white;
-  .wrapper.-section_skills {
+  .section_skills_el_container {
     display: flex;
     flex-wrap: wrap;
-  }
-  .heading.-section_skills {
-    flex-basis: 100%;
+    justify-content: space-between;
+
   }
   .section_skills_el {
     display: flex;
@@ -15,33 +14,70 @@
     position: relative;
     padding: 10px 20px;
     background-color: rgba(0,0,0,.4);
-    min-height: 68px;
     margin-bottom: 30px;
+    flex-basis: calc(50% - 8px);
     &::before {
-      content: '\f13b';
-      font-family: $awesome;
-      font-size: 3em;
-      margin-right: 20px;
-      border: 2px solid white;
-      width: 1.5em;
-      height: 1.5em;
-      text-align: center;
-      border-radius: 50%;
-      line-height: 1.5em;
     }
   }
+  .section_skills_el.--fa::before {
+    flex-shrink: 0;
+    content: '';
+    font-size: 3em;
+    margin-right: 20px;
+    border: 2px solid white;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    border-radius: 50%;
+    font-family: $awesome;
+    line-height: 1.5em;
+  }
+  svg {
+    flex-shrink: 0;
+    font-size: 3em;
+    margin-right: 20px;
+    border: 2px solid white;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 1.5em;
+    fill: $white;
+  }
+  .section_skills_el.--hmtl::before {content: '\f13b';}
+  .section_skills_el.--css::before {content: '\f13c';}
+  .section_skills_el.--rwd::before {content: '\f065';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
+  .section_skills_el.--hmtl5::before {content: '\f13b';}
   .section_skills_el_content {
     display: flex;
     flex-direction: column;
   }
   .section_skills_el_title {
-    font-size: 1.5em;
+    font-size: 1.125em;
     font-weight: 500;
     margin-bottom: 10px;
   }
 
 
 @media (max-width: 767px) {
+  .section_skills_el {
+    // padding: 10px 20px;
+    // margin-bottom: 30px;
+    // flex-basis: 350px;
+    &::before {
+      font-size: 2em;
+      // margin-right: 20px;
+    }
+  }
 } //media
 @media (min-width: 768px) {
 } //media

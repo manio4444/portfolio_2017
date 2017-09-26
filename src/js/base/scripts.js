@@ -79,29 +79,34 @@ function initMap() {
 // ################ MENU_DESKTOP_SCROLL ###########
 function menuDesktopObject() {
   //private
-  var mainNavContainer = document.querySelector('#main_navigation');
-  var addedClass = 'scrolled';
+  var _mainNavContainer = document.querySelector('#main_navigation');
+  var _addedClass = 'scrolled';
+  var _expand = function() {
+    _mainNavContainer.classList.add(_addedClass);
+    console.log('expand function');
+  };
+  var _collapse = function() {
+    _mainNavContainer.classList.remove(_addedClass);
+    console.log('collapse function');
+  };
+  var _listenScroll = function() {
+    var pos = window.pageYOffset || 0;
+    if (pos > 200) _expand();
+    else _collapse();
+  };
+  var _bindEvents = function() {
+    if (_mainNavContainer) {
+      window.addEventListener('scroll', _listenScroll, false);
+    }
+  };
+  var _init = function() {
+    _bindEvents();
+  };
+
   return {
     //public
-    listenScroll: function() {
-      var pos = window.pageYOffset || 0;
-      if (pos > 200) {
-        expand();
-      }
-      else {
-        this.collapse();
-      }
-    },
-    expand: function () {
-      mainNavContainer.classList.add(addedClass);
-    },
-    collapse: function () {
-      mainNavContainer.classList.remove(addedClass);
-    },
-    init: function() {
-      if (mainNavContainer) {
-        window.addEventListener('scroll', this.listenScroll, false);
-      }
-    },
+    expand : _expand,
+    collapse : _collapse,
+    init : _init
   }
 }

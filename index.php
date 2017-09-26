@@ -51,13 +51,13 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
           <article class="section_skills_el --hmtl --fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">HTML5</h3>
-              <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)</p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)<!-- Divitis --></p>
             </div>
           </article>
           <article class="section_skills_el --css --fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">CSS3</h3>
-              <p class="section_skills_el_desc">Bardzo dobra znajomość, moja ulubiona wartość to - display: flex, żadnych float'ów.</p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość, żadnych float'ów, tylko flex.</p>
             </div>
           </article>
           <article class="section_skills_el --rwd --fa">
@@ -66,68 +66,77 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
               <p class="section_skills_el_desc">Bardzo dobra znajomość, bez żadnego skrępowania używam reguł @media tak, aby nie nadpisywać wartości CSS.</p>
             </div>
           </article>
-          <article class="section_skills_el">
-            <svg aria-labelledby="simpleicons-sass-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-sass-icon">Sass icon</title><path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM9.615 15.998c.175.645.156 1.248-.024 1.792l-.065.18c-.024.061-.052.12-.078.176-.14.29-.326.56-.555.81-.698.759-1.672 1.047-2.09.805-.45-.262-.226-1.335.584-2.19.871-.918 2.12-1.509 2.12-1.509v-.003l.108-.061zm9.911-10.861c-.542-2.133-4.077-2.834-7.422-1.645-1.989.707-4.144 1.818-5.693 3.267C4.568 8.48 4.275 9.98 4.396 10.607c.427 2.211 3.457 3.657 4.703 4.73v.006c-.367.18-3.056 1.529-3.686 2.925-.675 1.47.105 2.521.615 2.655 1.575.436 3.195-.36 4.065-1.649.84-1.261.766-2.881.404-3.676.496-.135 1.08-.195 1.83-.104 2.101.24 2.521 1.56 2.43 2.1-.09.539-.523.854-.674.944-.15.091-.195.12-.181.181.015.09.091.09.21.075.165-.03 1.096-.45 1.141-1.471.045-1.29-1.186-2.729-3.375-2.7-.9.016-1.471.091-1.875.256-.03-.045-.061-.075-.105-.105-1.35-1.455-3.855-2.475-3.75-4.41.03-.705.285-2.564 4.8-4.814 3.705-1.846 6.661-1.335 7.171-.21.733 1.604-1.576 4.59-5.431 5.024-1.47.165-2.235-.404-2.431-.615-.209-.225-.239-.24-.314-.194-.12.06-.045.255 0 .375.12.3.585.825 1.396 1.095.704.225 2.43.359 4.5-.45 2.324-.899 4.139-3.405 3.614-5.505l.073.067z"/></svg>
+          <article class="section_skills_el --sass">
+            <?php include 'img/skills/sass.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">SASS</h3>
               <p class="section_skills_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
             </div>
           </article>
           <article class="section_skills_el">
+            <?php include 'img/skills/gulp.svg'; ?>
+            <div class="section_skills_el_content">
+              <h3 class="section_skills_el_title">Grunt/Gulp</h3>
+              <p class="section_skills_el_desc">Narzędzia automatyzacji bez których nie wyobrażam sobie kodowania, skrypty takie jak autoprefixer, czy cssmin to podstawa.</p>
+            </div>
+          </article>
+          <article class="section_skills_el --javascript">
+            <?php include 'img/skills/javascript.svg'; ?>
+            <div class="section_skills_el_content">
+              <h3 class="section_skills_el_title">JavaScript</h3>
+              <p class="section_skills_el_desc">Znajomość na poziomie podstawowy+, rozumiem i potrafę napisać samodzielnie kod, w tej dziedzinie chciałbym się najbardziej rozwinąć i doszlifować swoje umiejętności.</p>
+            </div>
+          </article>
+          <article class="section_skills_el --jquery">
+            <?php include 'img/skills/jquery.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">jQuery</h3>
               <p class="section_skills_el_desc">Dobra znajomość. </p>
             </div>
           </article>
           <article class="section_skills_el">
-            <div class="section_skills_el_content">
-              <h3 class="section_skills_el_title">JavaScript</h3>
-              <p class="section_skills_el_desc">Znajomość na poziomie podstawowy+, rozumiem i potrafę napisać samodzielnie kod, w tej dziedzinie chciałbym się najbardziej rozwinąć i doszlifować swoje umiejętności.</p>
-            </div>
-          </article>
-          <article class="section_skills_el">
+            <?php include 'img/skills/vuejs.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Vue.js</h3>
-              <p class="section_skills_el_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="section_skills_el_desc">Podstawy.</p>
             </div>
           </article>
           <article class="section_skills_el">
+            <?php include 'img/skills/php.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">PHP</h3>
               <p class="section_skills_el_desc">Dobra znajomość czyztego PHP, również obiektowo.</p>
             </div>
           </article>
-          <article class="section_skills_el">
+          <article class="section_skills_el --twig --fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Twig</h3>
               <p class="section_skills_el_desc">Aby kod stał się czytelniejszy.</p>
             </div>
           </article>
           <article class="section_skills_el">
+            <?php include 'img/skills/git.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Git</h3>
               <p class="section_skills_el_desc">Codziennie po przyjsciu do pracy podwójne espresso, a przed wyjściem git commit oraz git push.</p>
             </div>
           </article>
           <article class="section_skills_el">
-            <div class="section_skills_el_content">
-              <h3 class="section_skills_el_title">Grunt/Gulp</h3>
-              <p class="section_skills_el_desc">Narzędzia automatyzacji bez których nie wyobrażam sobie kodowania, skrypty takie jak autoprefixer, czy cssmin to podstawa.</p>
-            </div>
-          </article>
-          <article class="section_skills_el">
+            <?php include 'img/skills/npm.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Node package manager</h3>
               <p class="section_skills_el_desc">Wygodne narzędzie do instalowania różnych skryptów, pluginów, z którego chętnie korzystam.</p>
             </div>
           </article>
           <article class="section_skills_el">
+            <?php include 'img/skills/mysql.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">SQL</h3>
               <p class="section_skills_el_desc">Dobra znajomość, JOIN'y, optymalizacja typy pól, itp.</p>
             </div>
           </article>
           <article class="section_skills_el">
+            <?php include 'img/skills/adobephotoshop.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Photoshop</h3>
               <p class="section_skills_el_desc">Znajomość na poziomie cięcia szablonów psd/tiff i podstawowych sposobów obróbki w celu eksportu grafiki</p>
@@ -139,6 +148,34 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
     <section id="section_experience">
       <div class="wrapper">
         <h2 class="heading">Doświadczenie zawodowe</h2>
+        <span class="section_experience_icon --work"></span>
+        <article class="section_experience_el --current">
+          <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
+          <time class="section_experience_el_date" datetime="2017">2016-2017</time>
+          <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+        </article>
+        <article class="section_experience_el --current">
+          <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
+          <time class="section_experience_el_date" datetime="2017">2016-2017</time>
+          <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+        </article>
+        <article class="section_experience_el --current">
+          <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
+          <time class="section_experience_el_date" datetime="2017">2016-2017</time>
+          <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+        </article>
+
+        <span class="section_experience_icon --school"></span>
+        <article class="section_experience_el --current">
+          <h3 class="section_experience_el_title">Warszawska Szkoła Reklamy</h3>
+          <time class="section_experience_el_date" datetime="2015">2013 - 2015</time>
+          <p class="section_experience_el_desc">Realizacja telewizyjna i filmowa</p>
+        </article>
+        <article class="section_experience_el --current">
+          <h3 class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim</h3>
+          <time class="section_experience_el_date" datetime="2011">2007 - 2011</time>
+          <p class="section_experience_el_desc">Technik informatyk, tytuł potwierdzony dyplomem</p>
+        </article>
       </div>
     </section>
     <section id="section_projects">

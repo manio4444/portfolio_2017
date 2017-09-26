@@ -37,6 +37,7 @@ gulp.task('uglify:production', function() {
   .pipe(sourcemaps.init())
   .pipe(concat('scripts.all.min.js'))
   .pipe(uglify())
+  .on('error', swallowError)
   .pipe(gulp.dest('dist'));
 });
 

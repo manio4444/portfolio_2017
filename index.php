@@ -146,36 +146,39 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
       </div>
     </section>
     <section id="section_experience">
-      <div class="wrapper">
-        <h2 class="heading">Doświadczenie zawodowe</h2>
-        <span class="section_experience_icon --work"></span>
-        <article class="section_experience_el --current">
-          <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
-          <time class="section_experience_el_date" datetime="2017">2016-2017</time>
-          <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
-        </article>
-        <article class="section_experience_el --current">
-          <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
-          <time class="section_experience_el_date" datetime="2017">2016-2017</time>
-          <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
-        </article>
-        <article class="section_experience_el --current">
-          <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
-          <time class="section_experience_el_date" datetime="2017">2016-2017</time>
-          <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
-        </article>
-
-        <span class="section_experience_icon --school"></span>
-        <article class="section_experience_el --current">
-          <h3 class="section_experience_el_title">Warszawska Szkoła Reklamy</h3>
-          <time class="section_experience_el_date" datetime="2015">2013 - 2015</time>
-          <p class="section_experience_el_desc">Realizacja telewizyjna i filmowa</p>
-        </article>
-        <article class="section_experience_el --current">
-          <h3 class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim</h3>
-          <time class="section_experience_el_date" datetime="2011">2007 - 2011</time>
-          <p class="section_experience_el_desc">Technik informatyk, tytuł potwierdzony dyplomem</p>
-        </article>
+      <div class="wrapper section_experience_wrapper">
+        <h2 class="heading section_experience_heading">Doświadczenie zawodowe</h2>
+        <div class="section_experience_side --left">
+          <span class="section_experience_icon --work"></span>
+          <article class="section_experience_el --current">
+            <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
+            <time class="section_experience_el_date" datetime="2017">2016-2017</time>
+            <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+          </article>
+          <article class="section_experience_el --current">
+            <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
+            <time class="section_experience_el_date" datetime="2017">2016-2017</time>
+            <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+          </article>
+          <article class="section_experience_el --current">
+            <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
+            <time class="section_experience_el_date" datetime="2017">2016-2017</time>
+            <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+          </article>
+        </div>
+        <div class="section_experience_side --right">
+          <span class="section_experience_icon --school"></span>
+          <article class="section_experience_el --current">
+            <h3 class="section_experience_el_title">Warszawska Szkoła Reklamy</h3>
+            <time class="section_experience_el_date" datetime="2015">2013 - 2015</time>
+            <p class="section_experience_el_desc">Realizacja telewizyjna i filmowa</p>
+          </article>
+          <article class="section_experience_el --current">
+            <h3 class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim</h3>
+            <time class="section_experience_el_date" datetime="2011">2007 - 2011</time>
+            <p class="section_experience_el_desc">Technik informatyk, tytuł potwierdzony dyplomem</p>
+          </article>
+        </div>
       </div>
     </section>
     <section id="section_projects">

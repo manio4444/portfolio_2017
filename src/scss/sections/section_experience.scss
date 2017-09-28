@@ -10,15 +10,16 @@
     text-align: center;
     border-radius: 50%;
   }
-    .section_experience_icon.--work::before {
-      content: '\f0b1';
-    }
-    .section_experience_icon.--school::before {
-      content: '\f19d';
-      margin-top: 50px;
-    }
+  .section_experience_icon.--work::before {
+    content: '\f0b1';
+  }
+  .section_experience_icon.--school::before {
+    content: '\f19d';
+  }
   .section_experience_el {
-    border-left: 2px solid $color2;
+    border-left-width: 2px;
+    border-style: solid;
+    border-color: $color2;
     margin-left: 25px;
     padding-left: 25px;
     padding-top: 50px;
@@ -63,9 +64,39 @@
 
 } //media
 @media (max-width: 1023px) {
-
+  .section_experience_icon.--school::before {
+    margin-top: 50px;
+  }
 } //media
 @media (min-width: 1024px) {
-
+  .section_experience_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section_experience_heading {
+    flex-basis: 100%;
+  }
+  .section_experience_side {
+    flex-basis: calc(50% - 15px);
+  }
+  .section_experience_side.--left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    .section_experience_el {
+      border-left-width: 0;
+      border-right-width: 2px;
+      margin-left: 0;
+      padding-left: 0;
+      margin-right: 25px;
+      padding-right: 25px;
+    }
+    .section_experience_el::before {
+      left: auto;
+      right: -8px;
+    }
+  }
 } //media
 } //#section_experience

@@ -184,6 +184,69 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
     <section id="section_projects">
       <div class="wrapper">
         <h2 class="heading">Przykładowe projekty</h2>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">valdiexpress</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery, Vue.js</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/valdiexpress.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">magnon</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/magnon.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">mariostinyhouses</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/mariostinyhouses.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">grupahalo</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/grupahalo.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">q-gain</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/q-gain.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">cpsens</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/cpsens.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">nordic care</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/nordic_care.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">zib</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/zib.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
+          <article class="section_projects_el">
+            <h3 class="section_projects_el_title">espol</h3>
+            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <div class="section_projects_el_thumb">
+              <img src="img/projects/espol.jpg" alt="" class="section_projects_el_thumb_img">
+            </div>
+          </article>
       </div>
     </section>
     <section id="section_contact">

@@ -6,6 +6,7 @@ http://sigmeo.pl/themeforest/_blustein/
 http://nataliakielbicka.pl/skills
 https://nofluffjobs.com/job/Senior/Scala/Developer/backend/YouGov/Poland/EYAORTIZ?utm_source=facebook&utm_medium=paid_ads&utm_campaign=promoted_ads&utm_content=EYAORTIZ
 http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet.png
+https://codepen.io/mkurapov/pen/qNQXxz
 */
 ?>
 <!DOCTYPE html>
@@ -63,7 +64,8 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
           <article class="section_skills_el --rwd --fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Responsive Web Design</h3>
-              <p class="section_skills_el_desc">Bardzo dobra znajomość, bez żadnego skrępowania używam reguł @media tak, aby nie nadpisywać wartości CSS.</p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak aby była uniwersalna i wyświetlała się dobrze zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
+
             </div>
           </article>
           <article class="section_skills_el --sass">
@@ -105,7 +107,7 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
             <?php include 'img/skills/php.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">PHP</h3>
-              <p class="section_skills_el_desc">Dobra znajomość czyztego PHP, również obiektowo.</p>
+              <p class="section_skills_el_desc">Dobra znajomość czystego PHP, również obiektowo.</p>
             </div>
           </article>
           <article class="section_skills_el --twig --fa">
@@ -183,70 +185,63 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
     </section>
     <section id="section_projects">
       <div class="wrapper">
-        <h2 class="heading">Przykładowe projekty</h2>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">valdiexpress</h3>
+        <h2 class="heading --section_projects">Przykładowe projekty</h2>
+        <div class="section_projects_content">
+          <article class="section_projects_el --valdiexpress">
+            <h3 class="section_projects_el_title">Valdiexpress</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery, Vue.js</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/valdiexpress.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">magnon</h3>
+          <article class="section_projects_el --magnon">
+            <h3 class="section_projects_el_title">Magnon</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/magnon.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">mariostinyhouses</h3>
+          <article class="section_projects_el --mariostinyhouses">
+            <h3 class="section_projects_el_title">Mariostinyhouses</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/mariostinyhouses.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">grupahalo</h3>
+          <article class="section_projects_el --grupahalo">
+            <h3 class="section_projects_el_title">Grupahalo</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/grupahalo.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">q-gain</h3>
+          <article class="section_projects_el --q-gain">
+            <h3 class="section_projects_el_title">Q-gain</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/q-gain.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">cpsens</h3>
+          <article class="section_projects_el --cpsens">
+            <h3 class="section_projects_el_title">Cpsens</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/cpsens.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">nordic care</h3>
+          <article class="section_projects_el --nordic_care">
+            <h3 class="section_projects_el_title">Nordic care</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/nordic_care.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">zib</h3>
+          <article class="section_projects_el --zib">
+            <h3 class="section_projects_el_title">Zib</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/zib.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
-          <article class="section_projects_el">
-            <h3 class="section_projects_el_title">espol</h3>
+          <article class="section_projects_el --espol">
+            <h3 class="section_projects_el_title">Espol</h3>
+            <time class="section_projects_el_date" datetime="2009">2009, </time>
+            <span class="section_projects_el_company">bcweb</span>
             <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
-            <div class="section_projects_el_thumb">
-              <img src="img/projects/espol.jpg" alt="" class="section_projects_el_thumb_img">
-            </div>
           </article>
+        </div>
       </div>
     </section>
     <section id="section_contact">
@@ -258,7 +253,7 @@ http://blog.codebusters.pl/cb_blog/uploads/files/html5_and_its_three_faces_sheet
       <p>Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
     </footer>
     <div id="backtotop" title="Powrót na górę strony"></div>
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,500&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:100,300,500&amp;subset=latin-ext" rel="stylesheet">
     <script src="dist/scripts.all.min.js"></script>
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBweORh04qPGsjpO-ib0tVSgxlayRjUoM&callback=initMap" type="text/javascript"></script> -->
   </body>

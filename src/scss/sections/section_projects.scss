@@ -1,0 +1,75 @@
+#section_projects {
+
+  .--valdiexpress { background-image: url('../img/projects/valdiexpress.jpg'); }
+  .--magnon { background-image: url('../img/projects/magnon.jpg'); }
+  .--mariostinyhouses { background-image: url('../img/projects/mariostinyhouses.jpg'); }
+  .--grupahalo { background-image: url('../img/projects/grupahalo.jpg'); }
+  .--q-gain { background-image: url('../img/projects/q-gain.jpg'); }
+  .--cpsens { background-image: url('../img/projects/cpsens.jpg'); }
+  .--nordic_care { background-image: url('../img/projects/nordic_care.jpg'); }
+  .--zib { background-image: url('../img/projects/zib.jpg'); }
+  .--espol { background-image: url('../img/projects/espol.jpg'); }
+
+  .section_projects_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px -20px;
+  }
+  .section_projects_el {
+    width: 365px;
+    height: 365px;
+    margin: 0 20px 50px;
+    display: inline-block;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform .4s ease-out, background-position 1.5s ease;
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    overflow: hidden;
+    color: $white;
+    background-position: center top;
+    padding: 25px;
+    &>* {
+      opacity: 0;
+      transition: opacity 0.4s ease-in-out;
+    }
+  }
+  .section_projects_el:not(:hover) .section_projects_el_date {transform: translateX(-100%);}
+  .section_projects_el:not(:hover) .section_projects_el_company {transform: translateX(-100%);}
+  .section_projects_el::after {
+    content: '';
+    @include absolute;
+    transition: all 0.6s ease-out;
+    background-color: $red;
+    opacity: 0;
+    mix-blend-mode: darken;
+    z-index: -1;
+  }
+  .section_projects_el:hover {
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+    transform:scale(1.05);
+    // background-position: center bottom;
+    &::after {opacity: 0.88;}
+    &>* {opacity: 1;}
+  }
+  .section_projects_el_title {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  }
+  .section_projects_el_date,
+  .section_projects_el_company {
+    font-size: 0.9em;
+    line-height: 1.3em;
+  }
+
+
+@media (max-width: 767px) {
+} //media
+@media (min-width: 768px) {
+} //media
+@media (max-width: 1023px) {
+} //media
+@media (min-width: 1024px) {
+} //media
+} //#section_projects

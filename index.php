@@ -153,32 +153,37 @@ https://codepen.io/mkurapov/pen/qNQXxz
         <div class="section_experience_side --left">
           <span class="section_experience_icon --work"></span>
           <article class="section_experience_el --current">
-            <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
-            <time class="section_experience_el_date" datetime="2017">2016-2017</time>
-            <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+            <h3 class="section_experience_el_title">KInga Nowicka Design</h3>
+            <time class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
+            <p class="section_experience_el_desc">Praca zdalna od ok. miesiąca, obecnie wynikiem współpracy z panią Kingą jest strona połączona ze sklepem internetowym dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a></p>
           </article>
           <article class="section_experience_el --current">
             <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
-            <time class="section_experience_el_date" datetime="2017">2016-2017</time>
-            <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+            <time class="section_experience_el_date" datetime="2016">2016 -> obecnie</time>
+            <p class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umięjętności z prawdziwym stanowiskiem Front-End Developera, oraz nuczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>
           </article>
           <article class="section_experience_el --current">
-            <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
-            <time class="section_experience_el_date" datetime="2017">2016-2017</time>
-            <p class="section_experience_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+            <h3 class="section_experience_el_title">Studiocitrus, Agencja interaktywna - Founder</h3>
+            <time class="section_experience_el_date" datetime="2015">2015</time>
+            <p class="section_experience_el_desc">Marka którą stworzyłem i sam obsługiwałem, wykorzystując zdobyte w innych miejscach pracy umiejętności miękkie, marketingowe i sprzedażowe. Sam byłem accountem, programistą, czasami też grafikiem, jeśli nie zlecałem wykonywania projektów grafikowi.</p>
+          </article>
+          <article class="section_experience_el --current">
+            <h3 class="section_experience_el_title">Studio reklamy MadMelon - Programista stron internetowych</h3>
+            <time class="section_experience_el_date" datetime="2014">2014</time>
+            <p class="section_experience_el_desc">Praca zdalna, to w tej firmie miałem pierwszy komercyjny kontakt z branżą, zajmowałem się kodowaniem projektów stron internetowych, wynikiem współpracy było kilka projektów, głównie w technologii HTML, CSS.</p>
           </article>
         </div>
         <div class="section_experience_side --right">
           <span class="section_experience_icon --school"></span>
           <article class="section_experience_el --current">
-            <h3 class="section_experience_el_title">Warszawska Szkoła Reklamy</h3>
+            <h3 class="section_experience_el_title">Warszawska Szkoła Reklamy - Realizacja telewizyjna i filmowa</h3>
             <time class="section_experience_el_date" datetime="2015">2013 - 2015</time>
-            <p class="section_experience_el_desc">Realizacja telewizyjna i filmowa</p>
+            <p class="section_experience_el_desc">W Warszawskiej Szkole Reklamy rozwijałem swoje hobby które miało być moim przyszłym zawodem - operatorka. Poza zajęciami ze montażu, ćwiczeniami operatorki czy plenerach filmowych w których chętnie brałem udział, nabyłem sporo ogólnej wiedzy z zakresu marketingu.</p>
           </article>
           <article class="section_experience_el --current">
-            <h3 class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim</h3>
+            <h3 class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim - Technik informatyk</h3>
             <time class="section_experience_el_date" datetime="2011">2007 - 2011</time>
-            <p class="section_experience_el_desc">Technik informatyk, tytuł potwierdzony dyplomem</p>
+            <p class="section_experience_el_desc">Tytuł potwierdzony dyplomem</p>
           </article>
         </div>
       </div>

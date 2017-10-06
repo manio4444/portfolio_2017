@@ -1,5 +1,3 @@
-var d = document;
-
 // ################ DELETE_BEFORE_LOAD #########
 function delete_before_load() {
     $('.beforeLoad').removeClass('beforeLoad');

@@ -1,7 +1,7 @@
 #section_contact {
 
-  background-color: $blue2;
-  color: white;
+  background-color: $red;
+  color: $white;
   .heading {
     margin-bottom: 1em;
   }
@@ -14,7 +14,7 @@
     margin-bottom: 4px;
     width: 100%;
     @include placeholder {
-      color: #bbb; 
+      color: #bbb;
     };
   }
   .contact_form {

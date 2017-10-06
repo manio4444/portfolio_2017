@@ -19,6 +19,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
     <?php include('src/php/open_graph.php'); ?>
   </head>
   <body>
+
     <nav id="main_navigation">
       <button class="hamburger hamburger--squeeze" type="button">
         <span class="hamburger-box"><span class="hamburger-inner"></span></span>
@@ -31,6 +32,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
         <li class="main_navigation_list_el"><a href="#section_contact">Kontakt</a></li>
       </ul>
     </nav>
+
     <header id="section_first">
       <img src="img/20347006_1047877912015207_2013755533386842112_n.jpg" alt="Marcin Kalinowski" class="section_first_image">
       <h1 class="heading section_first_heading" xdata-aos="fade-right">
@@ -39,12 +41,14 @@ https://codepen.io/mkurapov/pen/qNQXxz
       </h1>
       <a href="#section_about" class="section_first_more">Czytaj więcej</a>
     </header>
+
     <section id="section_about">
       <div class="wrapper">
         <h2 class="heading">O mnie</h2>
-        <p class="asddads">O mnie tekst i coś o Śledzenie światowych trendów UI / UX i że ogólnie cośtam śledzę, + że od dawna kodzenie + może tu o angielskim</p>
+        <p class="section_about_desc">O mnie tekst i coś o Śledzenie światowych trendów UI / UX i że ogólnie cośtam śledzę, + że od dawna kodzenie + może tu o angielskim</p>
       </div>
     </section>
+
     <section id="section_skills">
       <div class="wrapper -section_skills">
         <h2 class="heading -section_skills">Umiejętności</h2>
@@ -65,7 +69,6 @@ https://codepen.io/mkurapov/pen/qNQXxz
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Responsive Web Design</h3>
               <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak aby była uniwersalna i wyświetlała się dobrze zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
-
             </div>
           </article>
           <article class="section_skills_el --sass">
@@ -147,20 +150,21 @@ https://codepen.io/mkurapov/pen/qNQXxz
         </div>
       </div>
     </section>
+
     <section id="section_experience">
       <div class="wrapper section_experience_wrapper">
         <h2 class="heading section_experience_heading">Doświadczenie zawodowe</h2>
         <div class="section_experience_side --left">
           <span class="section_experience_icon --work"></span>
           <article class="section_experience_el --current">
-            <h3 class="section_experience_el_title">KInga Nowicka Design</h3>
+            <h3 class="section_experience_el_title">Kinga Nowicka Design</h3>
             <time class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
             <p class="section_experience_el_desc">Praca zdalna od ok. miesiąca, obecnie wynikiem współpracy z panią Kingą jest strona połączona ze sklepem internetowym dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a></p>
           </article>
           <article class="section_experience_el --current">
             <h3 class="section_experience_el_title">bcweb - Front End Developer</h3>
-            <time class="section_experience_el_date" datetime="2016">2016 -> obecnie</time>
-            <p class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umięjętności z prawdziwym stanowiskiem Front-End Developera, oraz nuczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>
+            <time class="section_experience_el_date" datetime="2016">2016 - obecnie</time>
+            <p class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umięjętności z prawdziwym stanowiskiem Front-End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>
           </article>
           <article class="section_experience_el --current">
             <h3 class="section_experience_el_title">Studiocitrus, Agencja interaktywna - Founder</h3>
@@ -188,70 +192,126 @@ https://codepen.io/mkurapov/pen/qNQXxz
         </div>
       </div>
     </section>
+
+    <section id="section_expectations">
+      <div class="wrapper">
+        <h2 class="heading">Oczekiwania</h2>
+        <p class="section_expectations_desc">Tu daj też kolorową mapę googla z zaznaczonym obszarem wwa GOOGLE API V3</p>
+      </div>
+    </section>
+
     <section id="section_projects">
       <div class="wrapper">
         <h2 class="heading --section_projects">Przykładowe projekty</h2>
         <div class="section_projects_content">
           <article class="section_projects_el --valdiexpress">
-            <h3 class="section_projects_el_title">Valdiexpress</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery, Vue.js</p>
+            <a href="http://valdiexpress.pl/" target="_blank">
+              <h3 class="section_projects_el_title">Valdiexpress</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery, Vue.js</p>
+            </a>
           </article>
           <article class="section_projects_el --magnon">
-            <h3 class="section_projects_el_title">Magnon</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
+            <a href="http://magnon.pl/" target="_blank">
+              <h3 class="section_projects_el_title">Magnon</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
+            </a>
           </article>
           <article class="section_projects_el --mariostinyhouses">
-            <h3 class="section_projects_el_title">Mariostinyhouses</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
+            <a href="http://mariostinyhouses.com/" target="_blank">
+              <h3 class="section_projects_el_title">Mariostinyhouses</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, jQuery</p>
+            </a>
           </article>
           <article class="section_projects_el --grupahalo">
-            <h3 class="section_projects_el_title">Grupahalo</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <a href="http://strojedlahostess.pl/" target="_blank">
+              <h3 class="section_projects_el_title">Grupahalo</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            </a>
           </article>
           <article class="section_projects_el --q-gain">
-            <h3 class="section_projects_el_title">Q-gain</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <a href="http://produkcja.bcweb.com.pl/q-gain.com/q-gain.com_2017-07-31/" target="_blank">
+              <h3 class="section_projects_el_title">Q-gain</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            </a>
           </article>
           <article class="section_projects_el --cpsens">
-            <h3 class="section_projects_el_title">Cpsens</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <a href="http://produkcja.bcweb.com.pl/cpsens/cpsens_2017-09-29/" target="_blank">
+              <h3 class="section_projects_el_title">Cpsens</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            </a>
           </article>
           <article class="section_projects_el --nordic_care">
-            <h3 class="section_projects_el_title">Nordic care</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <a href="http://nordiccare.pl/" target="_blank">
+              <h3 class="section_projects_el_title">Nordic care</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            </a>
           </article>
           <article class="section_projects_el --zib">
-            <h3 class="section_projects_el_title">Zib</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <a href="http://produkcja.bcweb.com.pl/zib/zib_2017-09-28/" target="_blank">
+              <h3 class="section_projects_el_title">Zib</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            </a>
           </article>
           <article class="section_projects_el --espol">
-            <h3 class="section_projects_el_title">Espol</h3>
-            <time class="section_projects_el_date" datetime="2009">2009, </time>
-            <span class="section_projects_el_company">bcweb</span>
-            <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            <a href="http://produkcja.bcweb.com.pl/espol/2017-09-18_espol/" target="_blank">
+              <h3 class="section_projects_el_title">Espol</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2009, </time>
+                <span>bcweb</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            </a>
+          </article>
+          <article class="section_projects_el --kossmann">
+            <a href="http://kossmann.com.pl/new_page/" target="_blank">
+              <h3 class="section_projects_el_title">Kossmann</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2009">2017, </time>
+                <span>Kinga Nowicka Design</span>
+              </span>
+              <p class="section_projects_el_desc">Opis realizacji. Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+            </a>
           </article>
         </div>
       </div>
     </section>
+
     <section id="section_contact">
       <div class="wrapper">
         <h2 class="heading">Kontakt</h2>
+        <p class="section_contact">Formulasz wklej gotowy ten co zawsze i jakiś tekst zapraszam do kontaktu blablabla</p>
       </div>
     </section>
     <footer>

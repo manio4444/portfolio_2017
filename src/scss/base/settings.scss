@@ -23,7 +23,7 @@ body{
 
 
 // ################ OTHER SETTINGS ###########
-// p { line-height: 24px; }
+p { line-height: 2em; }
 strong { font-weight: 900; }
 
 @include selection($white, $red);

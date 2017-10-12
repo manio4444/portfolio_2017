@@ -37,11 +37,11 @@ function menuMobileObject() {
 function initMap() {
 
   var styles = [{"stylers":[{"saturation":-100},{"gamma":0.8},{"lightness":4},{"visibility":"on"}]},{"featureType":"landscape.natural","stylers":[{"visibility":"on"},{"color":"#5dff00"},{"gamma":4.97},{"lightness":-5},{"saturation":100}]}];
-  var coordinates = new google.maps.LatLng(lang['contact_latitude'], lang['contact_longitude']);
-  var marker_pos = new google.maps.LatLng(lang['contact_latitude'], lang['contact_longitude']);
+  var coordinates = new google.maps.LatLng(52.18204,21.45553);
+  var marker_pos = new google.maps.LatLng(52.18204,21.45553);
   var optionsMap = {
     center: coordinates,
-    zoom: 16,
+    zoom: 13,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     // styles: styles,
     // disableDefaultUI: true,
@@ -51,6 +51,8 @@ function initMap() {
     // disableDoubleClickZoom: true,
     // draggable: false,
   };
+
+var triangleCoords = [new google.maps.LatLng(52.27373,20.97248), new google.maps.LatLng(52.25235,20.96858), new google.maps.LatLng(52.23474,20.93309), new google.maps.LatLng(52.2135,20.89318), new google.maps.LatLng(52.19516,20.929), new google.maps.LatLng(52.17722,20.98834), new google.maps.LatLng(52.18234,21.0518), new google.maps.LatLng(52.19811,21.06182), new google.maps.LatLng(52.20409,21.0866), new google.maps.LatLng(52.24851,21.15985), new google.maps.LatLng(52.24462,21.26619), new google.maps.LatLng(52.18204,21.45553), new google.maps.LatLng(52.16019,21.59037), new google.maps.LatLng(52.19056,21.59131), new google.maps.LatLng(52.1928,21.463), new google.maps.LatLng(52.25897,21.27082), new google.maps.LatLng(52.26435,21.06938), new google.maps.LatLng(52.25733,21.03432), new google.maps.LatLng(52.26039,21.00097), ];
 
   //below declarations of marker, color can be change by "pinColor" variable
   var pinColor = "379A39";

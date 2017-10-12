@@ -43,14 +43,14 @@
   .section_experience_el_title {
     font-size: 1.125em;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
   }
   .section_experience_el_date {
     font-size: 0.9em;
     color: $color2;
     display: block;
     // transform: skewX(-15deg);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     &::before {
       content: '\f133';
       font-family: $awesome;
@@ -58,12 +58,12 @@
     }
   }
   .section_experience_el_desc {
-    line-height: 1.5em;
     max-width: 500px;
     a {
       font-weight: 500;
       text-decoration: underline;
     }
+    p {line-height: 1.6em;}
   }
 
 @media (max-width: 767px) {

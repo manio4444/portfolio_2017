@@ -40,7 +40,7 @@ function initMap() {
   console.log(document.body.offsetWidth);
   if (document.body.offsetWidth>=1024) {
     var zoomValue = 11;
-    var coordinates = new google.maps.LatLng(52.18204,21.24253);
+    var coordinates = new google.maps.LatLng(52.25204,21.24253);
 
   }
   else { //mobile view
@@ -66,10 +66,10 @@ function initMap() {
   var pathAreaCoords = [new google.maps.LatLng(52.27373,20.97248), new google.maps.LatLng(52.25235,20.96858), new google.maps.LatLng(52.23474,20.93309), new google.maps.LatLng(52.2135,20.89318), new google.maps.LatLng(52.19516,20.929), new google.maps.LatLng(52.17722,20.98834), new google.maps.LatLng(52.18234,21.0518), new google.maps.LatLng(52.19811,21.06182), new google.maps.LatLng(52.20409,21.0866), new google.maps.LatLng(52.24851,21.15985), new google.maps.LatLng(52.24462,21.26619), new google.maps.LatLng(52.18204,21.45553), new google.maps.LatLng(52.16019,21.59037), new google.maps.LatLng(52.19056,21.59131), new google.maps.LatLng(52.1928,21.463), new google.maps.LatLng(52.25897,21.27082), new google.maps.LatLng(52.26435,21.06938), new google.maps.LatLng(52.25733,21.03432), new google.maps.LatLng(52.26039,21.00097), ];
   var shapeArea = new google.maps.Polygon({
     paths: pathAreaCoords,
-    strokeColor: '#FF0000',
+    strokeColor: '#FF5455',
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: '#FF0000',
+    fillColor: '#FF5455',
     fillOpacity: 0.35
   });
   //below declarations of marker, color can be change by "pinColor" variable

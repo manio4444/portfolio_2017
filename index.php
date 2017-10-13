@@ -195,8 +195,12 @@ https://codepen.io/mkurapov/pen/qNQXxz
 
     <section id="section_expectations">
       <div class="wrapper wrapper--section_expectations">
-        <h2 class="heading">Oczekiwania</h2>
-        <div class="section_expectations_desc"><p>Tu daj też kolorową mapę googla z zaznaczonym obszarem wwa GOOGLE API V3</p></div>
+        <div class="section_expectations_desc">
+          <h2 class="heading">Oczekiwania</h2>
+          <p>Przede wszystkim szukam pracy stacjonarnej, w której mógbłbym wykorzystać swoją dotychczas zgromadzną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami, choć możliwość raz na jakiś czas pracowania zdalnego będzie na pewno dodatkowym atutem ;) </p>
+          <p>Interesują mnie stanowiska Junior Front-End Developer, ewentualnie Regular, choć do tego drugiego musiałbym się jeszcze nieco poduczyć.</p>
+          <p>Poniżej wklejam mapkę z mniej więcej zaznaczonym obszarem w którym chciałbym pracować, oraz pokazuję że umiem obsługiwać Google Maps API v3 ;)</p>
+        </div>
       </div>
       <div id="google_map"></div>
     </section>

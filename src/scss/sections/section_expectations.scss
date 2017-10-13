@@ -15,6 +15,22 @@
   .wrapper--section_expectations {
     position: relative;
   }
+  .section_expectations_desc {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 600px;
+    padding: 60px 40px;
+    background-color: $red;
+    color: $white;
+    z-index: 1;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: justify;
+    p {
+      margin-bottom: 0.5em;
+    }
+  }
   #google_map { height: 600px; }
 } //media
 } //#section_expectations

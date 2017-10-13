@@ -1,23 +1,24 @@
 #section_projects {
-  .--pomocdrogowa-krakow-a4 { background-image: url('../img/projects/pomocdrogowa-krakow-a4.jpg'); }
-  .--magicphotography { background-image: url('../img/projects/magicphotography.jpg'); }
-  .--marcolsm { background-image: url('../img/projects/marcolsm.jpg'); }
-  .--fugotrans { background-image: url('../img/projects/fugotrans.jpg'); }
-  .--valdiexpress { background-image: url('../img/projects/valdiexpress.jpg'); }
-  .--magnon { background-image: url('../img/projects/magnon.jpg'); }
-  .--mariostinyhouses { background-image: url('../img/projects/mariostinyhouses.jpg'); }
-  .--grupahalo { background-image: url('../img/projects/grupahalo.jpg'); }
-  .--q-gain { background-image: url('../img/projects/q-gain.jpg'); }
-  .--cpsens { background-image: url('../img/projects/cpsens.jpg'); }
-  .--nordic_care { background-image: url('../img/projects/nordic_care.jpg'); }
-  .--zib { background-image: url('../img/projects/zib.jpg'); }
-  .--espol { background-image: url('../img/projects/espol.jpg'); }
-  .--kossmann { background-image: url('../img/projects/kossmann.jpg'); }
+  .section_projects_el--pomocdrogowa-krakow-a4 { background-image: url('../img/projects/pomocdrogowa-krakow-a4.jpg'); }
+  .section_projects_el--magicphotography { background-image: url('../img/projects/magicphotography.jpg'); }
+  .section_projects_el--marcolsm { background-image: url('../img/projects/marcolsm.jpg'); }
+  .section_projects_el--fugotrans { background-image: url('../img/projects/fugotrans.jpg'); }
+  .section_projects_el--valdiexpress { background-image: url('../img/projects/valdiexpress.jpg'); }
+  .section_projects_el--magnon { background-image: url('../img/projects/magnon.jpg'); }
+  .section_projects_el--mariostinyhouses { background-image: url('../img/projects/mariostinyhouses.jpg'); }
+  .section_projects_el--grupahalo { background-image: url('../img/projects/grupahalo.jpg'); }
+  .section_projects_el--q-gain { background-image: url('../img/projects/q-gain.jpg'); }
+  .section_projects_el--cpsens { background-image: url('../img/projects/cpsens.jpg'); }
+  .section_projects_el--nordic_care { background-image: url('../img/projects/nordic_care.jpg'); }
+  .section_projects_el--zib { background-image: url('../img/projects/zib.jpg'); }
+  .section_projects_el--espol { background-image: url('../img/projects/espol.jpg'); }
+  .section_projects_el--kossmann { background-image: url('../img/projects/kossmann.jpg'); }
 
   .section_projects_content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px -15px;
   }
   .section_projects_el {
     display: flex;
@@ -84,7 +85,7 @@
 } //media
 @media (max-width: 1023px) {
   .section_projects_content {
-    margin: 0px -15px;
+    // margin: 0px -15px;
   }
   .section_projects_el {
     width: 280px;
@@ -101,12 +102,12 @@
 } //media
 @media (min-width: 1024px) {
   .section_projects_content {
-    margin: 0px -20px;
+    // margin: 0px -20px;
   }
   .section_projects_el {
     width: 365px;
     height: 365px;
-    margin: 0 20px 50px;
+    margin: 0 18px 50px;
     font-size: 15px;
     a {
       padding: 30px 25px;

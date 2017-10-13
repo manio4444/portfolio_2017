@@ -53,25 +53,25 @@ https://codepen.io/mkurapov/pen/qNQXxz
       <div class="wrapper -section_skills">
         <h2 class="heading -section_skills">Umiejętności</h2>
         <div class="section_skills_el_container">
-          <article data-aos="zoom-in-up" class="section_skills_el --hmtl --fa">
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--hmtl section_skills_el--fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">HTML5</h3>
               <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)<!-- Divitis --></p>
             </div>
           </article>
-          <article data-aos="zoom-in-up" class="section_skills_el --css --fa">
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--css section_skills_el--fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">CSS3</h3>
               <p class="section_skills_el_desc">Bardzo dobra znajomość, żadnych float'ów, tylko flex.</p>
             </div>
           </article>
-          <article data-aos="zoom-in-up" class="section_skills_el --rwd --fa">
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--rwd section_skills_el--fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Responsive Web Design</h3>
               <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak aby była uniwersalna i wyświetlała się dobrze zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
             </div>
           </article>
-          <article data-aos="zoom-in-up" class="section_skills_el --sass">
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--sass">
             <?php include 'img/skills/sass.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">SASS</h3>
@@ -85,14 +85,14 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_skills_el_desc">Narzędzia automatyzacji bez których nie wyobrażam sobie kodowania, skrypty takie jak autoprefixer, czy cssmin to podstawa.</p>
             </div>
           </article>
-          <article data-aos="zoom-in-up" class="section_skills_el --javascript">
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--javascript">
             <?php include 'img/skills/javascript.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">JavaScript</h3>
               <p class="section_skills_el_desc">Znajomość na poziomie podstawowy+, rozumiem i potrafę napisać samodzielnie kod, w tej dziedzinie chciałbym się najbardziej rozwinąć i doszlifować swoje umiejętności.</p>
             </div>
           </article>
-          <article data-aos="zoom-in-up" class="section_skills_el --jquery">
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--jquery">
             <?php include 'img/skills/jquery.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">jQuery</h3>
@@ -113,7 +113,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_skills_el_desc">Dobra znajomość czystego PHP, również obiektowo.</p>
             </div>
           </article>
-          <article data-aos="zoom-in-up" class="section_skills_el --twig --fa">
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--twig section_skills_el--fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Twig</h3>
               <p class="section_skills_el_desc">Aby kod stał się czytelniejszy.</p>
@@ -154,14 +154,14 @@ https://codepen.io/mkurapov/pen/qNQXxz
     <section id="section_experience">
       <div class="wrapper section_experience_wrapper">
         <h2 class="heading section_experience_heading">Doświadczenie zawodowe</h2>
-        <div class="section_experience_side --left">
-          <span class="section_experience_icon --work"></span>
-          <article class="section_experience_el --current">
+        <div class="section_experience_side section_experience_side--left">
+          <span class="section_experience_icon section_experience_icon--work"></span>
+          <article class="section_experience_el section_experience_el--current">
             <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design</h3>
             <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
             <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna od ok. miesiąca, obecnie wynikiem współpracy z panią Kingą jest strona połączona ze sklepem internetowym dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a></p>
           </article>
-          <article class="section_experience_el --current">
+          <article class="section_experience_el section_experience_el--current">
             <h3 data-aos="fade-right" class="section_experience_el_title">bcweb - Front End Developer</h3>
             <time data-aos="fade-right" class="section_experience_el_date" datetime="2016">2016 - obecnie</time>
             <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umięjętności z prawdziwym stanowiskiem Front-End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>
@@ -177,8 +177,8 @@ https://codepen.io/mkurapov/pen/qNQXxz
             <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, to w tej firmie miałem pierwszy komercyjny kontakt z branżą, zajmowałem się kodowaniem projektów stron internetowych, wynikiem współpracy było kilka projektów, głównie w technologii HTML, CSS.</p>
           </article>
         </div>
-        <div class="section_experience_side --right">
-          <span class="section_experience_icon --school"></span>
+        <div class="section_experience_side section_experience_side--right">
+          <span class="section_experience_icon section_experience_icon--school"></span>
           <article class="section_experience_el">
             <h3 data-aos="fade-left" class="section_experience_el_title">Warszawska Szkoła Reklamy - Realizacja telewizyjna i filmowa</h3>
             <time data-aos="fade-left" class="section_experience_el_date" datetime="2015">2013 - 2015</time>
@@ -194,17 +194,18 @@ https://codepen.io/mkurapov/pen/qNQXxz
     </section>
 
     <section id="section_expectations">
-      <div class="wrapper">
+      <div class="wrapper wrapper--section_expectations">
         <h2 class="heading">Oczekiwania</h2>
-        <p class="section_expectations_desc">Tu daj też kolorową mapę googla z zaznaczonym obszarem wwa GOOGLE API V3</p>
+        <div class="section_expectations_desc"><p>Tu daj też kolorową mapę googla z zaznaczonym obszarem wwa GOOGLE API V3</p></div>
       </div>
+      <div id="google_map"></div>
     </section>
 
     <section id="section_projects">
       <div class="wrapper">
-        <h2 class="heading --section_projects">Przykładowe projekty</h2>
+        <h2 class="heading">Przykładowe projekty</h2>
         <div class="section_projects_content">
-          <article class="section_projects_el --pomocdrogowa-krakow-a4">
+          <article class="section_projects_el section_projects_el--pomocdrogowa-krakow-a4">
             <a href="http://pomocdrogowa-krakow-a4.pl/" target="_blank">
               <h3 class="section_projects_el_title">Pomocdrogowa</h3>
               <span class="section_projects_el_date">
@@ -214,7 +215,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery, WordPress</p>
             </a>
           </article>
-          <article class="section_projects_el --magicphotography">
+          <article class="section_projects_el section_projects_el--magicphotography">
             <a href="http://magicphotography.pl/" target="_blank">
               <h3 class="section_projects_el_title">Magicphotography</h3>
               <span class="section_projects_el_date">
@@ -224,7 +225,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --marcolsm">
+          <article class="section_projects_el section_projects_el--marcolsm">
             <a href="http://marcolsm.pl/" target="_blank">
               <h3 class="section_projects_el_title">Marcol SM</h3>
               <span class="section_projects_el_date">
@@ -234,7 +235,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --fugotrans">
+          <article class="section_projects_el section_projects_el--fugotrans">
             <a href="http://fugotrans.pl/" target="_blank">
               <h3 class="section_projects_el_title">Fugotrans</h3>
               <span class="section_projects_el_date">
@@ -244,7 +245,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --valdiexpress">
+          <article class="section_projects_el section_projects_el--valdiexpress">
             <a href="http://valdiexpress.pl/" target="_blank">
               <h3 class="section_projects_el_title">Valdiexpress</h3>
               <span class="section_projects_el_date">
@@ -254,7 +255,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery, Vue.js</p>
             </a>
           </article>
-          <article class="section_projects_el --magnon">
+          <article class="section_projects_el section_projects_el--magnon">
             <a href="http://magnon.pl/" target="_blank">
               <h3 class="section_projects_el_title">Magnon</h3>
               <span class="section_projects_el_date">
@@ -264,7 +265,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --mariostinyhouses">
+          <article class="section_projects_el section_projects_el--mariostinyhouses">
             <a href="http://mariostinyhouses.com/" target="_blank">
               <h3 class="section_projects_el_title">Mariostinyhouses</h3>
               <span class="section_projects_el_date">
@@ -274,7 +275,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --grupahalo">
+          <article class="section_projects_el section_projects_el--grupahalo">
             <a href="http://strojedlahostess.pl/" target="_blank">
               <h3 class="section_projects_el_title">Grupahalo</h3>
               <span class="section_projects_el_date">
@@ -284,7 +285,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --q-gain">
+          <article class="section_projects_el section_projects_el--q-gain">
             <a href="http://produkcja.bcweb.com.pl/q-gain.com/q-gain.com_2017-07-31/" target="_blank">
               <h3 class="section_projects_el_title">Q-gain</h3>
               <span class="section_projects_el_date">
@@ -294,7 +295,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Sklep internetowy. Użyte technologie: HTML5, CSS3, JS, jQuery, QuickCart</p>
             </a>
           </article>
-          <article class="section_projects_el --cpsens">
+          <article class="section_projects_el section_projects_el--cpsens">
             <a href="http://produkcja.bcweb.com.pl/cpsens/cpsens_2017-09-29/" target="_blank">
               <h3 class="section_projects_el_title">Cpsens</h3>
               <span class="section_projects_el_date">
@@ -304,7 +305,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --nordic_care">
+          <article class="section_projects_el section_projects_el--nordic_care">
             <a href="http://nordiccare.pl/" target="_blank">
               <h3 class="section_projects_el_title">Nordic care</h3>
               <span class="section_projects_el_date">
@@ -314,7 +315,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --zib">
+          <article class="section_projects_el section_projects_el--zib">
             <a href="http://produkcja.bcweb.com.pl/zib/zib_2017-09-28/" target="_blank">
               <h3 class="section_projects_el_title">Zib</h3>
               <span class="section_projects_el_date">
@@ -324,7 +325,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --espol">
+          <article class="section_projects_el section_projects_el--espol">
             <a href="http://produkcja.bcweb.com.pl/espol/2017-09-18_espol/" target="_blank">
               <h3 class="section_projects_el_title">Espol</h3>
               <span class="section_projects_el_date">
@@ -334,7 +335,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
             </a>
           </article>
-          <article class="section_projects_el --kossmann">
+          <article class="section_projects_el section_projects_el--kossmann">
             <a href="http://kossmann.com.pl/new_page/" target="_blank">
               <h3 class="section_projects_el_title">Kossmann</h3>
               <span class="section_projects_el_date">
@@ -360,6 +361,6 @@ https://codepen.io/mkurapov/pen/qNQXxz
     <div id="backtotop" title="Powrót na górę strony"></div>
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:100,300,500&amp;subset=latin-ext" rel="stylesheet">
     <script src="dist/scripts.all.min.js"></script>
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBweORh04qPGsjpO-ib0tVSgxlayRjUoM&callback=initMap" type="text/javascript"></script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBweORh04qPGsjpO-ib0tVSgxlayRjUoM&callback=initMap" type="text/javascript"></script>
   </body>
 </html>

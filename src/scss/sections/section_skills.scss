@@ -1,4 +1,5 @@
 #section_skills {
+  overflow: hidden; //to prevent page jumping
   background-image: url('../img/d509c2a8becfa61e9a33b7d275a866328395bd9a.png');
   background-attachment: fixed;
   color: $white;
@@ -19,7 +20,7 @@
     &::before {
     }
   }
-  .section_skills_el.--fa::before {
+  .section_skills_el--fa::before {
     flex-shrink: 0;
     content: '';
     font-size: 3em;

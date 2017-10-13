@@ -1,12 +1,20 @@
 #section_expectations {
-  background-color: $red;
-  color: $white;
+  #google_map {
+    width: 100%;
+  }
 @media (max-width: 767px) {
 } //media
 @media (min-width: 768px) {
 } //media
 @media (max-width: 1023px) {
+  background-color: $red;
+  color: $white;
+  #google_map { height: 400px; }
 } //media
 @media (min-width: 1024px) {
+  .wrapper--section_expectations {
+    position: relative;
+  }
+  #google_map { height: 600px; }
 } //media
 } //#section_expectations

@@ -27,8 +27,8 @@
     line-height: 1.2em;
     font-size: 15px;
     text-align: justify;
-    p {
-      margin-bottom: 0.5em;
+    p:not(:last-of-type) {
+      margin-bottom: 1em;
     }
   }
   #google_map { height: 600px; }

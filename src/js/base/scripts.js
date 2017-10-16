@@ -40,7 +40,7 @@ function initMap() {
   console.log(document.body.offsetWidth);
   if (document.body.offsetWidth>=1024) {
     var zoomValue = 11;
-    var coordinates = new google.maps.LatLng(52.25204,21.24253);
+    var coordinates = new google.maps.LatLng(52.26504,21.24253);
 
   }
   else { //mobile view

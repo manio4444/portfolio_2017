@@ -43,22 +43,22 @@
     border-radius: 50%;
     fill: $white;
   }
-  .section_skills_el.--hmtl::before {content: '\f13b';}
-  .section_skills_el.--css::before {content: '\f13c';}
-  .section_skills_el.--rwd::before {content: '\f065';}
-  .section_skills_el.--twig::before {content: '{{ }}';}
-  .section_skills_el.--sass svg {
+  .section_skills_el--hmtl::before {content: '\f13b';}
+  .section_skills_el--css::before {content: '\f13c';}
+  .section_skills_el--rwd::before {content: '\f065';}
+  .section_skills_el--twig::before {content: '{{ }}';}
+  .section_skills_el--sass svg {
     border: 0;
     border-radius: 0;
   }
-  .section_skills_el.--javascript svg {
+  .section_skills_el--javascript svg {
     border: 0;
     // border-radius: 0;
   }
-  .section_skills_el.--jquery svg {
+  .section_skills_el--jquery svg {
     padding: 10px;
   }
-  .section_skills_el.--twig::before {
+  .section_skills_el--twig::before {
     font-family: inherit;
     width: 72px;
     height: 72px;

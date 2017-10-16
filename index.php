@@ -45,7 +45,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
     <section id="section_about">
       <div class="wrapper">
         <h2 class="heading">O mnie</h2>
-        <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i styli CSS. Raz na jakiś czas dorabiałem sobie tworząc stronę intenetową "dla znajomego". Od ok. 2-3 lat zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od roku pracuję na stanowisku Front-End Developer. Lubię cały rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii której jeszcze nie korzystałem, śledzę na bieżąca strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz używam nazw zmiennych i piszę komentarze do swojego kodu w tym języku.</p>
+        <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i stylów CSS. Raz na jakiś czas dorabiałem sobie tworząc stronę internetową "dla znajomego". Od ok. 2-3 lat zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od roku pracuję na stanowisku Front-End Developer. Lubię cały rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii, której jeszcze nie korzystałem, śledzę na bieżąco strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz używam nazw zmiennych i piszę komentarze do swojego kodu w tym języku.</p>
       </div>
     </section>
 
@@ -68,7 +68,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--rwd section_skills_el--fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Responsive Web Design</h3>
-              <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak aby była uniwersalna i wyświetlała się dobrze zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby była uniwersalna i wyświetlała się dobrze zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--sass">
@@ -82,14 +82,14 @@ https://codepen.io/mkurapov/pen/qNQXxz
             <?php include 'img/skills/gulp.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Grunt/Gulp</h3>
-              <p class="section_skills_el_desc">Narzędzia automatyzacji bez których nie wyobrażam sobie kodowania, skrypty takie jak autoprefixer, czy cssmin to podstawa.</p>
+              <p class="section_skills_el_desc">Narzędzia automatyzacji, bez których nie wyobrażam sobie kodowania, skrypty takie jak autoprefixer, czy cssmin to podstawa.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--javascript">
             <?php include 'img/skills/javascript.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">JavaScript</h3>
-              <p class="section_skills_el_desc">Znajomość na poziomie podstawowy+, rozumiem i potrafę napisać samodzielnie kod, w tej dziedzinie chciałbym się najbardziej rozwinąć i doszlifować swoje umiejętności.</p>
+              <p class="section_skills_el_desc">Znajomość na poziomie podstawowy+, rozumiem i potrafię napisać samodzielnie kod, w tej dziedzinie chciałbym się najbardziej rozwinąć i doszlifować swoje umiejętności.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--jquery">
@@ -123,7 +123,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
             <?php include 'img/skills/git.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Git</h3>
-              <p class="section_skills_el_desc">Codziennie po przyjsciu do pracy podwójne espresso, a przed wyjściem git commit oraz git push.</p>
+              <p class="section_skills_el_desc">Codziennie po przyjściu do pracy podwójne espresso, a przed wyjściem git commit oraz git push.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">
@@ -164,12 +164,12 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <article class="section_experience_el section_experience_el--current">
             <h3 data-aos="fade-right" class="section_experience_el_title">bcweb - Front End Developer</h3>
             <time data-aos="fade-right" class="section_experience_el_date" datetime="2016">2016 - obecnie</time>
-            <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umięjętności z prawdziwym stanowiskiem Front-End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>
+            <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umiejętności z prawdziwym stanowiskiem Front-End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>
           </article>
           <article class="section_experience_el">
             <h3 data-aos="fade-right" class="section_experience_el_title">Studiocitrus, Agencja interaktywna - Founder</h3>
             <time data-aos="fade-right" class="section_experience_el_date" datetime="2015">2015</time>
-            <p data-aos="fade-right" class="section_experience_el_desc">Marka którą stworzyłem i sam obsługiwałem, wykorzystując zdobyte w innych miejscach pracy umiejętności miękkie, marketingowe i sprzedażowe. Sam byłem accountem, programistą, czasami też grafikiem, jeśli nie zlecałem wykonywania projektów grafikowi.</p>
+            <p data-aos="fade-right" class="section_experience_el_desc">Marka, którą stworzyłem i sam obsługiwałem, wykorzystując zdobyte w innych miejscach pracy umiejętności miękkie, marketingowe i sprzedażowe. Sam byłem accountem, programistą, czasami też grafikiem, jeśli nie zlecałem wykonywania projektów grafikowi.</p>
           </article>
           <article class="section_experience_el">
             <h3 data-aos="fade-right" class="section_experience_el_title">Studio reklamy MadMelon - Programista stron internetowych</h3>
@@ -182,7 +182,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <article class="section_experience_el">
             <h3 data-aos="fade-left" class="section_experience_el_title">Warszawska Szkoła Reklamy - Realizacja telewizyjna i filmowa</h3>
             <time data-aos="fade-left" class="section_experience_el_date" datetime="2015">2013 - 2015</time>
-            <p data-aos="fade-left" class="section_experience_el_desc">W Warszawskiej Szkole Reklamy rozwijałem swoje hobby które miało być moim przyszłym zawodem - operatorka. Poza zajęciami ze montażu, ćwiczeniami operatorki czy plenerach filmowych w których chętnie brałem udział, nabyłem sporo ogólnej wiedzy z zakresu marketingu.</p>
+            <p data-aos="fade-left" class="section_experience_el_desc">W Warszawskiej Szkole Reklamy rozwijałem swoje hobby, które miało być moim przyszłym zawodem - operatorka. Poza zajęciami z montażu, ćwiczeniami operatorki czy plenerach filmowych, w których chętnie brałem udział, nabyłem sporo ogólnej wiedzy z zakresu marketingu.</p>
           </article>
           <article class="section_experience_el">
             <h3 data-aos="fade-left" class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim - Technik informatyk</h3>
@@ -197,9 +197,9 @@ https://codepen.io/mkurapov/pen/qNQXxz
       <div class="wrapper wrapper--section_expectations">
         <div class="section_expectations_desc">
           <h2 class="heading">Oczekiwania</h2>
-          <p>Przede wszystkim szukam pracy stacjonarnej, w której mógbłbym wykorzystać swoją dotychczas zgromadzną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami, choć możliwość raz na jakiś czas pracowania zdalnego będzie na pewno dodatkowym atutem ;) </p>
-          <p>Interesują mnie stanowiska Junior Front-End Developer, ewentualnie Regular, choć do tego drugiego musiałbym się jeszcze nieco poduczyć.</p>
-          <p>Poniżej wklejam mapkę z mniej więcej zaznaczonym obszarem w którym chciałbym pracować, oraz pokazuję że umiem obsługiwać Google Maps API v3 ;)</p>
+          <p>Przede wszystkim szukam pracy stacjonarnej, w której mógłbym wykorzystać swoją dotychczas zgromadzoną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami, choć możliwość raz na jakiś czas pracowania zdalnego będzie na pewno dodatkowym atutem ;)</p>
+          <p>Interesują mnie stanowiska: doświadczony Junior Front-End Developer lub początkujący Regular.</p>
+          <p>Poniżej wklejam mapkę z zarysem obszaru, w którym chciałbym pracować oraz pokazuję, że umiem obsługiwać Google Maps API v3 ;) Z racji, iż dojeżdżam obecnie z Mińska Mazowieckiego, szukam lokalizacji w miarę dobrze skomunikowanej ze wschodnią linią kolejową, ale obiecuję rozważyć wszystkie możliwe propozycje.</p>
         </div>
       </div>
       <div id="google_map"></div>

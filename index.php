@@ -354,15 +354,30 @@ https://codepen.io/mkurapov/pen/qNQXxz
     </section>
 
     <section id="section_contact">
+
       <div class="wrapper">
         <h2 class="heading">Kontakt</h2>
-        <p class="section_contact">Formulasz wklej gotowy ten co zawsze i jakiś tekst zapraszam do kontaktu blablabla</p>
+        <p class="section_contact_desc">Jeśli podoba się Państwu moje portfolio i jesteście zainteresowani współpracą, bądź macie dodatkowe pytania gorąco zachęcam do skorzystania z poniższego formularza kontaktowego. Chętnie zapoznam się i rozważę każdą popozycję.</p>
+        <form action="send.php" method="post" class="contact_form" id="contact_form">
+          <input type="text" name="contact_name" placeholder="Imię, Nazwisko, nazwa firmy" required>
+          <input type="email" name="contact_email" placeholder="E-mail kontaktowy" required>
+          <textarea name="contact_body" placeholder="Treść wiadomości" required></textarea>
+          <button class="send_btn">Wyślij</button>
+          <input type="hidden" name="49f84321e320cba4343bcab725c18149">
+          <input type="hidden" name="b7b564ab232539533b8a357a5f64dff7">
+        </form>
+
       </div>
     </section>
-    <footer>
-      <p>Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
+
+    <footer id="section_footer">
+      <div class="wrapper wrapper--section_footer">
+        <p>Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
+      </div>
     </footer>
+
     <div id="backtotop" title="Powrót na górę strony"></div>
+
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:100,300,500&amp;subset=latin-ext" rel="stylesheet">
     <script src="dist/scripts.all.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBweORh04qPGsjpO-ib0tVSgxlayRjUoM&callback=initMap" type="text/javascript"></script>

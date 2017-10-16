@@ -125,7 +125,7 @@ $(document).ready(function() {
   // ################ CONTACT_FORM #########
 
   function fillSpamSecure() {
-    $('[name="spam_wypelnij"]').val(Math.random().toString(36).substring(7));
+    $('[name="b7b564ab232539533b8a357a5f64dff7"]').val(Math.random().toString(36).substring(7)); //spam bots security, shold be filled
   }
 
   function formLock() {

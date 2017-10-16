@@ -9,7 +9,7 @@ function menuMobileObject() {
   //private
   var m_menu_hamb = document.querySelector('button.hamburger');
   var m_menu_cont = document.querySelector('.main_navigation_list');
-  var m_menu_list = $('#navigation nav.nav_mobile');
+  var m_menu_list = $('.main_navigation_list_el');
 
   return {
     //public
@@ -22,6 +22,7 @@ function menuMobileObject() {
       if (m_menu_hamb && m_menu_cont) {
         m_menu_hamb.addEventListener('click', this.toggle, false);
       }
+      m_menu_list.on('click', this.toggle);
       if (this.m_menu_list) {
         objectThis = this;
         this.m_menu_list.each(function(){
@@ -37,7 +38,7 @@ function menuMobileObject() {
 function initMap() {
 
   var styles = [{featureType:"all",elementType:"labels",stylers:[{visibility:"simplified"}]},{featureType:"all",elementType:"labels.text",stylers:[{color:"#969696"}]},{featureType:"administrative",elementType:"geometry.fill",stylers:[{color:"#000000"},{lightness:20}]},{featureType:"administrative",elementType:"geometry.stroke",stylers:[{color:"#000000"},{lightness:17},{weight:1.2}]},{featureType:"administrative.country",elementType:"all",stylers:[{visibility:"simplified"}]},{featureType:"administrative.country",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"administrative.province",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"administrative.locality",elementType:"all",stylers:[{visibility:"simplified"},{saturation:"-100"},{lightness:"30"}]},{featureType:"administrative.neighborhood",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"administrative.land_parcel",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"landscape",elementType:"all",stylers:[{visibility:"simplified"},{gamma:"0.00"},{lightness:"74"}]},{featureType:"landscape",elementType:"geometry",stylers:[{color:"#000000"},{lightness:20}]},{featureType:"landscape.man_made",elementType:"all",stylers:[{lightness:"3"}]},{featureType:"poi",elementType:"all",stylers:[{visibility:"off"}]},{featureType:"poi",elementType:"geometry",stylers:[{color:"#000000"},{lightness:21}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"},{color:"#ff0000"},{saturation:"-65"}]},{featureType:"road",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"transit",elementType:"geometry",stylers:[{visibility:"on"}]},{featureType:"transit",elementType:"labels",stylers:[{visibility:"simplified"}]},{featureType:"transit",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"transit.line",elementType:"geometry",stylers:[{visibility:"on"},{color:"#ff0000"},{saturation:"-75"}]},{featureType:"transit.station",elementType:"geometry",stylers:[{color:"#525252"}]},{featureType:"water",elementType:"geometry",stylers:[{color:"#444444"}]},{featureType:"water",elementType:"labels",stylers:[{visibility:"off"}]}];
-  console.log(document.body.offsetWidth);
+  // console.log(document.body.offsetWidth);
   if (document.body.offsetWidth>=1024) {
     var zoomValue = 11;
     var coordinates = new google.maps.LatLng(52.26504,21.24253);

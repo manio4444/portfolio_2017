@@ -47,16 +47,16 @@ body.noTouchscreen {
 .brighttheme-info {
   background-color: $color1;
   border: 0 solid $color2;
-  color: $color2;
+  color: $white;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-  background: $color1;
-}
+// ::-webkit-scrollbar {
+//   width: 12px;
+//   background: $color1;
+// }
 
-::-webkit-scrollbar-thumb {
-  border-radius: 1px;
-  background-color: $color2;
-  border-left: 1px solid white;
-}
+// ::-webkit-scrollbar-thumb {
+//   border-radius: 1px;
+//   background-color: $color2;
+//   border-left: 1px solid white;
+// }

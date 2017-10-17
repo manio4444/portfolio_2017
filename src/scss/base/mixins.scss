@@ -1,4 +1,3 @@
-
 @mixin placeholder {
   &::-webkit-input-placeholder { @content }
   &::-moz-placeholder { @content }
@@ -7,7 +6,6 @@
   &:placeholder-shown { @content }
   &::placeholder { @content }
 }
-
 
 @mixin selection($czcionka, $tlo){
   /* WebKit/Blink Browsers */
@@ -20,15 +18,6 @@
     background: $tlo;
     color:$czcionka;
   }
-  // .section_inverted ::selection {
-  //   background: $czcionka;
-  //   color:$tlo;
-  // }
-  // /* Gecko Browsers */
-  // .section_inverted ::-moz-selection {
-  //   background: $czcionka,;
-  //   color:$tlo;
-  // }
 }
 
 @mixin absolute {

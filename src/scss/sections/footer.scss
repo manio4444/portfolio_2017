@@ -8,7 +8,9 @@
 		opacity: .7;
 	}
 	font-size: 14px;
-
+	.section_footer_agreement--print {
+		display: none;
+	}
 @media (max-width: 1023px) {
 	// padding: 18px 0;
 	// line-height: 1.5em;

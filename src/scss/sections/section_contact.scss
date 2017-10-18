@@ -56,7 +56,9 @@
   .send_btn:disabled {
     opacity: 0.2;
   }
-
+  .section_contact_labels--print {
+    display: none;
+  }
 @media (max-width: 640px) {
   input[type="text"],
   input[type="email"] {

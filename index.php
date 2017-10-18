@@ -39,6 +39,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
       <h1 class="heading section_first_heading">
         <span class="section_first_heading_big">Marcin Kalinowski</span>
         <span class="section_first_heading_small">Front-End Developer Portfolio</span>
+        <span class="section_first_heading_small--print">Front-End Developer CV</span>
       </h1>
       <a href="#section_about" class="section_first_more">Czytaj więcej</a>
     </header>
@@ -367,13 +368,23 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <input type="hidden" name="49f84321e320cba4343bcab725c18149">
           <input type="hidden" name="b7b564ab232539533b8a357a5f64dff7">
         </form>
-
+        <div class="section_contact_labels--print">
+          <div class="section_contact_labels_el">
+            <i class="fa fa-phone-square"></i>
+            <span>+48 512 260 969</span>
+          </div>
+          <div class="section_contact_labels_el">
+            <i class="fa fa-envelope-square"></i>
+            <span><?php echo str_replace("@","&#64;",'kalinowskixmarcin@o2.pl'); ?></span>
+          </div>
+        </div>
       </div>
     </section>
 
     <footer id="section_footer">
       <div class="wrapper wrapper--section_footer">
-        <p>Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
+        <p class="section_footer_copyright">Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
+        <p class="section_footer_agreement--print">Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w ofercie pracy dla potrzeb procesu rekrutacji zgodnie z ustawą z dnia 27.08.1997r. Dz. U. z 2002 r., Nr 101, poz. 923 ze zm.</p>
       </div>
     </footer>
 

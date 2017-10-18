@@ -8,6 +8,8 @@ $(document).ready(function(){
 	var menuDesktop = menuDesktopObject();
 	menuDesktop.init();
 
-	AOS.init();
+	AOS.init({
+		disable: window.innerWidth <= 768,
+	});
 
 });

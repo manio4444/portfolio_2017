@@ -1,0 +1,163 @@
+@page {
+  size: A4;
+}
+@media print {
+
+body {
+  background-color: white;
+  color: $color1 !important;
+}
+.wrapper {
+  padding: 10px 0 !important;
+}
+.heading {
+  color: $color1 !important;
+    font-size: 24px !important;
+    margin-bottom: .6em;
+}
+
+#main_navigation,
+.section_first_more,
+#section_about,
+.section_skills_el_desc,
+.section_experience_el_desc,
+#section_expectations,
+#section_projects,
+.section_contact_desc,
+#contact_form,
+.section_footer_copyright,
+#backtotop {
+  display: none !important;
+}
+#section_first {
+  color: $color1;
+  height: auto !important;
+  background: none !important;
+  padding-top: 10px !important;
+  &::before {content: none !important;}
+}
+.section_first_image {
+  width: 120px !important;
+}
+.section_first_heading {
+  margin-bottom: 25px !important;
+}
+.section_first_heading_big {
+  font-size: 48px !important;
+}
+.section_first_heading_small {
+  display: none !important;
+}
+.section_first_heading_small--print {
+  display: block !important;
+  font-size: 37px !important;
+}
+
+#section_skills {
+  background: none !important;
+}
+.section_skills_el_container {
+    justify-content: flex-start !important;
+  }
+.section_skills_el {
+  color: $color1 !important;
+  flex-basis: 25% !important;
+  font-size: 14px !important;
+  flex-shrink: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 5px !important;
+}
+.section_skills_el--fa::before {
+  color: $color1 !important;
+  border-color: $color1 !important;
+  flex-shrink: 0 !important;
+  font-size: 2em !important;
+  margin-right: 10px !important;
+}
+.section_skills_el svg {
+  fill: $color1 !important;
+  border-color: $color1 !important;
+  font-size: 2em !important;
+}
+.section_skills_el--twig::before {
+    width: 42px !important;
+    height: 42px !important;
+    line-height: calc(42px - 4px) !important;
+    font-size: 22px !important;
+  }
+
+  .section_experience_wrapper {
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: space-between!important;
+  }
+  .section_experience_heading {
+    flex-basis: 100% !important;
+  }
+  .section_experience_side {
+    flex-basis: calc(50% - 8px) !important;
+    display: flex!important;
+    flex-direction: column!important;
+  }
+  .section_experience_el {
+    padding-top: 18px !important;
+    font-size: 14px !important;
+    p {line-height: 1.1em;}
+  }
+  .section_experience_el::before {
+    border-color: $color1 !important;
+    top: 20px !important;
+  }
+  .section_experience_side--left {
+    align-items: flex-end !important;
+    text-align: right !important;
+    .section_experience_el {
+      border-left-width: 0 !important;
+      border-right-width: 2px !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+      margin-right: 25px !important;
+      padding-right: 25px !important;
+    }
+    .section_experience_el::before {
+      left: auto !important;
+      right: -8px !important;
+    }
+  }
+  .section_experience_icon--school::before {
+    margin-top: 0 !important;
+  }
+  .section_experience_el:last-of-type {
+    padding-bottom: 0 !important;
+  }
+
+  #section_contact {
+    background: none !important;
+  }
+  .section_contact_labels--print {
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .section_contact_labels_el {
+    color: $color1 !important;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20px;
+    .fa {
+      font-size: 40px;
+      margin-right: 10px;
+    }
+  }
+
+  #section_footer {
+    background: none !important;
+  }
+  .section_footer_agreement--print {
+    display: block !important;
+    line-height: 1.1em;
+    color: $color1 !important;
+    font-size: 12px !important;
+  }
+} //@media print

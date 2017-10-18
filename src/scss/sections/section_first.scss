@@ -40,6 +40,9 @@
   .section_first_heading_small {
     font-size: 39px;
   }
+  .section_first_heading_small--print {
+    display: none;
+  }
   .section_first_more {
     position: absolute;
     left: 50%;

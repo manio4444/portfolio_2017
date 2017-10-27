@@ -159,7 +159,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
         <div class="section_experience_side section_experience_side--left">
           <span class="section_experience_icon section_experience_icon--work"></span>
           <article class="section_experience_el section_experience_el--current">
-            <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design</h3>
+            <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design - Full Stack Developer</h3>
             <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
             <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna od ok. miesiąca, obecnie wynikiem współpracy z panią Kingą jest strona połączona ze sklepem internetowym dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a></p>
           </article>

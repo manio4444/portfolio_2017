@@ -9,7 +9,7 @@ $(document).ready(function(){
 	menuDesktop.init();
 
 	AOS.init({
-		disable: window.innerWidth <= 768,
+		// disable: window.innerWidth <= 768,
 	});
 
 });

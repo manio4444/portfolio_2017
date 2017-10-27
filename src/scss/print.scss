@@ -16,6 +16,11 @@ body {
     margin-bottom: .6em;
 }
 
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
 #main_navigation,
 .section_first_more,
 #section_about,
@@ -103,6 +108,9 @@ body {
     padding-top: 18px !important;
     font-size: 14px !important;
     p {line-height: 1.1em;}
+  }
+  .section_experience_el_date {
+    margin-bottom: 10px !important;
   }
   .section_experience_el::before {
     border-color: $color1 !important;

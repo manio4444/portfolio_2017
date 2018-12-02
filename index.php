@@ -58,7 +58,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--hmtl section_skills_el--fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">HTML5</h3>
-              <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)<!-- Divitis --></p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--css section_skills_el--fa">
@@ -70,42 +70,70 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--rwd section_skills_el--fa">
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Responsive Web Design</h3>
-              <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby była uniwersalna i wyświetlała się dobrze zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby wyświetlała się idealnie zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--sass">
             <?php include 'img/skills/sass.svg'; ?>
             <div class="section_skills_el_content">
-              <h3 class="section_skills_el_title">SASS</h3>
-              <p class="section_skills_el_desc">A dokładnie składnia SCSS, zdecydowanie ułatwia pracę przy większych projektach.</p>
+              <h3 class="section_skills_el_title">SASS, LESS</h3>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość preprocesorów, "must have" przy większych projektach, a w praktyce to każdych.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">
             <?php include 'img/skills/gulp.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Grunt/Gulp</h3>
-              <p class="section_skills_el_desc">Narzędzia automatyzacji, bez których nie wyobrażam sobie kodowania, skrypty takie jak autoprefixer, czy cssmin to podstawa.</p>
+              <p class="section_skills_el_desc">Narzędzia automatyzacji, buildery, minifikatory to rzeczy, bez których nie wyobrażam sobie kodowania.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--javascript">
             <?php include 'img/skills/javascript.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">JavaScript</h3>
-              <p class="section_skills_el_desc">Znajomość na poziomie podstawowy+, rozumiem i potrafię napisać samodzielnie kod, w tej dziedzinie chciałbym się najbardziej rozwinąć i doszlifować swoje umiejętności.</p>
+              <p class="section_skills_el_desc">Dobra znajomość.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--jquery">
             <?php include 'img/skills/jquery.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">jQuery</h3>
-              <p class="section_skills_el_desc">Dobra znajomość. </p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">
             <?php include 'img/skills/vuejs.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Vue.js</h3>
-              <p class="section_skills_el_desc">Podstawy.</p>
+              <p class="section_skills_el_desc">Podstawy. W tej dziedzinie chciałbym się najbardziej rozwinąć i zdobyć praktyczne doświadczenie.</p>
+            </div>
+          </article>
+          <article data-aos="zoom-in-up" class="section_skills_el">
+            <?php include 'img/skills/git.svg'; ?>
+            <div class="section_skills_el_content">
+              <h3 class="section_skills_el_title">Git</h3>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość, praca na branchach, tworzenie od podstaw repozytoriów, mergowanie, itp.</p>
+            </div>
+          </article>
+          <article data-aos="zoom-in-up" class="section_skills_el">
+            <?php include 'img/skills/git.svg'; ?>
+            <div class="section_skills_el_content">
+              <h3 class="section_skills_el_title">Vagrant</h3>
+              <p class="section_skills_el_desc">Narzędzie witualizacji, które mi się podoba, bo maksymalnie zmniejsza czas konfigurowania środowiska deweloperskiego.</p>
+            </div>
+          </article>
+          <article data-aos="zoom-in-up" class="section_skills_el">
+            <?php include 'img/skills/linux.svg'; ?>
+            <div class="section_skills_el_content">
+              <h3 class="section_skills_el_title">Środowisko Linux</h3>
+              <p class="section_skills_el_desc">Terminal nie przyprawia mnie o zawroty głowy ;) Co więcej dobrze się w nim czuję. Najlepiej znam CentOS, oraz SLES.</p>
+            </div>
+          </article>
+          <article data-aos="zoom-in-up" class="section_skills_el">
+            <?php include 'img/skills/vmware.svg'; ?>
+            <div class="section_skills_el_content">
+              <h3 class="section_skills_el_title">VMware, VirtualBox</h3>
+              <p class="section_skills_el_desc">Znajomość wirtualizacji maszyn przydaje się wszędzie tam gdzie jeszce nie dotarł Vagrant :)</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">
@@ -117,22 +145,15 @@ https://codepen.io/mkurapov/pen/qNQXxz
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--twig section_skills_el--fa">
             <div class="section_skills_el_content">
-              <h3 class="section_skills_el_title">Twig</h3>
-              <p class="section_skills_el_desc">Aby kod stał się czytelniejszy.</p>
-            </div>
-          </article>
-          <article data-aos="zoom-in-up" class="section_skills_el">
-            <?php include 'img/skills/git.svg'; ?>
-            <div class="section_skills_el_content">
-              <h3 class="section_skills_el_title">Git</h3>
-              <p class="section_skills_el_desc">Codziennie po przyjściu do pracy podwójne espresso, a przed wyjściem git commit oraz git push.</p>
+              <h3 class="section_skills_el_title">Smarty, Twig</h3>
+              <p class="section_skills_el_desc">Systemy szablonów, aby kod stał się czytelniejszy.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">
             <?php include 'img/skills/npm.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Node package manager</h3>
-              <p class="section_skills_el_desc">Wygodne narzędzie do instalowania różnych skryptów, pluginów, z którego chętnie korzystam.</p>
+              <p class="section_skills_el_desc">Wygodne narzędzie do instalowania różnych skryptów, pluginów, builderów, z którego chętnie korzystam.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">

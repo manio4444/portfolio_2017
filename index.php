@@ -159,11 +159,21 @@ https://codepen.io/mkurapov/pen/qNQXxz
         <div class="section_experience_side section_experience_side--left">
           <span class="section_experience_icon section_experience_icon--work"></span>
           <article class="section_experience_el section_experience_el--current">
-            <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design - Full Stack Developer</h3>
-            <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
-            <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna od ok. miesiąca, obecnie wynikiem współpracy z panią Kingą jest strona połączona ze sklepem internetowym dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a></p>
+            <h3 data-aos="fade-right" class="section_experience_el_title">createIT - Front End Developer</h3>
+            <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2018 - obecnie</time>
+            <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna. Po zakończeniu projektu outsourcingowego, czekając na następny, pracuję w dziale projektów wewnętrznych. Zajmuje się dużą ilością różnych małych zadań na różnych platformach, ale głównie jest to tworzenie mniejszych stron od podstaw na platformie WordPress, support stron klientów, bug fixing, czasami oddelegowanie na kilka dni do nieco większego projektu.</p>
+          </article>
+          <article class="section_experience_el">
+            <h3 data-aos="fade-right" class="section_experience_el_title">top concepts GmbH - Front End Developer</h3>
+            <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - 2018</time>
+            <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, ale stacjonarnie w biurze w Warszawie jako pracownik outsourcingowy, poprzez createIT. Do głównych zadań należało bieżące otrzymanie bardzo dużych sklepów opartych na platformie e-commerce OXID, tj. tworzenie nowych modułów, funkcjonalności, ścisła współpraca z programistami Backend w zakresie bieżących zadań (pair programming).</p>
           </article>
           <article class="section_experience_el section_experience_el--current">
+            <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design - Full Stack Developer</h3>
+            <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
+            <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, wynikiem współpracy z panią Kingą jest stworzenie od podstaw i utrzymanie sklepu internetowego dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a>, oraz utrzymanie sklepu <a href="https://sowlofficial.com/">Sowlofficial</a> i kilka mniejszych projektów.</p>
+          </article>
+          <article class="section_experience_el">
             <h3 data-aos="fade-right" class="section_experience_el_title">bcweb - Front End Developer</h3>
             <time data-aos="fade-right" class="section_experience_el_date" datetime="2016">2016 - obecnie</time>
             <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umiejętności z prawdziwym stanowiskiem Front-End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>

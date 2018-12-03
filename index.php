@@ -73,6 +73,13 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby wyświetlała się idealnie zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
             </div>
           </article>
+          <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--bootstrap">
+            <?php include 'img/skills/bootstrap.svg'; ?>
+            <div class="section_skills_el_content">
+              <h3 class="section_skills_el_title">Bootstrap, Semantic UI</h3>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość frameworków CSS.</p>
+            </div>
+          </article>
           <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--sass">
             <?php include 'img/skills/sass.svg'; ?>
             <div class="section_skills_el_content">

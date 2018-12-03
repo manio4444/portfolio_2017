@@ -387,7 +387,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
           </article>
           <article class="section_projects_el section_projects_el--sowlofficial">
             <a href="https://sowlofficial.com/" target="_blank">
-              <h3 class="section_projects_el_title">sowlofficial</h3>
+              <h3 class="section_projects_el_title">Sowlofficial</h3>
               <span class="section_projects_el_date">
                 <time datetime="2017">2018, </time>
                 <span>Kinga Nowicka Design</span>
@@ -448,6 +448,6 @@ https://codepen.io/mkurapov/pen/qNQXxz
 
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:100,300,500&amp;subset=latin-ext" rel="stylesheet">
     <script src="dist/scripts.all.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBweORh04qPGsjpO-ib0tVSgxlayRjUoM&callback=initMap" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBweORh04qPGsjpO-ib0tVSgxlayRjUoM&callback=initMap"></script>
   </body>
 </html>

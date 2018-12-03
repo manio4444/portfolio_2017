@@ -250,6 +250,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>MadMelon</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery, WordPress</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--magicphotography">
@@ -260,6 +261,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>MadMelon</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--marcolsm">
@@ -270,6 +272,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>Studiocitrus</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--fugotrans">
@@ -280,6 +283,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>Studiocitrus</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--valdiexpress">
@@ -290,6 +294,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery, Vue.js</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--magnon">
@@ -300,16 +305,18 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--mariostinyhouses">
-            <a href="http://mariostinyhouses.com/" target="_blank">
+            <a href="http://produkcja.bcweb.com.pl/mariotinyhouses/2017-05-26/" target="_blank">
               <h3 class="section_projects_el_title">Mariostinyhouses</h3>
               <span class="section_projects_el_date">
                 <time datetime="2017">2017, </time>
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--grupahalo">
@@ -320,6 +327,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--q-gain">
@@ -330,6 +338,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Sklep internetowy. Użyte technologie: HTML5, CSS3, JS, jQuery, QuickCart</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--cpsens">
@@ -340,6 +349,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--nordic_care">
@@ -350,16 +360,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
-            </a>
-          </article>
-          <article class="section_projects_el section_projects_el--zib">
-            <a href="http://produkcja.bcweb.com.pl/zib/zib_2017-09-28/" target="_blank">
-              <h3 class="section_projects_el_title">Zib</h3>
-              <span class="section_projects_el_date">
-                <time datetime="2017">2017, </time>
-                <span>bcweb</span>
-              </span>
-              <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--espol">
@@ -370,16 +371,40 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <span>bcweb</span>
               </span>
               <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
             </a>
           </article>
           <article class="section_projects_el section_projects_el--kossmann">
-            <a href="http://kossmann.com.pl/new_page/" target="_blank">
+            <a href="http://kossmann.com.pl/" target="_blank">
               <h3 class="section_projects_el_title">Kossmann</h3>
               <span class="section_projects_el_date">
                 <time datetime="2017">2017, </time>
                 <span>Kinga Nowicka Design</span>
               </span>
-              <p class="section_projects_el_desc">Sklep internetowy. Użyte technologie: HTML5, CSS3, JS, jQuery, QuickCart</p>
+              <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery, QuickCart</p>
+              <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw sklepu internetowego, oraz utrzymanie.</p>
+            </a>
+          </article>
+          <article class="section_projects_el section_projects_el--sowlofficial">
+            <a href="https://sowlofficial.com/" target="_blank">
+              <h3 class="section_projects_el_title">sowlofficial</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2017">2018, </time>
+                <span>Kinga Nowicka Design</span>
+              </span>
+              <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery, QuickCart</p>
+              <p class="section_projects_el_desc">Zakres prac: Utrzymanie, częściowy redesign i support obecnego sklepu na systemie QuickCart.</p>
+            </a>
+          </article>
+          <article class="section_projects_el section_projects_el--cortexpower">
+            <a href="https://www.cortexpower.de/" target="_blank">
+              <h3 class="section_projects_el_title">Kossmann</h3>
+              <span class="section_projects_el_date">
+                <time datetime="2017">2018, </time>
+                <span>top concepts GmbH</span>
+              </span>
+              <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery, OXID, Smarty</p>
+              <p class="section_projects_el_desc">Zakres prac: Redesign platformy e-commerce, do obecnego designu.</p>
             </a>
           </article>
         </div>

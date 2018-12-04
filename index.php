@@ -47,7 +47,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
     <section id="section_about">
       <div class="wrapper">
         <h2 class="heading">O mnie</h2>
-        <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i stylów CSS. Raz na jakiś czas dorabiałem sobie tworząc stronę internetową "dla znajomego". Od ok. 2-3 lat zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od roku pracuję na stanowisku Front-End Developer. Lubię cały czas rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii, z której jeszcze nie korzystałem, śledzę na bieżąco strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz używam nazw zmiennych i piszę komentarze do swojego kodu w tym języku.</p>
+        <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i stylów CSS. Raz na jakiś czas dorabiałem sobie tworząc stronę internetową "dla znajomego". Około 4-5 lat temu postanowiłem zmienić moje hobby w pracę - zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od 2 lat pracuję na stanowisku Front-End Developer. Lubię cały czas rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii, z której jeszcze nie korzystałem, śledzę na bieżąco strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz używam nazw zmiennych i piszę komentarze do swojego kodu w tym języku.</p>
       </div>
     </section>
 
@@ -84,7 +84,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
             <?php include 'img/skills/sass.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">SASS, LESS</h3>
-              <p class="section_skills_el_desc">Bardzo dobra znajomość preprocesorów, "must have" przy większych projektach, a w praktyce to każdych.</p>
+              <p class="section_skills_el_desc">Bardzo dobra znajomość preprocesorów, "must have" przy większych projektach, a w praktyce to w każdych.</p>
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">
@@ -123,7 +123,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
             </div>
           </article>
           <article data-aos="zoom-in-up" class="section_skills_el">
-            <?php include 'img/skills/git.svg'; ?>
+            <?php include 'img/skills/vagrant.svg'; ?>
             <div class="section_skills_el_content">
               <h3 class="section_skills_el_title">Vagrant</h3>
               <p class="section_skills_el_desc">Narzędzie witualizacji, które mi się podoba, bo maksymalnie zmniejsza czas konfigurowania środowiska deweloperskiego.</p>

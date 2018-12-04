@@ -405,7 +405,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
           </article>
           <article class="section_projects_el section_projects_el--cortexpower">
             <a href="https://www.cortexpower.de/" target="_blank">
-              <h3 class="section_projects_el_title">Kossmann</h3>
+              <h3 class="section_projects_el_title">cortexpower.de</h3>
               <span class="section_projects_el_date">
                 <time datetime="2017">2018, </time>
                 <span>top concepts GmbH</span>

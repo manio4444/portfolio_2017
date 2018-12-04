@@ -194,7 +194,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <article class="section_experience_el">
             <h3 data-aos="fade-right" class="section_experience_el_title">top concepts GmbH - Front End Developer</h3>
             <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - 2018</time>
-            <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, ale stacjonarnie w biurze w Warszawie jako pracownik outsourcingowy, poprzez createIT. Do głównych zadań należało bieżące otrzymanie bardzo dużych sklepów opartych na platformie e-commerce OXID, tj. tworzenie nowych modułów, funkcjonalności, ścisła współpraca z programistami Backend w zakresie bieżących zadań (pair programming).</p>
+            <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, ale stacjonarnie w biurze w Warszawie jako pracownik outsourcingowy, poprzez createIT. Do głównych zadań należało bieżące utrzymanie dużych niemieckich sklepów opartych na platformie e-commerce OXID, tj. tworzenie nowych modułów, funkcjonalności, ścisła współpraca z programistami back-end w zakresie bieżących zadań (pair programming).</p>
           </article>
           <article class="section_experience_el section_experience_el--current">
             <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design - Full Stack Developer</h3>
@@ -203,8 +203,8 @@ https://codepen.io/mkurapov/pen/qNQXxz
           </article>
           <article class="section_experience_el">
             <h3 data-aos="fade-right" class="section_experience_el_title">bcweb - Front End Developer</h3>
-            <time data-aos="fade-right" class="section_experience_el_date" datetime="2016">2016 - obecnie</time>
-            <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umiejętności z prawdziwym stanowiskiem Front-End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full-Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania systemów CMS.</p>
+            <time data-aos="fade-right" class="section_experience_el_date" datetime="2016">2016 - 2017</time>
+            <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umiejętności z prawdziwym stanowiskiem Front End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania back-end'u systemów CMS.</p>
           </article>
           <article class="section_experience_el">
             <h3 data-aos="fade-right" class="section_experience_el_title">Studiocitrus, Agencja interaktywna - Founder</h3>
@@ -405,7 +405,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
           </article>
           <article class="section_projects_el section_projects_el--cortexpower">
             <a href="https://www.cortexpower.de/" target="_blank">
-              <h3 class="section_projects_el_title">Kossmann</h3>
+              <h3 class="section_projects_el_title">cortexpower.de</h3>
               <span class="section_projects_el_date">
                 <time datetime="2017">2018, </time>
                 <span>top concepts GmbH</span>

@@ -70,13 +70,13 @@ body {
   font-size: 14px !important;
   flex-shrink: 0 !important;
   padding: 0 !important;
-  margin-bottom: 5px !important;
+  margin-bottom: 0 !important;
 }
 .section_skills_el--fa::before {
   color: $color1 !important;
   border-color: $color1 !important;
   flex-shrink: 0 !important;
-  font-size: 2em !important;
+  font-size: 1.8em !important;
   margin-right: 10px !important;
 }
 .section_skills_el svg {
@@ -105,7 +105,7 @@ body {
     flex-direction: column!important;
   }
   .section_experience_el {
-    padding-top: 18px !important;
+    padding-top: 5px !important;
     font-size: 14px !important;
     p {line-height: 1.1em;}
   }

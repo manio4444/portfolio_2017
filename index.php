@@ -237,9 +237,17 @@ https://codepen.io/mkurapov/pen/qNQXxz
       <div class="wrapper wrapper--section_expectations">
         <div class="section_expectations_desc">
           <h2 class="heading">Oczekiwania</h2>
-          <p>Przede wszystkim szukam pracy stacjonarnej, w której mógłbym wykorzystać swoją dotychczas zgromadzoną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami, choć możliwość raz na jakiś czas pracowania zdalnego będzie na pewno dodatkowym atutem ;)</p>
-          <p>Interesują mnie stanowiska: doświadczony Junior Front-End Developer lub początkujący Regular.</p>
-          <p>Poniżej wklejam mapkę z zarysem obszaru, w którym chciałbym pracować oraz pokazuję, że umiem obsługiwać Google Maps API v3 ;) Z racji, iż dojeżdżam obecnie z Mińska Mazowieckiego, szukam lokalizacji w miarę dobrze skomunikowanej ze wschodnią linią kolejową, ale obiecuję rozważyć wszystkie możliwe propozycje.</p>
+          <p>Przede wszystkim szukam pracy stacjonarnej, z opcją remote, w której mógłbym wykorzystać swoją dotychczas zgromadzoną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami ;)</p>
+          <p>Interesują mnie stanowiska: Junior/Mid Front-End Developer lub początkujący Vue/Angular/React Developer (nie posiadam praktycznego doświadcznia w w/w frameworkach).</p>
+          <p>Poniżej wklejam mapkę z zarysem obszaru, w którym chciałbym pracować oraz pokazuję, że umiem obsługiwać Google Maps API v3 ;) Z racji, iż dojeżdżam obecnie z Mińska Mazowieckiego, szukam lokalizacji w miarę dobrze skomunikowanej ze wschodnią linią kolejową, ew. z drogą krajową nr. 2, ale obiecuję rozważyć wszystkie możliwe propozycje.</p>
+          <p>Podsumywująć:</p>
+          <ul>
+            <li>Front-End: Junior/Mid</li>
+            <li>Vue/Angular/React: Junior</li>
+            <li>Forma zatrudnienia: B2B</li>
+            <li>Miejsce: Warszawa</li>
+            <li>Remote: minimum 40%</li>
+          </ul>
         </div>
       </div>
       <div id="google_map"></div>

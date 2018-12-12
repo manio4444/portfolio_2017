@@ -2,6 +2,19 @@
   #google_map {
     width: 100%;
   }
+  .section_expectations_desc {
+    padding: 60px 40px;
+    p {
+      margin-bottom: 1em;
+    }
+    ul {
+      list-style-type: circle;
+      list-style-position: inside;
+    }
+    ul > li {
+      line-height: 1.5em;
+    }
+  }
 @media (max-width: 767px) {
 } //media
 @media (min-width: 768px) {
@@ -24,13 +37,19 @@
     background-color: $red;
     color: $white;
     z-index: 1;
-    line-height: 1.2em;
     font-size: 15px;
     text-align: justify;
-    p:not(:last-of-type) {
+    p {
       margin-bottom: 1em;
     }
+    ul {
+      list-style-type: circle;
+      list-style-position: inside;
+    }
+    ul > li {
+      line-height: 1.5em;
+    }
   }
-  #google_map { height: 600px; }
+  #google_map { height: 700px; }
 } //media
 } //#section_expectations

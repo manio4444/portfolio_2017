@@ -9,6 +9,7 @@ body {
 }
 .wrapper {
   padding: 10px 0 !important;
+  max-width: 850px;
 }
 .heading {
   color: $color1 !important;
@@ -66,29 +67,33 @@ body {
   }
 .section_skills_el {
   color: $color1 !important;
-  flex-basis: 25% !important;
+  flex-basis: calc(100% / 4) !important;
   font-size: 14px !important;
   flex-shrink: 0 !important;
   padding: 0 !important;
   margin-bottom: 0 !important;
+  &_title {
+    margin-bottom: 0 !important;
+  }
 }
 .section_skills_el--fa::before {
   color: $color1 !important;
   border-color: $color1 !important;
   flex-shrink: 0 !important;
-  font-size: 1.8em !important;
+  font-size: 1em !important;
   margin-right: 10px !important;
 }
 .section_skills_el svg {
   fill: $color1 !important;
   border-color: $color1 !important;
-  font-size: 2em !important;
+  font-size: 1.191em!important;
+  margin-right: 10px !important;
 }
 .section_skills_el--twig::before {
-    width: 42px !important;
-    height: 42px !important;
-    line-height: calc(42px - 4px) !important;
-    font-size: 22px !important;
+    width: 25px !important;
+    height: 25px !important;
+    line-height: calc(25px - 2px) !important;
+    font-size: 13px !important;
   }
 
   .section_experience_wrapper {

@@ -25,6 +25,11 @@ const config = {
       './index.php'
     ]
   },
+  watchers: {
+    scss: [
+      './src/scss/**/*.scss'
+    ]
+  },
   dist: {
     folder: 'dist',
     stylesFileName: 'styles.all.min.css',
@@ -47,7 +52,7 @@ function StylesTask(done) {
 }
 
 function watchFiles() {
-  watch(config.src.scss, series(StylesTask, reload));
+  watch(config.watchers.scss, series(StylesTask, reload));
   watch(config.src.css, series(StylesTask, reload));
   watch(config.src.js, series(JsTask, reload));
   watch(config.src.php,reload);
@@ -65,7 +70,7 @@ function JsTask(done) {
 
 function swallowError (error) {
   // If you want details of the error in the console
-  console.log(error.toString())
+  console.log(error.toString());
   this.emit('end')
 }
 

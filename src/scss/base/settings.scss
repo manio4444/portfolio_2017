@@ -10,6 +10,11 @@ body{
 
 
 // ################ DEFAULT STRUCTURE SETTINGS ###########
+.page_container {
+	display: flex;
+	flex-direction: column;
+}
+
 .page_section {
 	width:100%;
 }

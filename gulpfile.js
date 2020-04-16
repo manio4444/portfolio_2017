@@ -20,7 +20,10 @@ const config = {
       ],
     css: [
       './src/css/**/*.css'
-      ]
+      ],
+    php: [
+      './index.php'
+    ]
   },
   dist: {
     folder: 'dist',
@@ -47,6 +50,7 @@ function watchFiles() {
   watch(config.src.scss, series(StylesTask, reload));
   watch(config.src.css, series(StylesTask, reload));
   watch(config.src.js, series(JsTask, reload));
+  watch(config.src.php,reload);
 }
 
 function JsTask(done) {

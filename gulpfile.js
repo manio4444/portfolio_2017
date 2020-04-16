@@ -7,55 +7,55 @@ const cleanCSS = require('gulp-clean-css');
 const browserSync = require('browser-sync').create();
 
 const config = {
-  app: {
+  src: {
     js: [
-      './src/scripts/**/*.js',
+      './src/js/base/jquery.js',
+      './src/js/*.js',
+      './src/js/base/functions.js',
+      './src/js/base/scripts.js',
+      './src/js/base/main.js'
     ],
-    scss: './src/style/**/*.scss',
-    fonts: './src/fonts/*',
-    images: './src/images/*.*',
-    html: './src/*.html'
+    scss: [
+      './src/scss/main.scss',
+      ],
+    css: [
+      './src/css/**/*.css'
+      ]
   },
   dist: {
-    base: './dist/',
-    fonts: './dist/fonts',
-    images: './dist/images'
+    folder: 'dist',
+    stylesFileName: 'styles.all.min.css',
+    scriptsFileName: 'scripts.all.min.js'
   }
 };
 
 
 function StylesTask(done) {
-  src(['src/css/**/*.css', 'src/scss/main.scss'])
+  src([...config.src.css, ...config.src.scss])
   .pipe(sourcemaps.init())
   .pipe(sass())
   .on('error', swallowError)
-  .pipe(concat('styles.all.min.css'))
+  .pipe(concat(config.dist.stylesFileName))
   // .pipe(autoprefixer({browsers: ['last 2 versions', '> 1% in PL', 'ie >=10']}))
   .pipe(cleanCSS())
   .pipe(sourcemaps.write())
-  .pipe(dest('dist'));
+  .pipe(dest(config.dist.folder));
   done();
 }
 
 function watchFiles() {
-  watch('src/scss/**/*.scss', series(StylesTask/*, reload */));
-  watch('src/css/**/*.css', series(StylesTask/*, reload */));
-  watch('src/js/**/*.js', series(JsTask/*, reload */));
+  watch(config.src.scss, series(StylesTask, reload));
+  watch(config.src.css, series(StylesTask, reload));
+  watch(config.src.js, series(JsTask, reload));
 }
 
 function JsTask(done) {
-  src([
-    'src/js/base/jquery.js',
-    'src/js/*.js',
-    'src/js/base/functions.js',
-    'src/js/base/scripts.js',
-    'src/js/base/main.js'
-  ])
+  src(config.src.js)
   .pipe(sourcemaps.init())
-  .pipe(concat('scripts.all.min.js'))
+  .pipe(concat(config.dist.scriptsFileName))
   .pipe(uglify())
   .on('error', swallowError)
-  .pipe(dest('dist'));
+  .pipe(dest(config.dist.folder));
   done();
 }
 
@@ -65,24 +65,21 @@ function swallowError (error) {
   this.emit('end')
 }
 
-// function liveReload(done) {
-//   browserSync.init({
-//     server: {
-//       baseDir: config.dist.base
-//     },
-//   });
-//   done();
-// }
-//
-// function reload (done) {
-//   browserSync.reload();
-//   done();
-// }
+function liveReload(done) {
+  browserSync.init({
+    proxy: 'http://localhost:8080/portfolio_2017/'
+  });
+  done();
+}
 
+function reload (done) {
+  browserSync.reload();
+  done();
+}
 
 exports.default = parallel(
   StylesTask,
   JsTask,
   watchFiles,
-  // liveReload
+  liveReload
 );

@@ -21,7 +21,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
   </head>
   <body>
 
-    <nav id="main_navigation">
+    <nav id="main_navigation" class="screen-only">
       <button class="hamburger hamburger--squeeze" type="button">
         <span class="hamburger-box"><span class="hamburger-inner"></span></span>
       </button>
@@ -36,16 +36,18 @@ https://codepen.io/mkurapov/pen/qNQXxz
 
     <main class="page_container">
       <header id="section_first">
-        <img src="img/20347006_1047877912015207_2013755533386842112_n.jpg" alt="Marcin Kalinowski" class="section_first_image">
-        <h1 class="heading section_first_heading">
-          <span class="section_first_heading_big">Marcin Kalinowski</span>
-          <span class="section_first_heading_small">Front-End Developer Portfolio</span>
-          <span class="section_first_heading_small--print">Front-End Developer CV</span>
-        </h1>
-        <a href="#section_about" class="section_first_more">Czytaj więcej</a>
+        <div class="wrapper wrapper--section_first">
+          <img src="img/20347006_1047877912015207_2013755533386842112_n.jpg" alt="Marcin Kalinowski" class="section_first_image">
+          <h1 class="heading section_first_heading">
+            <span class="section_first_heading_big">Marcin Kalinowski</span>
+            <span class="section_first_heading_small screen-only">Front-End Developer Portfolio</span>
+            <span class="section_first_heading_small print-only">Front-End Developer</span>
+          </h1>
+          <a href="#section_about" class="section_first_more screen-only">Czytaj więcej</a>
+        </div>
       </header>
 
-      <section id="section_about">
+      <section id="section_about" class="screen-only">
         <div class="wrapper">
           <h2 class="heading">O mnie</h2>
           <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i stylów CSS. Raz na jakiś czas dorabiałem sobie tworząc stronę internetową "dla znajomego". Około 4-5 lat temu postanowiłem zmienić moje hobby w pracę - zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od 2 lat pracuję na stanowisku Front-End Developer. Lubię cały czas rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii, z której jeszcze nie korzystałem, śledzę na bieżąco strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz używam nazw zmiennych i piszę komentarze do swojego kodu w tym języku.</p>
@@ -53,126 +55,162 @@ https://codepen.io/mkurapov/pen/qNQXxz
       </section>
 
       <section id="section_skills">
-        <div class="wrapper -section_skills">
-          <h2 class="heading -section_skills">Umiejętności</h2>
+        <div class="wrapper wrapper--section_skills">
+          <h2 class="heading -section_skills with-line-bottom">Umiejętności</h2>
           <div class="section_skills_el_container">
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--hmtl section_skills_el--fa">
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--hmtl icon--fa">
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">HTML5</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)</p>
               </div>
             </article>
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--css section_skills_el--fa">
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--css icon--fa">
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">CSS3</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, żadnych float'ów, tylko flex.</p>
               </div>
             </article>
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--rwd section_skills_el--fa">
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--rwd icon--fa">
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Responsive Web Design</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby wyświetlała się idealnie zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
               </div>
             </article>
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--bootstrap">
-              <?php include 'img/skills/bootstrap.svg'; ?>
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--bootstrap icon--svg">
+                <?php include 'img/skills/bootstrap.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Bootstrap, Semantic UI</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość frameworków CSS.</p>
               </div>
             </article>
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--sass">
-              <?php include 'img/skills/sass.svg'; ?>
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--sass icon--svg">
+                <?php include 'img/skills/sass.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">SASS, LESS</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość preprocesorów, "must have" przy większych projektach, a w praktyce to w każdych.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/gulp.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/gulp.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Grunt/Gulp</h3>
                 <p class="section_skills_el_desc">Narzędzia automatyzacji, buildery, minifikatory to rzeczy, bez których nie wyobrażam sobie kodowania.</p>
               </div>
             </article>
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--javascript">
-              <?php include 'img/skills/javascript.svg'; ?>
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--javascript icon--svg">
+                <?php include 'img/skills/javascript.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">JavaScript</h3>
                 <p class="section_skills_el_desc">Dobra znajomość.</p>
               </div>
             </article>
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--jquery">
-              <?php include 'img/skills/jquery.svg'; ?>
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--jquery icon--svg">
+                <?php include 'img/skills/jquery.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">jQuery</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/vuejs.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/vuejs.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Vue.js</h3>
                 <p class="section_skills_el_desc">Podstawy. W tej dziedzinie chciałbym się najbardziej rozwinąć i zdobyć praktyczne doświadczenie.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/git.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/git.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Git</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, praca na branchach, tworzenie od podstaw repozytoriów, mergowanie, itp.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/vagrant.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/vagrant.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Vagrant</h3>
                 <p class="section_skills_el_desc">Narzędzie witualizacji, które mi się podoba, bo maksymalnie zmniejsza czas konfigurowania środowiska deweloperskiego.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/linux.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/linux.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Środowisko Linux</h3>
                 <p class="section_skills_el_desc">Terminal nie przyprawia mnie o zawroty głowy ;) Co więcej dobrze się w nim czuję. Najlepiej znam CentOS, oraz SLES.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/vmware.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/vmware.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">VMware, VirtualBox</h3>
                 <p class="section_skills_el_desc">Znajomość wirtualizacji maszyn przydaje się wszędzie tam gdzie jeszce nie dotarł Vagrant :)</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/php.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/php.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">PHP</h3>
                 <p class="section_skills_el_desc">Dobra znajomość czystego PHP, również obiektowo.</p>
               </div>
             </article>
-            <article data-aos="zoom-in-up" class="section_skills_el section_skills_el--twig section_skills_el--fa">
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--twig icon--fa">
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Smarty, Twig</h3>
                 <p class="section_skills_el_desc">Systemy szablonów, aby kod stał się czytelniejszy.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/npm.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/npm.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Node package manager</h3>
                 <p class="section_skills_el_desc">Wygodne narzędzie do instalowania różnych skryptów, pluginów, builderów, z którego chętnie korzystam.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/mysql.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/mysql.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">SQL</h3>
                 <p class="section_skills_el_desc">Dobra znajomość, JOIN'y, optymalizacja typy pól, itp.</p>
               </div>
             </article>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <?php include 'img/skills/adobephotoshop.svg'; ?>
+              <div class="section_skills_el_icon icon--svg">
+                <?php include 'img/skills/adobephotoshop.svg'; ?>
+              </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Photoshop</h3>
                 <p class="section_skills_el_desc">Znajomość na poziomie cięcia szablonów psd/tiff i podstawowych sposobów obróbki w celu eksportu grafiki</p>
@@ -183,8 +221,8 @@ https://codepen.io/mkurapov/pen/qNQXxz
       </section>
 
       <section id="section_experience">
-        <div class="wrapper section_experience_wrapper">
-          <h2 class="heading section_experience_heading">Doświadczenie zawodowe</h2>
+        <div class="wrapper wrapper--section_experience">
+          <h2 class="heading section_experience_heading with-line-bottom">Doświadczenie zawodowe</h2>
           <div class="section_experience_side section_experience_side--left">
             <span class="section_experience_icon section_experience_icon--work"></span>
             <article class="section_experience_el section_experience_el--current">
@@ -218,7 +256,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, to w tej firmie miałem pierwszy komercyjny kontakt z branżą, zajmowałem się kodowaniem projektów stron internetowych, wynikiem współpracy było kilka projektów, głównie w technologii HTML, CSS.</p>
             </article>
           </div>
-          <div class="section_experience_side section_experience_side--right">
+          <div class="section_experience_side section_experience_side--right screen-only">
             <span class="section_experience_icon section_experience_icon--school"></span>
             <article class="section_experience_el">
               <h3 data-aos="fade-left" class="section_experience_el_title">Warszawska Szkoła Reklamy - Realizacja telewizyjna i filmowa</h3>
@@ -234,14 +272,14 @@ https://codepen.io/mkurapov/pen/qNQXxz
         </div>
       </section>
 
-      <section id="section_expectations">
+      <section id="section_expectations" class="screen-only">
         <div class="wrapper wrapper--section_expectations">
           <div class="section_expectations_desc">
             <h2 class="heading">Oczekiwania</h2>
             <p>Przede wszystkim szukam pracy stacjonarnej, z opcją remote, w której mógłbym wykorzystać swoją dotychczas zgromadzoną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami ;)</p>
             <p>Interesują mnie stanowiska: Junior/Mid Front-End Developer lub początkujący Vue/Angular/React Developer (nie posiadam praktycznego doświadcznia w w/w frameworkach).</p>
             <p>Poniżej wklejam mapkę z zarysem obszaru, w którym chciałbym pracować oraz pokazuję, że umiem obsługiwać Google Maps API v3 ;) Z racji, iż dojeżdżam obecnie z Mińska Mazowieckiego, szukam lokalizacji w miarę dobrze skomunikowanej ze wschodnią linią kolejową, ew. z drogą krajową nr. 2, ale obiecuję rozważyć wszystkie możliwe propozycje.</p>
-            <p>Podsumywująć:</p>
+            <p>Podsumywując:</p>
             <ul>
               <li>Front-End: Junior/Mid</li>
               <li>Vue/Angular/React: Junior</li>
@@ -254,7 +292,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
         <div id="google_map"></div>
       </section>
 
-      <section id="section_projects">
+      <section id="section_projects" class="screen-only">
         <div class="wrapper">
           <h2 class="heading">Przykładowe projekty</h2>
           <div class="section_projects_content">
@@ -429,7 +467,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
 
       <section id="section_contact">
 
-        <div class="wrapper">
+        <div class="wrapper wrapper--section_contact">
           <h2 class="heading">Kontakt</h2>
           <p class="section_contact_desc">Jeśli podoba się Państwu moje portfolio i jesteście zainteresowani współpracą, bądź macie dodatkowe pytania gorąco zachęcam do skorzystania z poniższego formularza kontaktowego. Chętnie zapoznam się i rozważę każdą popozycję.</p>
           <form action="send.php" method="post" class="contact_form" id="contact_form">
@@ -440,13 +478,13 @@ https://codepen.io/mkurapov/pen/qNQXxz
             <input type="hidden" name="49f84321e320cba4343bcab725c18149">
             <input type="hidden" name="b7b564ab232539533b8a357a5f64dff7">
           </form>
-          <div class="section_contact_labels--print">
+          <div class="section_contact_labels print-only">
             <div class="section_contact_labels_el">
-              <i class="fa fa-phone-square"></i>
+              <i class="fa fa-phone"></i>
               <span>+48 512 260 969</span>
             </div>
             <div class="section_contact_labels_el">
-              <i class="fa fa-envelope-square"></i>
+              <i class="fa fa-envelope"></i>
               <span><?php echo str_replace("@","&#64;",'kalinowskixmarcin@o2.pl'); ?></span>
             </div>
           </div>
@@ -455,8 +493,8 @@ https://codepen.io/mkurapov/pen/qNQXxz
 
       <footer id="section_footer">
         <div class="wrapper wrapper--section_footer">
-          <p class="section_footer_copyright">Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
-          <p class="section_footer_agreement--print">Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w ofercie pracy dla potrzeb procesu rekrutacji zgodnie z ustawą z dnia 27.08.1997r. Dz. U. z 2002 r., Nr 101, poz. 923 ze zm.</p>
+          <p class="section_footer_copyright screen-only">Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
+          <p class="section_footer_agreement print-only">Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w ofercie pracy dla potrzeb procesu rekrutacji zgodnie z ustawą z dnia 27.08.1997r. Dz. U. z 2002 r., Nr 101, poz. 923 ze zm.</p>
         </div>
       </footer>
     </main>

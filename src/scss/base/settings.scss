@@ -1,18 +1,28 @@
 // ################ GLOBAL SETTINGS ###########
-* { box-sizing:border-box; }
-body{
+* {
+	box-sizing:border-box;
+}
+
+body {
   font-family: $font_default;
   color: $color1;
   font-weight: $font_weight;
   font-size: $font_size;
-  background-color: $background;
+	@media screen {
+		background-color: $background;
+	}
 }
 
 
 // ################ DEFAULT STRUCTURE SETTINGS ###########
 .page_container {
 	display: flex;
-	flex-direction: column;
+	@media screen {
+		flex-direction: column;
+	}
+	@media print {
+		flex-wrap: wrap;
+	}
 }
 
 .page_section {
@@ -20,10 +30,12 @@ body{
 }
 .wrapper {
 	width: 100%;
-	max-width: $wrapper + $padding + $padding; //double padding added because of box-sizing: border-box
 	margin: 0 auto;
 	padding-left: $padding;
 	padding-right: $padding;
+	@media screen {
+		max-width: $wrapper + $padding + $padding; //double padding added because of box-sizing: border-box
+	}
 }
 
 

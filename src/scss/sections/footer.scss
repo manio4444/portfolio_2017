@@ -1,15 +1,19 @@
 #section_footer {
 	text-align: center;
 	color: $white;
-	background-color: $red;
+	@media screen {
+		background-color: $red;
+	}
 	strong {font-weight: bold;}
 	.wrapper--section_footer {
 		padding: 20px $padding;
 		opacity: .7;
 	}
 	font-size: 14px;
-	.section_footer_agreement--print {
-		display: none;
+	.section_footer_agreement {
+		line-height: 1.1em;
+		color: $color1;
+		font-size: 12px;
 	}
 @media (max-width: 1023px) {
 	// padding: 18px 0;

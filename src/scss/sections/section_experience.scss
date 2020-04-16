@@ -1,5 +1,9 @@
 #section_experience {
   overflow: hidden; //to prevent page jumping
+  @media print {
+    order: -3;
+    flex-basis: calc(100% / 5 * 3);
+  }
   .section_experience_icon::before {
     font-family: $awesome;
     font-size: 2em;
@@ -17,13 +21,16 @@
   .section_experience_icon--school::before {
     content: '\f19d';
   }
+  .section_experience_side {
+    display: flex;
+    flex-direction: column;
+  }
   .section_experience_el {
-    border-left-width: 2px;
+    border-width: 0 0 0 2px;
     border-style: solid;
     border-color: $color2;
-    margin-left: 25px;
-    padding-top: 50px;
-    padding-left: 25px;
+    margin: 0 0 0 25px;
+    padding: 50px 0 0 25px;
     position: relative;
     &::before {
       content: '';
@@ -36,15 +43,27 @@
       position: absolute;
       left: -8px;
       top: 52px;
+      @media print {
+        border-color: $color1;
+        background-color: white;
+        top: 18px;
+      }
     }
     &:last-of-type {
       padding-bottom: 15px;
+    }
+    @media print {
+      padding-top: 15px;
+      margin-left: 0;
     }
   }
   .section_experience_el_title {
     font-size: 1.125em;
     font-weight: 500;
     margin-bottom: 18px;
+    @media print {
+      margin-bottom: 12px;
+    }
   }
   .section_experience_el_date {
     font-size: 0.9em;
@@ -60,6 +79,9 @@
   }
   .section_experience_el_desc {
     max-width: 500px;
+    @media print {
+      display: none;
+    }
     a {
       font-weight: 500;
       text-decoration: underline;
@@ -67,19 +89,19 @@
     p {line-height: 1.6em;}
   }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
 } //media
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 } //media
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .section_experience_icon--school::before {
     margin-top: 50px;
   }
 } //media
-@media (min-width: 1024px) {
-  .section_experience_wrapper {
+@media screen and (min-width: 1024px) {
+  .wrapper--section_experience {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -91,22 +113,7 @@
     flex-basis: calc(50% - 15px);
   }
   .section_experience_side--left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    .section_experience_el {
-      border-left-width: 0;
-      border-right-width: 2px;
-      margin-left: 0;
-      padding-left: 0;
-      margin-right: 25px;
-      padding-right: 25px;
-    }
-    .section_experience_el::before {
-      left: auto;
-      right: -8px;
-    }
+    @include section_experience_side_reverse;
   }
 } //media
 } //#section_experience

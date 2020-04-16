@@ -1,13 +1,18 @@
 #section_skills {
-  overflow: hidden; //to prevent page jumping
-  background-image: url('../img/d509c2a8becfa61e9a33b7d275a866328395bd9a.png');
-  background-attachment: fixed;
-  color: $white;
+  @media screen {
+    overflow: hidden; //to prevent page jumping
+    background-image: url('../img/d509c2a8becfa61e9a33b7d275a866328395bd9a.png');
+    background-attachment: fixed;
+    color: $white;
+  }
+  @media print {
+    order: -2;
+    flex-basis: calc(100% / 5 * 2);
+  }
   .section_skills_el_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
   .section_skills_el {
     display: flex;
@@ -17,67 +22,102 @@
     // background-color: rgba(0,0,0,.4);
     margin-bottom: 30px;
     flex-basis: calc(50% - 15px);
+    @media print {
+      flex-basis: 100%;
+      padding: 0;
+      margin-bottom: 5px;
+    }
+
+    .section_skills_el_icon {
+      display: flex;
+      font-size: 3em;
+      margin-right: 20px;
+      @media print {
+        font-size: 1.1em;
+        margin-right: 10px;
+      }
+      &.icon--fa::before {
+        flex-shrink: 0;
+        font-size: 1em;
+        border: 2px solid white;
+        width: 1.5em;
+        height: 1.5em;
+        text-align: center;
+        border-radius: 50%;
+        font-family: $awesome;
+        line-height: 1.5em;
+        @media print {
+          border-color: $color1;
+          font-size: 1.3em;
+          opacity: .7;
+        }
+      }
+      svg {
+        flex-shrink: 0;
+        font-size: 1.0594em;
+        border: 2px solid white;
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 50%;
+        fill: $white;
+        @media print {
+          fill: $color1;
+          border-color: $color1;
+          font-size: 1.478em;
+          opacity: .7;
+        }
+      }
+      &.icon--hmtl::before {content: '\f13b';}
+      &.icon--css::before {content: '\f13c';}
+      &.icon--rwd::before {content: '\f065';}
+      &.icon--twig::before {content: '{{ }}';}
+      &.icon--sass svg {
+        border: 0;
+        border-radius: 0;
+      }
+      &.icon--javascript svg {
+        border: 0;
+        // border-radius: 0;
+      }
+      &.icon--jquery svg {
+        padding: 10px;
+      }
+      &.icon--twig::before {
+        font-family: inherit;
+        width: 1.75em;
+        height: 1.75em;
+        line-height: calc(1.75em - 2px);
+        font-weight: normal;
+        font-size: 0.8572em;
+        @media print {
+          font-size: 1.108em;
+        }
+      }
+    }
   }
-  .section_skills_el--fa::before {
-    flex-shrink: 0;
-    content: '';
-    font-size: 3em;
-    margin-right: 20px;
-    border: 2px solid white;
-    width: 1.5em;
-    height: 1.5em;
-    text-align: center;
-    border-radius: 50%;
-    font-family: $awesome;
-    line-height: 1.5em;
-  }
-  svg {
-    flex-shrink: 0;
-    font-size: 3em;
-    margin-right: 20px;
-    border: 2px solid white;
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
-    fill: $white;
-  }
-  .section_skills_el--hmtl::before {content: '\f13b';}
-  .section_skills_el--css::before {content: '\f13c';}
-  .section_skills_el--rwd::before {content: '\f065';}
-  .section_skills_el--twig::before {content: '{{ }}';}
-  .section_skills_el--sass svg {
-    border: 0;
-    border-radius: 0;
-  }
-  .section_skills_el--javascript svg {
-    border: 0;
-    // border-radius: 0;
-  }
-  .section_skills_el--jquery svg {
-    padding: 10px;
-  }
-  .section_skills_el--twig::before {
-    font-family: inherit;
-    width: 72px;
-    height: 72px;
-    line-height: calc(72px - 4px);
-    font-weight: normal;
-    font-size: 36px;
+  .section_skills_el_desc {
+    @media print {
+      display: none;
+    }
   }
   .section_skills_el_content {
     display: flex;
     flex-direction: column;
-    padding: 10px 0;
+    @media screen {
+      padding: 10px 0;
+    }
     p {line-height: 1.4em;}
   }
   .section_skills_el_title {
     font-size: 1.125em;
     font-weight: 500;
-    margin-bottom: 10px;
+    @media screen {
+      margin-bottom: 10px;
+    }
   }
 
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .section_skills_el {
     padding: 0;
     // margin-bottom: 30px;
@@ -87,17 +127,17 @@
     }
   }
 } //media
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .section_skills_el {
     padding: 10px 20px;
     margin-bottom: 30px;
   }
 } //media
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .section_skills_el {
     flex-basis: 100%;
   }
 } //media
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 } //media
 } //#section_skills

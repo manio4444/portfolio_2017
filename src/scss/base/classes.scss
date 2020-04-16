@@ -3,14 +3,44 @@
 	font-size: 46px;
 	font-weight: 400;
 	margin-bottom: 1em;
+	@media print {
+		font-size: 24px;
+		margin-bottom: 0;
+	}
+	&.with-line-bottom {
+		@media print {
+			position: relative;
+			margin-bottom: 30px;
+			&::after {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: -10px;
+				width: 100%;
+				border-bottom: 1px solid rgba($color1, .5);
+			}
+		}
+	}
 }
 
 .wrapper {
-	// display: flex;
 	padding-top: 50px;
 	padding-bottom: 60px;
+	@media print {
+		padding: 25px 10px;
+	}
 }
 
+.screen-only {
+	@media print {
+		display: none !important;
+	}
+}
+.print-only {
+	@media screen {
+		display: none !important;
+	}
+}
 
 #backtotop {
 	position: fixed;
@@ -43,8 +73,11 @@
 	&:not(.visible) {
 		pointer-events: none;
 	}
-@media (max-width: 1023px) {
-	bottom: 30px;
-	right: 20px;
-}
+	@media (max-width: 1023px) {
+		bottom: 30px;
+		right: 20px;
+	}
+	@media print {
+		display: none;
+	}
 } //#backtotop

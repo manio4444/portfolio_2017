@@ -1,11 +1,19 @@
 #section_contact {
-
-  background-color: $red;
-  color: $white;
-  font-size: 15px;
+  @media screen {
+    color: $white;
+    background-color: $red;
+    font-size: 15px;
+  }
+  @media print {
+    order: -4;
+    flex-basis: 100%;
+  }
 
   .heading {
     margin-bottom: 1em;
+    @media print {
+      display: none;
+    }
   }
 
   .contact_form {
@@ -15,12 +23,18 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    @media print {
+      display: none;
+    }
   }
   .section_contact_desc {
     margin: 0 auto;
     margin-bottom: 40px;
     line-height: 1.7em;
     max-width: 780px;
+    @media print {
+      display: none;
+    }
   }
   input, textarea {
     background-color: transparent;
@@ -56,9 +70,29 @@
   .send_btn:disabled {
     opacity: 0.2;
   }
-  .section_contact_labels--print {
-    display: none;
+
+  .section_contact_labels {
+    display: flex;
+    margin-bottom: .8em;
+    &_el {
+      display: flex;
+      align-items: center;
+      margin: 0 20px 0 0;
+      .fa {
+        margin-right: 10px;
+        font-size: 1.3em;
+        opacity: .9;
+        display: flex;
+        &.fa-envelope::before {
+          font-size: 0.9em;
+        }
+      }
+      span {
+        font-weight: 400;
+      }
+    }
   }
+
 @media (max-width: 640px) {
   input[type="text"],
   input[type="email"] {

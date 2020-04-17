@@ -30,68 +30,52 @@
 
     .section_skills_el_icon {
       display: flex;
+      justify-content: center;
+      align-items: center;
       font-size: 3em;
       margin-right: 20px;
+      border: 2px solid white;
+      border-radius: 50%;
+      width: $icon_skills_scale;
+      height: $icon_skills_scale;
+      flex-shrink: 0;
       @media print {
-        font-size: 1.1em;
+        font-size: 1.5em;
         margin-right: 10px;
+        border-color: $color1;
+        opacity: .7;
       }
       &.icon--fa::before {
-        flex-shrink: 0;
-        font-size: 1em;
-        border: 2px solid white;
-        width: 1.5em;
-        height: 1.5em;
-        text-align: center;
-        border-radius: 50%;
         font-family: $awesome;
-        line-height: 1.5em;
-        @media print {
-          border-color: $color1;
-          font-size: 1.3em;
-          opacity: .7;
+      }
+      &.icon--svg {
+        overflow: hidden;
+        svg {
+          width: 100%;
+          height: 100%;
+          fill: $white;
+          @media print {
+            fill: $color1;
+          }
         }
       }
-      svg {
-        flex-shrink: 0;
-        font-size: 1.0594em;
-        border: 2px solid white;
-        width: 1.5em;
-        height: 1.5em;
-        border-radius: 50%;
-        fill: $white;
-        @media print {
-          fill: $color1;
-          border-color: $color1;
-          font-size: 1.478em;
-          opacity: .7;
-        }
-      }
+
       &.icon--hmtl::before {content: '\f13b';}
       &.icon--css::before {content: '\f13c';}
       &.icon--rwd::before {content: '\f065';}
       &.icon--twig::before {content: '{{ }}';}
-      &.icon--sass svg {
+      &.icon--sass,
+      &.icon--javascript {
         border: 0;
-        border-radius: 0;
       }
-      &.icon--javascript svg {
-        border: 0;
-        // border-radius: 0;
-      }
-      &.icon--jquery svg {
-        padding: 10px;
+      &.icon--material,
+      &.icon--jquery, {
+        padding: 8px;
       }
       &.icon--twig::before {
         font-family: inherit;
-        width: 1.75em;
-        height: 1.75em;
-        line-height: calc(1.75em - 2px);
         font-weight: normal;
         font-size: 0.8572em;
-        @media print {
-          font-size: 1.108em;
-        }
       }
     }
   }

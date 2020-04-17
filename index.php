@@ -50,7 +50,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
       <section id="section_about" class="screen-only">
         <div class="wrapper">
           <h2 class="heading">O mnie</h2>
-          <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i stylów CSS. Raz na jakiś czas dorabiałem sobie tworząc stronę internetową "dla znajomego". Około 4-5 lat temu postanowiłem zmienić moje hobby w pracę - zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od 2 lat pracuję na stanowisku Front-End Developer. Lubię cały czas rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii, z której jeszcze nie korzystałem, śledzę na bieżąco strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz używam nazw zmiennych i piszę komentarze do swojego kodu w tym języku.</p>
+          <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i stylów CSS. Raz na jakiś czas dorabiałem sobie tworząc stronę internetową "dla znajomego". Około 7-8 lat temu postanowiłem zmienić moje hobby w pracę - zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od 4 lat pracuję jako Front-End Developer. Lubię cały czas rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii, z której jeszcze nie korzystałem, śledzę na bieżąco strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz nie mam problemów z porozumiewaniem się w tym języku ;)</p>
         </div>
       </section>
 
@@ -66,6 +66,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--css icon--fa">
               </div>
@@ -74,6 +75,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, żadnych float'ów, tylko flex.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--rwd icon--fa">
               </div>
@@ -82,15 +84,17 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby wyświetlała się idealnie zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--bootstrap icon--svg">
-                <?php include 'img/skills/bootstrap.svg'; ?>
+              <div class="section_skills_el_icon icon--material icon--svg">
+                <?php include 'img/skills/material.svg'; ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Bootstrap, Semantic UI</h3>
+                <h3 class="section_skills_el_title">Bootstrap, Semantic UI, Material UI</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość frameworków CSS.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--sass icon--svg">
                 <?php include 'img/skills/sass.svg'; ?>
@@ -100,6 +104,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Bardzo dobra znajomość preprocesorów, "must have" przy większych projektach, a w praktyce to w każdych.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/gulp.svg'; ?>
@@ -109,6 +114,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Narzędzia automatyzacji, buildery, minifikatory to rzeczy, bez których nie wyobrażam sobie kodowania.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--javascript icon--svg">
                 <?php include 'img/skills/javascript.svg'; ?>
@@ -118,6 +124,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Dobra znajomość.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--jquery icon--svg">
                 <?php include 'img/skills/jquery.svg'; ?>
@@ -127,6 +134,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Bardzo dobra znajomość.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/vuejs.svg'; ?>
@@ -136,6 +144,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Podstawy. W tej dziedzinie chciałbym się najbardziej rozwinąć i zdobyć praktyczne doświadczenie.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/git.svg'; ?>
@@ -145,24 +154,27 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, praca na branchach, tworzenie od podstaw repozytoriów, mergowanie, itp.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php include 'img/skills/vagrant.svg'; ?>
+              <div class="section_skills_el_icon icon--docker icon--svg">
+                <?php include 'img/skills/docker.svg'; ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Vagrant</h3>
-                <p class="section_skills_el_desc">Narzędzie witualizacji, które mi się podoba, bo maksymalnie zmniejsza czas konfigurowania środowiska deweloperskiego.</p>
+                <h3 class="section_skills_el_title">Vagrant, Docker</h3>
+                <p class="section_skills_el_desc">Narzędzia witualizacji, które mi się podoba, bo maksymalnie zmniejsza czas konfigurowania środowiska deweloperskiego.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/linux.svg'; ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Środowisko Linux</h3>
-                <p class="section_skills_el_desc">Terminal nie przyprawia mnie o zawroty głowy ;) Co więcej dobrze się w nim czuję. Najlepiej znam CentOS, oraz SLES.</p>
+                <h3 class="section_skills_el_title">Windows, MacOS, Linux</h3>
+                <p class="section_skills_el_desc">Terminal nie przyprawia mnie o zawroty głowy ;) Z Linuxa najchętniej CentOS.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/vmware.svg'; ?>
@@ -172,6 +184,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Znajomość wirtualizacji maszyn przydaje się wszędzie tam gdzie jeszce nie dotarł Vagrant :)</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/php.svg'; ?>
@@ -181,6 +194,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Dobra znajomość czystego PHP, również obiektowo.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--twig icon--fa">
               </div>
@@ -189,15 +203,17 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Systemy szablonów, aby kod stał się czytelniejszy.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/npm.svg'; ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Node package manager</h3>
-                <p class="section_skills_el_desc">Wygodne narzędzie do instalowania różnych skryptów, pluginów, builderów, z którego chętnie korzystam.</p>
+                <h3 class="section_skills_el_title">Node package manager, Yarn</h3>
+                <p class="section_skills_el_desc">Narzędzia "Must Have" do instalowania różnych skryptów, pluginów, konfigurowania i odpalania wszelakich builderów, w każdym projekcie Front End'owym.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/mysql.svg'; ?>
@@ -207,6 +223,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_skills_el_desc">Dobra znajomość, JOIN'y, optymalizacja typy pól, itp.</p>
               </div>
             </article>
+
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--svg">
                 <?php include 'img/skills/adobephotoshop.svg'; ?>
@@ -226,30 +243,41 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <div class="section_experience_side section_experience_side--left">
             <span class="section_experience_icon section_experience_icon--work"></span>
             <article class="section_experience_el section_experience_el--current">
-              <h3 data-aos="fade-right" class="section_experience_el_title">createIT - Front End Developer</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2018 - obecnie</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna. Po zakończeniu projektu outsourcingowego, czekając na następny, pracuję w dziale projektów wewnętrznych. Zajmuje się dużą ilością różnych małych zadań na różnych platformach, ale głównie jest to tworzenie mniejszych stron od podstaw na platformie WordPress, support stron klientów, bug fixing, czasami oddelegowanie na kilka dni do nieco większego projektu.</p>
+              <h3 data-aos="fade-right" class="section_experience_el_title">intive GmbH - Software Engineer</h3>
+              <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2019 - obecnie</time>
+              <p data-aos="fade-right" class="section_experience_el_desc">Stacjonarnie (Software House). Praca jako Front End Developer przy kilku dużych aplikacjach webowych w JavaScript (React/Vue.js) oraz aplikacji mobilnej (React Native). Zakres prac w większości polegał na developmencie, częściowo też mainteance/refactor/bugfixing, zależnie od projektu.</p>
             </article>
+
+            <article class="section_experience_el">
+              <h3 data-aos="fade-right" class="section_experience_el_title">createIT - Front End Developer</h3>
+              <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2018 - 2019</time>
+              <p data-aos="fade-right" class="section_experience_el_desc">Stacjonarnie (Software House). Po zakończeniu projektu outsourcingowego, czekając na następny duży projekt, pracowałem w dziale projektów wewnętrznych. Zakres prac: głównie tworzenie mniejszych stron od podstaw na platformie WordPress, support stron klientów, bugfixing, okresowo outsourcing na kilka dni do nieco większego projektu.</p>
+            </article>
+
             <article class="section_experience_el">
               <h3 data-aos="fade-right" class="section_experience_el_title">top concepts GmbH - Front End Developer</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - 2018</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, ale stacjonarnie w biurze w Warszawie jako pracownik outsourcingowy, poprzez createIT. Do głównych zadań należało bieżące utrzymanie dużych niemieckich sklepów opartych na platformie e-commerce OXID, tj. tworzenie nowych modułów, funkcjonalności, ścisła współpraca z programistami back-end w zakresie bieżących zadań (pair programming).</p>
+              <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, ale stacjonarnie w biurze w Warszawie (outsourcingowy) poprzez createIT. Do głównych zadań należało bieżące utrzymanie dużych niemieckich sklepów opartych na platformie e-commerce OXID, tj. tworzenie nowych modułów JavaScript, widoków Twig/Smarty, funkcjonalności, ścisła współpraca z programistami back-end w zakresie bieżących zadań.</p>
             </article>
+
             <article class="section_experience_el section_experience_el--current">
               <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design - Full Stack Developer</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
               <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, wynikiem współpracy z panią Kingą jest stworzenie od podstaw i utrzymanie sklepu internetowego dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a>, oraz utrzymanie sklepu <a href="https://sowlofficial.com/">Sowlofficial</a> i kilka mniejszych projektów.</p>
             </article>
+
             <article class="section_experience_el">
               <h3 data-aos="fade-right" class="section_experience_el_title">bcweb - Front End Developer</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2016">2016 - 2017</time>
               <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umiejętności z prawdziwym stanowiskiem Front End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania back-end'u systemów CMS.</p>
             </article>
+
             <article class="section_experience_el">
               <h3 data-aos="fade-right" class="section_experience_el_title">Studiocitrus, Agencja interaktywna - Founder</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2015">2015</time>
               <p data-aos="fade-right" class="section_experience_el_desc">Marka, którą stworzyłem i sam obsługiwałem, wykorzystując zdobyte w innych miejscach pracy umiejętności miękkie, marketingowe i sprzedażowe. Sam byłem accountem, programistą, czasami też grafikiem, jeśli nie zlecałem wykonywania projektów grafikowi.</p>
             </article>
+
             <article class="section_experience_el">
               <h3 data-aos="fade-right" class="section_experience_el_title">Studio reklamy MadMelon - Programista stron internetowych</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2014">2014</time>
@@ -263,6 +291,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               <time data-aos="fade-left" class="section_experience_el_date" datetime="2015">2013 - 2015</time>
               <p data-aos="fade-left" class="section_experience_el_desc">W Warszawskiej Szkole Reklamy rozwijałem swoje hobby, które miało być moim przyszłym zawodem - operatorka. Poza zajęciami z montażu, ćwiczeniami operatorki czy plenerach filmowych, w których chętnie brałem udział, nabyłem sporo ogólnej wiedzy z zakresu marketingu.</p>
             </article>
+
             <article class="section_experience_el">
               <h3 data-aos="fade-left" class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim - Technik informatyk</h3>
               <time data-aos="fade-left" class="section_experience_el_date" datetime="2011">2007 - 2011</time>
@@ -307,6 +336,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--magicphotography">
               <a href="http://magicphotography.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Magicphotography</h3>
@@ -318,6 +348,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--marcolsm">
               <a href="http://marcolsm.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Marcol SM</h3>
@@ -329,6 +360,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--fugotrans">
               <a href="http://fugotrans.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Fugotrans</h3>
@@ -340,6 +372,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--valdiexpress">
               <a href="http://valdiexpress.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Valdiexpress</h3>
@@ -351,6 +384,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--magnon">
               <a href="http://magnon.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Magnon</h3>
@@ -362,6 +396,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--mariostinyhouses">
               <a href="http://produkcja.bcweb.com.pl/mariotinyhouses/2017-05-26/" target="_blank">
                 <h3 class="section_projects_el_title">Mariostinyhouses</h3>
@@ -373,6 +408,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--grupahalo">
               <a href="http://strojedlahostess.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Grupahalo</h3>
@@ -384,6 +420,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--q-gain">
               <a href="http://produkcja.bcweb.com.pl/q-gain.com/q-gain.com_2017-07-31/" target="_blank">
                 <h3 class="section_projects_el_title">Q-gain</h3>
@@ -395,6 +432,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--cpsens">
               <a href="http://produkcja.bcweb.com.pl/cpsens/cpsens_2017-09-29/" target="_blank">
                 <h3 class="section_projects_el_title">Cpsens</h3>
@@ -406,6 +444,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--nordic_care">
               <a href="http://nordiccare.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Nordic care</h3>
@@ -417,6 +456,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--espol">
               <a href="http://produkcja.bcweb.com.pl/espol/2017-09-18_espol/" target="_blank">
                 <h3 class="section_projects_el_title">Espol</h3>
@@ -428,6 +468,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--kossmann">
               <a href="http://kossmann.com.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Kossmann</h3>
@@ -439,6 +480,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw sklepu internetowego, oraz utrzymanie.</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--sowlofficial">
               <a href="https://sowlofficial.com/" target="_blank">
                 <h3 class="section_projects_el_title">Sowlofficial</h3>
@@ -450,6 +492,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Utrzymanie, częściowy redesign i support obecnego sklepu na systemie QuickCart.</p>
               </a>
             </article>
+
             <article class="section_projects_el section_projects_el--cortexpower">
               <a href="https://www.cortexpower.de/" target="_blank">
                 <h3 class="section_projects_el_title">cortexpower.de</h3>

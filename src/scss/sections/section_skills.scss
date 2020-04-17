@@ -72,6 +72,9 @@
       &.icon--jquery, {
         padding: 8px;
       }
+      &.icon--docker {
+        padding: 4px;
+      }
       &.icon--twig::before {
         font-family: inherit;
         font-weight: normal;

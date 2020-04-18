@@ -5,10 +5,6 @@
     background-attachment: fixed;
     color: $white;
   }
-  @media print {
-    order: -2;
-    flex-basis: calc(100% / 5 * 2);
-  }
   .section_skills_el_container {
     display: flex;
     flex-wrap: wrap;
@@ -18,13 +14,10 @@
     display: flex;
     align-items: center;
     position: relative;
-    padding: 10px 20px;
-    // background-color: rgba(0,0,0,.4);
     margin-bottom: 30px;
     flex-basis: calc(50% - 15px);
     @media print {
-      flex-basis: 100%;
-      padding: 0;
+      flex-basis: 50%;
       margin-bottom: 5px;
     }
 
@@ -59,21 +52,26 @@
           }
         }
       }
+      &.icon--noborder {
+        border: 0;
+      }
+      &.icon--padding-big {
+        padding: .17777em;
+      }
+      &.icon--padding-small {
+        padding: .0889em;
+      }
 
       &.icon--hmtl::before {content: '\f13b';}
       &.icon--css::before {content: '\f13c';}
       &.icon--rwd::before {content: '\f065';}
       &.icon--twig::before {content: '{{ }}';}
-      &.icon--sass,
-      &.icon--javascript {
-        border: 0;
-      }
-      &.icon--material,
-      &.icon--jquery, {
-        padding: 8px;
-      }
-      &.icon--docker {
-        padding: 4px;
+
+      &.icon--react {
+        stroke: $white;
+        @media print {
+          stroke: $color1;
+        }
       }
       &.icon--twig::before {
         font-family: inherit;
@@ -101,23 +99,18 @@
     @media screen {
       margin-bottom: 10px;
     }
+    @media print {
+      font-size: 1em;
+    }
   }
 
 
 @media screen and (max-width: 767px) {
-  .section_skills_el {
-    padding: 0;
-    // margin-bottom: 30px;
-    // flex-basis: 350px;
-    &::before {
-      // margin-right: 20px;
-    }
-  }
 } //media
 @media screen and (min-width: 768px) {
   .section_skills_el {
     padding: 10px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 } //media
 @media screen and (max-width: 1023px) {

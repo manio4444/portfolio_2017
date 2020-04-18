@@ -6,7 +6,9 @@
 	}
 	strong {font-weight: bold;}
 	.wrapper--section_footer {
-		padding: 20px $padding;
+		@media screen {
+			padding: 20px $padding;
+		}
 		opacity: .7;
 	}
 	font-size: 14px;
@@ -15,12 +17,8 @@
 		color: $color1;
 		font-size: 12px;
 	}
-@media (max-width: 1023px) {
-	// padding: 18px 0;
-	// line-height: 1.5em;
+@media screen and (max-width: 1023px) {
 } //media
-@media (min-width: 1024px) {
-	// padding: 42px 0;
-	// .section_wrapper{justify-content: space-between;}
+@media screen and (min-width: 1024px) {
 } //media
 } //#section_footer

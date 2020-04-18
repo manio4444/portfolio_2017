@@ -4,10 +4,6 @@
     background-color: $red;
     font-size: 15px;
   }
-  @media print {
-    order: -4;
-    flex-basis: 100%;
-  }
 
   .heading {
     margin-bottom: 1em;

@@ -33,22 +33,11 @@
     right: 20px;
     top: 0;
     width: 600px;
-    padding: 60px 40px;
     background-color: $red;
     color: $white;
     z-index: 1;
     font-size: 15px;
     text-align: justify;
-    p {
-      margin-bottom: 1em;
-    }
-    ul {
-      list-style-type: circle;
-      list-style-position: inside;
-    }
-    ul > li {
-      line-height: 1.5em;
-    }
   }
   #google_map { height: 700px; }
 } //media

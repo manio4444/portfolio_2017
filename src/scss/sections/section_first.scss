@@ -16,10 +16,6 @@
       mix-blend-mode: multiply;
     }
   }
-  @media print {
-    order: -5;
-    flex-basis: 100%;
-  }
 
   .wrapper--section_first {
     @media screen {

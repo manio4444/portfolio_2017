@@ -187,7 +187,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
             </article>
 
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--padding-small icon--svg">
+              <div class="section_skills_el_icon icon--svg icon--padding-small">
                 <?php includeSvg('img/skills/docker.svg'); ?>
               </div>
               <div class="section_skills_el_content">
@@ -256,7 +256,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
             </article>
 
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
+              <div class="section_skills_el_icon icon--svg icon--padding-small">
                 <?php includeSvg('img/skills/python.svg'); ?>
               </div>
               <div class="section_skills_el_content">
@@ -266,8 +266,8 @@ https://codepen.io/mkurapov/pen/qNQXxz
             </article>
 
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/asdasdsad.svg'); ?>
+              <div class="section_skills_el_icon icon--svg icon--padding-superbig icon--invision">
+                <?php includeSvg('img/skills/invision.svg'); ?>
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Invision, Zeplin, Figma</h3>
@@ -276,7 +276,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
             </article>
 
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
+              <div class="section_skills_el_icon icon--svg icon--padding-small">
                 <?php includeSvg('img/skills/adobephotoshop.svg'); ?>
               </div>
               <div class="section_skills_el_content">

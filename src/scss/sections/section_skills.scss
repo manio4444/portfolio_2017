@@ -55,6 +55,9 @@
       &.icon--noborder {
         border: 0;
       }
+      &.icon--padding-superbig {
+        padding: .26666em;
+      }
       &.icon--padding-big {
         padding: .17777em;
       }
@@ -71,6 +74,12 @@
         stroke: $white;
         @media print {
           stroke: $color1;
+        }
+      }
+      &.icon--invision g {
+        fill: inherit;
+        @media print {
+          fill: $color1;
         }
       }
       &.icon--twig::before {

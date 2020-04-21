@@ -74,15 +74,6 @@ https://codepen.io/mkurapov/pen/qNQXxz
             </article>
 
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--rwd icon--fa">
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Responsive Web Design</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby wyświetlała się idealnie zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--noborder icon--svg">
                 <?php includeSvg('img/skills/sass.svg'); ?>
               </div>
@@ -92,13 +83,32 @@ https://codepen.io/mkurapov/pen/qNQXxz
               </div>
             </article>
 
-            <article data-aos="zoom-in-up" class="section_skills_el print-nowrap">
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--svg">
+                <?php includeSvg('img/skills/styled.svg'); ?>
+              </div>
+              <div class="section_skills_el_content">
+                <h3 class="section_skills_el_title">Styled components</h3>
+                <p class="section_skills_el_desc">Dobra znajomość, styled-components świetnie się wpisuje w idee re-używalności kodu/komponentów.</p>
+              </div>
+            </article>
+
+            <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--padding-big icon--svg">
                 <?php includeSvg('img/skills/material.svg'); ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Bootstrap, Semantic UI, Material UI</h3>
+                <h3 class="section_skills_el_title">Bootstrap, Semantic, Material UI</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość frameworków CSS/JS.</p>
+              </div>
+            </article>
+
+            <article data-aos="zoom-in-up" class="section_skills_el">
+              <div class="section_skills_el_icon icon--rwd icon--fa">
+              </div>
+              <div class="section_skills_el_content">
+                <h3 class="section_skills_el_title">Responsive Web Design</h3>
+                <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby wyświetlała się idealnie zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
               </div>
             </article>
 
@@ -236,7 +246,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <?php includeSvg('img/skills/npm.svg'); ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Node package manager, Yarn</h3>
+                <h3 class="section_skills_el_title">Npm, Yarn</h3>
                 <p class="section_skills_el_desc">Narzędzia "Must Have" do instalowania różnych skryptów, plugin-ów, konfigurowania i odpalania wszelakich builder-ów, w każdym projekcie Front End'owym.</p>
               </div>
             </article>
@@ -373,7 +383,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
             <h2 class="heading">Wymagania</h2>
             <ul class="section_filler_ul">
               <li>Możliwość okazjonalnej pracy zdalnej, ok. 40%</li>
-              <li>Mile widziane biuro przy węźle kolejowym, ale nie jest to konieczne</li>
+              <li>Forma zatrudnienia: B2B</li>
             </ul>
           </div>
         </div>
@@ -384,12 +394,11 @@ https://codepen.io/mkurapov/pen/qNQXxz
           <div class="section_expectations_desc">
             <h2 class="heading">Oczekiwania</h2>
             <p>Przede wszystkim szukam pracy stacjonarnej, z opcją remote, w której mógłbym wykorzystać swoją dotychczas zgromadzoną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami ;)</p>
-            <p>Interesują mnie stanowiska: Junior/Mid Front-End Developer lub początkujący Vue/Angular/React Developer (nie posiadam praktycznego doświadczenia w w/w frameworkach).</p>
+            <p>Interesują mnie stanowiska: Front-End Developer, JavaScript Developer, React Developer, React-Native Developer, Vue Developer, kolejność oznacza ilość doświadczenia w poszczególnych specjalizacjach.</p>
             <p>Poniżej wklejam mapkę z zarysem obszaru, w którym chciałbym pracować oraz pokazuję, że umiem obsługiwać Google Maps API v3 ;) Z racji, iż dojeżdżam obecnie z Mińska Mazowieckiego, szukam lokalizacji w miarę dobrze skomunikowanej ze wschodnią linią kolejową, ew. z drogą krajową nr. 2, ale obiecuję rozważyć wszystkie możliwe propozycje.</p>
             <p>Podsumywując:</p>
             <ul>
-              <li>Front-End: Junior/Mid</li>
-              <li>Vue/Angular/React: Junior</li>
+              <li>Front/JavaScript/React/Vue/React-Native</li>
               <li>Forma zatrudnienia: B2B</li>
               <li>Miejsce: Warszawa</li>
               <li>Remote: minimum 40%</li>

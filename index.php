@@ -148,7 +148,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Vue.js</h3>
-                <p class="section_skills_el_desc">Podstawy. W tej dziedzinie chciałbym się najbardziej rozwinąć i zdobyć praktyczne doświadczenie.</p>
+                <p class="section_skills_el_desc">Podstawowa znajomość.</p>
               </div>
             </article>
 
@@ -177,7 +177,7 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <?php includeSvg('img/skills/git.svg'); ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Git</h3>
+                <h3 class="section_skills_el_title">Git, Svn</h3>
                 <p class="section_skills_el_desc">Bardzo dobra znajomość, praca na branchach, tworzenie od podstaw repozytoriów, mergowanie itp.</p>
               </div>
             </article>
@@ -412,48 +412,12 @@ https://codepen.io/mkurapov/pen/qNQXxz
         <div class="wrapper">
           <h2 class="heading">Przykładowe projekty</h2>
           <div class="section_projects_content">
-            <article class="section_projects_el section_projects_el--pomocdrogowa-krakow-a4">
-              <a href="http://pomocdrogowa-krakow-a4.pl/" target="_blank">
-                <h3 class="section_projects_el_title">Pomocdrogowa</h3>
-                <span class="section_projects_el_date">
-                  <time datetime="2014">2014, </time>
-                  <span>MadMelon</span>
-                </span>
-                <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery, WordPress</p>
-                <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
-              </a>
-            </article>
-
             <article class="section_projects_el section_projects_el--magicphotography">
               <a href="http://magicphotography.pl/" target="_blank">
                 <h3 class="section_projects_el_title">Magicphotography</h3>
                 <span class="section_projects_el_date">
                   <time datetime="2014">2014, </time>
                   <span>MadMelon</span>
-                </span>
-                <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
-                <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
-              </a>
-            </article>
-
-            <article class="section_projects_el section_projects_el--marcolsm">
-              <a href="http://marcolsm.pl/" target="_blank">
-                <h3 class="section_projects_el_title">Marcol SM</h3>
-                <span class="section_projects_el_date">
-                  <time datetime="2015">2015, </time>
-                  <span>Studiocitrus</span>
-                </span>
-                <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
-                <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
-              </a>
-            </article>
-
-            <article class="section_projects_el section_projects_el--fugotrans">
-              <a href="http://fugotrans.pl/" target="_blank">
-                <h3 class="section_projects_el_title">Fugotrans</h3>
-                <span class="section_projects_el_date">
-                  <time datetime="2015">2015, </time>
-                  <span>Studiocitrus</span>
                 </span>
                 <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
@@ -468,18 +432,6 @@ https://codepen.io/mkurapov/pen/qNQXxz
                   <span>bcweb</span>
                 </span>
                 <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery, Vue.js</p>
-                <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
-              </a>
-            </article>
-
-            <article class="section_projects_el section_projects_el--magnon">
-              <a href="http://magnon.pl/" target="_blank">
-                <h3 class="section_projects_el_title">Magnon</h3>
-                <span class="section_projects_el_date">
-                  <time datetime="2016">2016, </time>
-                  <span>bcweb</span>
-                </span>
-                <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, jQuery</p>
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
@@ -516,18 +468,6 @@ https://codepen.io/mkurapov/pen/qNQXxz
                   <span>bcweb</span>
                 </span>
                 <p class="section_projects_el_desc">Sklep internetowy. Użyte technologie: HTML5, CSS3, JS, jQuery, QuickCart</p>
-                <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
-              </a>
-            </article>
-
-            <article class="section_projects_el section_projects_el--cpsens">
-              <a href="http://produkcja.bcweb.com.pl/cpsens/cpsens_2017-09-29/" target="_blank">
-                <h3 class="section_projects_el_title">Cpsens</h3>
-                <span class="section_projects_el_date">
-                  <time datetime="2017">2017, </time>
-                  <span>bcweb</span>
-                </span>
-                <p class="section_projects_el_desc">Użyte technologie: HTML5, CSS3, JS, jQuery</p>
                 <p class="section_projects_el_desc">Zakres prac: Stworzenie od podstaw</p>
               </a>
             </article>
@@ -591,6 +531,31 @@ https://codepen.io/mkurapov/pen/qNQXxz
                 <p class="section_projects_el_desc">Zakres prac: Redesign platformy e-commerce, do obecnego designu.</p>
               </a>
             </article>
+
+            <article class="section_projects_el section_projects_el--hgtv">
+              <a href="https://de.hgtv.com/" target="_blank">
+                <h3 class="section_projects_el_title">HGTV DE</h3>
+                <span class="section_projects_el_date">
+                  <time datetime="2019">2019, </time>
+                  <span>Intive GmbH</span>
+                </span>
+                <p class="section_projects_el_desc">Użyte technologie: JavaScript, React, Node</p>
+                <p class="section_projects_el_desc">Zakres prac: Stworzenie webowej aplikacji VOD brandu HGTV na rynek niemiecki, na podstawie VOD stworzonego przez Discovery</p>
+              </a>
+            </article>
+
+            <article class="section_projects_el section_projects_el--heathrowexpress">
+              <a href="https://www.heathrowexpress.com/" target="_blank">
+                <h3 class="section_projects_el_title">Heathrow Express</h3>
+                <span class="section_projects_el_date">
+                  <time datetime="2019">2019, </time>
+                  <span>Intive GmbH</span>
+                </span>
+                <p class="section_projects_el_desc">Użyte technologie: JavaScript, Vue.js, jQuery, ASP.NET</p>
+                <p class="section_projects_el_desc">Zakres prac: Końcowy etap developmentu, głównie bugfixing oraz ostatnie zmiany w designach przed go live. Aplikacja służy do zamawiania biletów pociągowych, pomiędzy dwoma Londyńskimi lotniskami.</p>
+              </a>
+            </article>
+
           </div>
         </div>
       </section>

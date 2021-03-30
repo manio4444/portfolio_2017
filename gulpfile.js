@@ -76,7 +76,7 @@ function swallowError (error) {
 
 function liveReload(done) {
   browserSync.init({
-    proxy: 'http://localhost:8080/portfolio_2017/'
+    proxy: 'http://localhost/portfolio_2017/'
   });
   done();
 }

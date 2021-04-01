@@ -1,11 +1,5 @@
 <?php
-setcookie('cv_opened', 'yes', strtotime( '+30 days' ), "/");
-$urlClean = $_SERVER['HTTP_HOST'].htmlspecialchars($_SERVER['REQUEST_URI']);
-$urlFull = $_SERVER['HTTP_HOST'].substr($_SERVER['REQUEST_URI'], 0, strrpos($_SERVER['REQUEST_URI'], '/') + 1);
 function includeSvg($url) { if (file_exists($url)) include $url; }
-/*
-https://codepen.io/mkurapov/pen/qNQXxz
-*/
 ?>
 <!DOCTYPE html>
 <html lang="pl">

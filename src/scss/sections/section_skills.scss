@@ -39,7 +39,7 @@
         opacity: .7;
       }
       &.icon--fa::before {
-        font-family: $awesome;
+        font-family: $font_awesome;
       }
       &.icon--svg {
         overflow: hidden;
@@ -90,6 +90,13 @@
     }
   }
   .section_skills_el_desc {
+    @media print {
+      display: none;
+    }
+  }
+  .section_skills_el_star {
+    font-size: 1.4em;
+    font-family: $font_stars;
     @media print {
       display: none;
     }

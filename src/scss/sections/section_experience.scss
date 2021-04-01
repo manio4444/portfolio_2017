@@ -1,7 +1,7 @@
 #section_experience {
   overflow: hidden; //to prevent page jumping
   .section_experience_icon::before {
-    font-family: $awesome;
+    font-family: $font_awesome;
     font-size: 2em;
     width: 48px;
     height: 48px;
@@ -76,7 +76,7 @@
     }
     &::before {
       content: '\f133';
-      font-family: $awesome;
+      font-family: $font_awesome;
       margin-right: 10px;
     }
   }

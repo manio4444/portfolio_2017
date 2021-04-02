@@ -10,7 +10,7 @@
 	&:not(.section_first_heading) {
 		@media print {
 			position: relative;
-			margin-bottom: 30px;
+			margin-bottom: 25px;
 			&::after {
 				content: '';
 				position: absolute;

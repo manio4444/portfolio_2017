@@ -98,7 +98,8 @@
     font-size: 1.4em;
     font-family: $font_stars;
     @media print {
-      display: none;
+      font-size: 0.9em;
+      color: #8d93a0;
     }
   }
   .section_skills_el_content {
@@ -110,13 +111,14 @@
     p {line-height: 1.4em;}
   }
   .section_skills_el_title {
-    font-size: 1.125em;
     font-weight: 500;
     @media screen {
+      font-size: 1.125em;
       margin-bottom: 10px;
     }
     @media print {
-      font-size: 1em;
+      font-size: .866666em;
+      margin-bottom: 2px;
     }
   }
 

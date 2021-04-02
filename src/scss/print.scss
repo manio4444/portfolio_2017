@@ -21,24 +21,27 @@
   }
   #section_experience {
     order: 3;
+    flex-basis: 47%;
   }
   #section_skills {
     order: 4;
+    flex-basis: 53%;
   }
   #section_portfolio {
     order: 5;
+    flex-basis: 47%;
   }
   #section_asdadsa {
     order: 6;
   }
   #section_fillers {
     order: 7;
-    margin-top: -15px;
+    flex-basis: 53%;
+    margin-top: -10px;
   }
   #section_footer {
     order: 8;
     flex-basis: 100%;
-    margin-top: -15px;
   }
 
 

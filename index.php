@@ -294,14 +294,13 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
           <h2 class="heading section_experience_heading">Doświadczenie zawodowe</h2>
           <div class="section_experience_side section_experience_side--left">
             <span class="section_experience_icon section_experience_icon--work"></span>
-            <article class="section_experience_el section_experience_el--current">
+            <article class="section_experience_el">
               <h3 data-aos="fade-right" class="section_experience_el_title">Edge One Solutions</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2020">2020 - obecnie</time>
               <p data-aos="fade-right" class="section_experience_el_desc">Zdalnie 100%. Projekt utrzymaniowy serwisów chroma.pl. Utrzymanie platformy ecommerce do projektowania i zamawiania wydruków w drukarni dla klientów B2B. Dodatkowo utrzymanie i rozwój platform resellerskich podpiętych do serwisów chroma.</p>
             </article>
 
-            <span class="section_experience_icon section_experience_icon--work"></span>
-            <article class="section_experience_el section_experience_el--current">
+            <article class="section_experience_el">
               <h3 data-aos="fade-right" class="section_experience_el_title">intive GmbH - Software Engineer</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2019">2019 - 2020</time>
               <p data-aos="fade-right" class="section_experience_el_desc">Stacjonarnie (Software House). Praca jako Front End Developer przy kilku dużych aplikacjach webowych w JavaScript (React/Vue.js) oraz aplikacji mobilnej (React Native). Zakres prac w większości polegał na developmencie, częściowo też mainteance/refactor/bugfixing, zależnie od projektu.</p>

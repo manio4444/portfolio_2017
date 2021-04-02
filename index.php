@@ -54,7 +54,8 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">HTML5</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość, znaczniki &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, nie są mi obce ;)</p>
+                <!-- EXAMPLE STARTS - ●●◐○○ -->
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -63,7 +64,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">CSS3</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość, żadnych float'ów, tylko flex.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -73,7 +74,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">SASS, LESS</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość preprocesorów, "must have" przy większych projektach, a w praktyce to w każdych.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -83,7 +84,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Styled components</h3>
-                <p class="section_skills_el_desc">Dobra znajomość, styled-components świetnie się wpisuje w idee re-używalności kodu/komponentów.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -93,7 +94,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Bootstrap, Semantic, Material UI</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość frameworków CSS/JS.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -102,7 +103,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Responsive Web Design</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość, potrafię zakodować stronę tak, aby wyświetlała się idealnie zarówno na dużych ekranach, jak i na smartfonach czy tabletach.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -112,7 +113,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">JavaScript</h3>
-                <p class="section_skills_el_desc">Dobra znajomość, również standardu ES6 (i wyżej).</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -122,7 +123,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">TypeScript</h3>
-                <p class="section_skills_el_desc">Podstawowa znajomość.</p>
+                <div class="section_skills_el_star">●●◐○○</div>
               </div>
             </article>
 
@@ -132,7 +133,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">React</h3>
-                <p class="section_skills_el_desc">Dobra znajomość najpopularniejszego frameworka JavaScript, w tym znajomość optymalizacji komponentów.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -142,7 +143,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Vue.js</h3>
-                <p class="section_skills_el_desc">Podstawowa znajomość.</p>
+                <div class="section_skills_el_star">●◐○○○</div>
               </div>
             </article>
 
@@ -152,7 +153,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Redux, Vuex</h3>
-                <p class="section_skills_el_desc">Umiejętność rozszerzania aplikacji bazujących na scentralizowanych managerach stanu.</p>
+                <div class="section_skills_el_star">●●●●○</div>
               </div>
             </article>
 
@@ -162,7 +163,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">jQuery</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -172,7 +173,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Git, Svn</h3>
-                <p class="section_skills_el_desc">Bardzo dobra znajomość, praca na branchach, tworzenie od podstaw repozytoriów, mergowanie itp.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -182,7 +183,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Grunt, Gulp, Webpack</h3>
-                <p class="section_skills_el_desc">Narzędzia automatyzacji, buildery, minifikatory to rzeczy, bez których nie wyobrażam sobie kodowania.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -192,7 +193,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Vagrant, Docker</h3>
-                <p class="section_skills_el_desc">Narzędzia wirtualizacji, które mi się podoba, bo maksymalnie zmniejsza czas konfigurowania środowiska deweloperskiego.</p>
+                <div class="section_skills_el_star">●●●●○</div>
               </div>
             </article>
 
@@ -202,7 +203,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Windows, MacOS, Linux</h3>
-                <p class="section_skills_el_desc">Terminal nie przyprawia mnie o zawroty głowy ;) Z Linuxa najchętniej CentOS.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -212,7 +213,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">VMware, VirtualBox</h3>
-                <p class="section_skills_el_desc">Znajomość wirtualizacji maszyn przydaje się wszędzie tam, gdzie jeszcze nie dotarł Vagrant :)</p>
+                <div class="section_skills_el_star">●●●●○</div>
               </div>
             </article>
 
@@ -222,7 +223,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">PHP</h3>
-                <p class="section_skills_el_desc">Dobra znajomość czystego PHP, również obiektowo.</p>
+                <div class="section_skills_el_star">●●●◐○</div>
               </div>
             </article>
 
@@ -231,7 +232,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Smarty, Twig</h3>
-                <p class="section_skills_el_desc">Systemy szablonów, aby kod stał się czytelniejszy.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -241,7 +242,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Npm, Yarn</h3>
-                <p class="section_skills_el_desc">Narzędzia "Must Have" do instalowania różnych skryptów, plugin-ów, konfigurowania i odpalania wszelakich builder-ów, w każdym projekcie Front End'owym.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -251,7 +252,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">SQL</h3>
-                <p class="section_skills_el_desc">Dobra znajomość, JOIN'y, optymalizacja typy pól itp.</p>
+                <div class="section_skills_el_star">●●●◐○</div>
               </div>
             </article>
 
@@ -261,7 +262,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Python</h3>
-                <p class="section_skills_el_desc">Podstawowa wiedza potrzebna do niewielkich poprawek kodu.</p>
+                <div class="section_skills_el_star">●○○○○</div>
               </div>
             </article>
 
@@ -271,7 +272,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Invision, Zeplin, Figma</h3>
-                <p class="section_skills_el_desc">Bezproblemowo korzystam z wszystkich narzędzi do eksportowania prototypów aplikacji/widoków.</p>
+                <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>
 
@@ -281,7 +282,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
               </div>
               <div class="section_skills_el_content">
                 <h3 class="section_skills_el_title">Photoshop</h3>
-                <p class="section_skills_el_desc">Znajomość na poziomie cięcia szablonów psd/tiff i podstawowych sposobów obróbki w celu eksportu grafiki</p>
+                <div class="section_skills_el_star">●●◐○○</div>
               </div>
             </article>
           </div>

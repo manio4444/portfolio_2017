@@ -297,7 +297,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
             <article class="section_experience_el">
               <h3 data-aos="fade-right" class="section_experience_el_title">Edge One Solutions</h3>
               <time data-aos="fade-right" class="section_experience_el_date" datetime="2020">2020 - obecnie</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Zdalnie 100%. Projekt utrzymaniowy serwisów chroma.pl. Utrzymanie platformy ecommerce do projektowania i zamawiania wydruków w drukarni dla klientów B2B. Dodatkowo utrzymanie i rozwój platform resellerskich podpiętych do serwisów chroma.</p>
+              <p data-aos="fade-right" class="section_experience_el_desc">Zdalnie 100%. Projekt utrzymaniowy serwisów chroma.pl. Utrzymanie platformy e-commerce do projektowania i zamawiania wydruków w drukarni dla klientów B2B. Dodatkowo utrzymanie i rozwój platform resellerskich podpiętych do serwisów chroma.</p>
             </article>
 
             <article class="section_experience_el">
@@ -383,7 +383,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
           <div class="section_expectations_desc">
             <h2 class="heading">Wymagania</h2>
             <ul class="section_filler_ul">
-              <li>Możliwość okazjonalnej pracy zdalnej, ok. 40%</li>
+              <li>Możliwość pracy zdalnej 100%, po pandemii ok. 40%</li>
               <li>Forma zatrudnienia: B2B</li>
             </ul>
           </div>
@@ -394,15 +394,15 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
         <div class="wrapper wrapper--section_expectations">
           <div class="section_expectations_desc">
             <h2 class="heading">Oczekiwania</h2>
-            <p>Przede wszystkim szukam pracy stacjonarnej, z opcją remote, w której mógłbym wykorzystać swoją dotychczas zgromadzoną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami ;)</p>
-            <p>Interesują mnie stanowiska: Front-End Developer, JavaScript Developer, React Developer, React-Native Developer, Vue Developer, kolejność oznacza ilość doświadczenia w poszczególnych specjalizacjach.</p>
-            <p>Poniżej wklejam mapkę z zarysem obszaru, w którym chciałbym pracować oraz pokazuję, że umiem obsługiwać Google Maps API v3 ;) Z racji, iż dojeżdżam obecnie z Mińska Mazowieckiego, szukam lokalizacji w miarę dobrze skomunikowanej ze wschodnią linią kolejową, ew. z drogą krajową nr. 2, ale obiecuję rozważyć wszystkie możliwe propozycje.</p>
-            <p>Podsumywując:</p>
+            <p>W związku z obecną sytuacją (pandemia) szukam odwrotnie niż zwykle - remote 100%, z opcją na okazjonalną wizytę w biurze, natomiast docelowo - praca w biurze z opcją na remote :) Zależy mi na projektach, w których mógłbym wykorzystać swoją dotychczas zgromadzoną wiedzę i umiejętności, cały czas się rozwijać, oraz wymieniać doświadczeniami ;)</p>
+            <p>Interesują mnie stanowiska: Front-End Developer, React Developer, JavaScript Developer, React-Native Developer, Vue Developer, kolejność oznacza ilość doświadczenia w poszczególnych specjalizacjach.</p>
+            <p>Poniżej wklejam mapkę z zarysem obszaru, w którym chciałbym pracować (docelowo po pandemii) oraz pokazuję, że umiem obsługiwać Google Maps API v3 ;) Z racji, iż dojeżdżam obecnie z Mińska Mazowieckiego, szukam lokalizacji w miarę dobrze skomunikowanej ze wschodnią linią kolejową, ew. z drogą krajową nr 2 lub autostradą A2 (południowa obwodnica Warszawy), ale obiecuję rozważyć wszystkie możliwe propozycje.</p>
+            <p>Podsumowując:</p>
             <ul>
-              <li>Front/JavaScript/React/Vue/React-Native</li>
+              <li>Front/React/JavaScript/Vue/React-Native</li>
               <li>Forma zatrudnienia: B2B</li>
-              <li>Miejsce: Warszawa</li>
-              <li>Remote: minimum 40%</li>
+              <li>Miejsce: Warszawa, remote</li>
+              <li>Remote: obecnie 100%, docelowo ok. 40%</li>
             </ul>
           </div>
         </div>

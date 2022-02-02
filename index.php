@@ -159,10 +159,10 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
 
             <article data-aos="zoom-in-up" class="section_skills_el">
               <div class="section_skills_el_icon icon--padding-big icon--svg">
-                <?php includeSvg('img/skills/jquery.svg'); ?>
+                <?php includeSvg('img/skills/rest-api.svg'); ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">jQuery</h3>
+                <h3 class="section_skills_el_title">REST API</h3>
                 <div class="section_skills_el_star">●●●●●</div>
               </div>
             </article>

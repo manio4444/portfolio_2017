@@ -1,7 +1,7 @@
 const { watch, src, dest, series, parallel } = require('gulp');
 const concat = require('gulp-concat');
 const sourcemaps = require('gulp-sourcemaps');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const uglify = require('gulp-uglify');
 const cleanCSS = require('gulp-clean-css');
 const browserSync = require('browser-sync').create();
@@ -76,7 +76,8 @@ function swallowError (error) {
 
 function liveReload(done) {
   browserSync.init({
-    proxy: 'http://localhost/portfolio_2017/'
+    proxy: 'http://localhost/portfolio_2017/',
+    port: 3044,
   });
   done();
 }
@@ -91,4 +92,9 @@ exports.default = parallel(
   JsTask,
   watchFiles,
   liveReload
+);
+
+exports.build = parallel(
+  StylesTask,
+  JsTask,
 );

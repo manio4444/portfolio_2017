@@ -3,6 +3,7 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
 
 $skillsConfig = json_decode(file_get_contents('src/config/data/skills.json'), true);
 $experienceConfig = json_decode(file_get_contents('src/config/data/experience.json'), true);
+$educationConfig = json_decode(file_get_contents('src/config/data/education.json'), true);
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -87,17 +88,13 @@ $experienceConfig = json_decode(file_get_contents('src/config/data/experience.js
           </div>
           <div class="section_experience_side section_experience_side--right screen-only">
             <span class="section_experience_icon section_experience_icon--school"></span>
-            <article class="section_experience_el">
-              <h3 data-aos="fade-left" class="section_experience_el_title">Warszawska Szkoła Reklamy - Realizacja telewizyjna i filmowa</h3>
-              <time data-aos="fade-left" class="section_experience_el_date" datetime="2015">2013 - 2015</time>
-              <p data-aos="fade-left" class="section_experience_el_desc">W Warszawskiej Szkole Reklamy rozwijałem swoje hobby, które miało być moim przyszłym zawodem - operatorka. Poza zajęciami z montażu ćwiczeniami operatorki czy plenerach filmowych, w których chętnie brałem udział, nabyłem sporo ogólnej wiedzy z zakresu marketingu.</p>
-            </article>
-
-            <article class="section_experience_el">
-              <h3 data-aos="fade-left" class="section_experience_el_title">ZS nr.1 w Mińsku Mazowieckim - Technik informatyk</h3>
-              <time data-aos="fade-left" class="section_experience_el_date" datetime="2011">2007 - 2011</time>
-              <p data-aos="fade-left" class="section_experience_el_desc">Tytuł potwierdzony dyplomem</p>
-            </article>
+            <?php foreach ($educationConfig["data"] as $education) : ?>
+              <article class="section_experience_el">
+                <h3 data-aos="fade-left" class="section_experience_el_title"><?= $education["title"] ?></h3>
+                <time data-aos="fade-left" class="section_experience_el_date" datetime="<?= $education["datetimeTag"] ?>"><?= $education["datetimeText"] ?></time>
+                <p data-aos="fade-left" class="section_experience_el_desc"><?= $education["description"] ?></p>
+              </article>
+            <?php endforeach; ?>
           </div>
         </div>
       </section>

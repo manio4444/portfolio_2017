@@ -1,6 +1,7 @@
 <?php
 function includeSvg($url) { if (file_exists($url)) include $url; }
 
+$aboutConfig = json_decode(file_get_contents('src/config/data/about.json'), true);
 $skillsConfig = json_decode(file_get_contents('src/config/data/skills.json'), true);
 $experienceConfig = json_decode(file_get_contents('src/config/data/experience.json'), true);
 $educationConfig = json_decode(file_get_contents('src/config/data/education.json'), true);
@@ -44,9 +45,8 @@ $educationConfig = json_decode(file_get_contents('src/config/data/education.json
 
       <section id="section_about" class="page_section screen-only">
         <div class="wrapper">
-          <h2 class="heading">O mnie</h2>
-          <p class="section_about_desc">Swoją przygodę z kodowaniem zacząłem bardzo wcześnie, mniej więcej w okresie szkoły podstawowej, za czasów HTML 4.01, zagłębiając się w linijki kodu i stylów CSS. Raz na jakiś czas dorabiałem sobie, tworząc stronę internetową "dla znajomego". Około 8-9 lat temu postanowiłem zmienić moje hobby w pracę, zacząłem się zajmować tworzeniem stron internetowych na użytek komercyjny, a od 5 lat pracuję jako Front-End Developer. Lubię cały czas rozwijać swoje umiejętności, staram się przy każdym zleceniu wprowadzić coś nowego, spróbować technologii, z której jeszcze nie korzystałem, śledzę na bieżąco strony, blogi i grupy dotyczące kodowania, światowych trendów, oraz standardów. Znam język angielski na poziomie komunikatywnym, potrafię czytać i pisać dokumentację oraz nie mam problemów z porozumiewaniem się w tym języku ;)</p>
-        </div>
+          <h2 class="heading"><?= $aboutConfig["title"] ?></h2>
+          <p class="section_about_desc"><?= $aboutConfig["description"] ?></div>
       </section>
 
       <section id="section_skills" class="page_section">

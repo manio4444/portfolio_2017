@@ -2,6 +2,7 @@
 function includeSvg($url) { if (file_exists($url)) include $url; }
 
 $skillsConfig = json_decode(file_get_contents('src/config/data/skills.json'), true);
+$experienceConfig = json_decode(file_get_contents('src/config/data/experience.json'), true);
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -72,53 +73,17 @@ $skillsConfig = json_decode(file_get_contents('src/config/data/skills.json'), tr
           <h2 class="heading section_experience_heading">Doświadczenie zawodowe</h2>
           <div class="section_experience_side section_experience_side--left">
             <span class="section_experience_icon section_experience_icon--work"></span>
-            <article class="section_experience_el">
-              <h3 data-aos="fade-right" class="section_experience_el_title">Edge One Solutions</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2020">2020 - obecnie</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Zdalnie 100%. Projekt utrzymaniowy serwisów chroma.pl. Utrzymanie platformy e-commerce do projektowania i zamawiania wydruków w drukarni dla klientów B2B. Dodatkowo utrzymanie i rozwój platform resellerskich podpiętych do serwisów chroma.</p>
-            </article>
-
-            <article class="section_experience_el">
-              <h3 data-aos="fade-right" class="section_experience_el_title">intive GmbH - Software Engineer</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2019">2019 - 2020</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Stacjonarnie (Software House). Praca jako Front End Developer przy kilku dużych aplikacjach webowych w JavaScript (React/Vue.js) oraz aplikacji mobilnej (React Native). Zakres prac w większości polegał na developmencie, częściowo też mainteance/refactor/bugfixing, zależnie od projektu.</p>
-            </article>
-
-            <article class="section_experience_el">
-              <h3 data-aos="fade-right" class="section_experience_el_title">createIT - Front End Developer</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2018">2018 - 2019</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Stacjonarnie (Software House). Po zakończeniu projektu outsourcingowego, czekając na następny duży projekt, pracowałem w dziale projektów wewnętrznych. Zakres prac: głównie tworzenie mniejszych stron od podstaw na platformie WordPress, support stron klientów, bugfixing, okresowo outsourcing na kilka dni do nieco większego projektu.</p>
-            </article>
-
-            <article class="section_experience_el">
-              <h3 data-aos="fade-right" class="section_experience_el_title">top concepts GmbH - Front End Developer</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - 2018</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, ale stacjonarnie w biurze w Warszawie (outsourcingowy) poprzez createIT. Do głównych zadań należało bieżące utrzymanie dużych niemieckich sklepów opartych na platformie e-commerce OXID, tj. tworzenie nowych modułów JavaScript, widoków Twig/Smarty, funkcjonalności, ścisła współpraca z programistami back-end w zakresie bieżących zadań.</p>
-            </article>
-
-            <article class="section_experience_el section_experience_el--current">
-              <h3 data-aos="fade-right" class="section_experience_el_title">Kinga Nowicka Design - Full Stack Developer</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2017">2017 - obecnie</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, wynikiem współpracy z panią Kingą jest stworzenie od podstaw i utrzymanie sklepu internetowego dużej marki modowej - <a href="http://kossmann.com.pl/">Kossmann</a>, oraz utrzymanie sklepu <a href="https://sowlofficial.com/">Sowlofficial</a> i kilka mniejszych projektów.</p>
-            </article>
-
-            <article class="section_experience_el">
-              <h3 data-aos="fade-right" class="section_experience_el_title">bcweb - Front End Developer</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2016">2016 - 2017</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Praca stacjonarna, w tej firmie miałem możliwość konfrontacji swoich umiejętności z prawdziwym stanowiskiem Front End Developera, oraz nauczyłem się używać najnowszych narzędzi ułatwiających pracę, choć moje obowiązki bardziej można było opisać jako Full Stack, gdyż dużo zadań wymagało pisania dodatkowych funkcjonalności w języku PHP, SQL, lub edytowania back-end'u systemów CMS.</p>
-            </article>
-
-            <article class="section_experience_el">
-              <h3 data-aos="fade-right" class="section_experience_el_title">Studiocitrus, Agencja interaktywna - Founder</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2015">2015</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Marka, którą stworzyłem i sam obsługiwałem, wykorzystując zdobyte w innych miejscach pracy umiejętności miękkie, marketingowe i sprzedażowe. Sam byłem accountem, programistą, czasami też grafikiem, jeśli nie zlecałem wykonywania projektów grafikowi.</p>
-            </article>
-
-            <article class="section_experience_el">
-              <h3 data-aos="fade-right" class="section_experience_el_title">Studio reklamy MadMelon - Programista stron internetowych</h3>
-              <time data-aos="fade-right" class="section_experience_el_date" datetime="2014">2014</time>
-              <p data-aos="fade-right" class="section_experience_el_desc">Praca zdalna, to w tej firmie miałem pierwszy komercyjny kontakt z branżą, zajmowałem się kodowaniem projektów stron internetowych, wynikiem współpracy było kilka projektów, głównie w technologii HTML, CSS.</p>
-            </article>
+            <?php foreach ($experienceConfig["data"] as $job) : ?>
+              <article class="section_experience_el">
+                <div class="section_skills_el_icon">
+                </div>
+                <div class="section_skills_el_content">
+                  <h3 data-aos="fade-right" class="section_experience_el_title"><?= $job["title"] ?></h3>
+                  <time data-aos="fade-right" class="section_experience_el_date" datetime="<?= $job["datetimeTag"] ?>"><?= $job["datetimeText"] ?></time>
+                  <p data-aos="fade-right" class="section_experience_el_desc"><?= $job["description"] ?></p>
+                </div>
+              </article>
+            <?php endforeach; ?>
           </div>
           <div class="section_experience_side section_experience_side--right screen-only">
             <span class="section_experience_icon section_experience_icon--school"></span>

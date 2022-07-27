@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "title": "HTML5",
+      "cssClassName": "icon--hmtl icon--fa",
+      "stars": "●●●●●"
+    },
+    {
+      "title": "CSS3",
+      "cssClassName": "icon--css icon--fa",
+      "stars": "●●●●●"
+    },
+    {
+      "title": "SASS, LESS",
+      "cssClassName": "icon--noborder icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/sass.svg"
+    },
+    {
+      "title": "Styled components",
+      "cssClassName": "icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/styled.svg"
+    },
+    {
+      "title": "Bootstrap, Semantic, Material UI",
+      "cssClassName": "icon--padding-big icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/material.svg"
+    },
+    {
+      "title": "Responsive Web Design",
+      "cssClassName": "icon--rwd icon--fa",
+      "stars": "●●●●●"
+    },
+    {
+      "title": "JavaScript",
+      "cssClassName": "icon--noborder icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/javascript.svg"
+    },
+    {
+      "title": "TypeScript",
+      "cssClassName": "icon--noborder icon--svg",
+      "stars": "●●◐○○",
+      "svg": "img/skills/typescript.svg"
+    },
+    {
+      "title": "React",
+      "cssClassName": "icon--react icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/react.svg"
+    },
+    {
+      "title": "Vue.js",
+      "cssClassName": "icon--svg",
+      "stars": "●◐○○○",
+      "svg": "img/skills/vuejs.svg"
+    },
+    {
+      "title": "Redux, Vuex",
+      "cssClassName": "icon--padding-big icon--svg",
+      "stars": "●●●●○",
+      "svg": "img/skills/redux.svg"
+    },
+    {
+      "title": "REST API",
+      "cssClassName": "icon--padding-big icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/rest-api.svg"
+    },
+    {
+      "title": "Git, Svn",
+      "cssClassName": "icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/git.svg"
+    },
+    {
+      "title": "Grunt, Gulp, Webpack",
+      "cssClassName": "icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/gulp.svg"
+    },
+    {
+      "title": "Vagrant, Docker",
+      "cssClassName": "icon--svg icon--padding-small",
+      "stars": "●●●●○",
+      "svg": "img/skills/docker.svg"
+    },
+    {
+      "title": "Windows, MacOS, Linux",
+      "cssClassName": "icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/linux.svg"
+    },
+    {
+      "title": "VMware, VirtualBox",
+      "cssClassName": "icon--svg",
+      "stars": "●●●●○",
+      "svg": "img/skills/vmware.svg"
+    },
+    {
+      "title": "PHP",
+      "cssClassName": "icon--svg",
+      "stars": "●●●◐○",
+      "svg": "img/skills/php.svg"
+    },
+    {
+      "title": "Smarty, Twig",
+      "cssClassName": "icon--twig icon--fa",
+      "stars": "●●●●●"
+    },
+    {
+      "title": "Npm, Yarn",
+      "cssClassName": "icon--svg",
+      "stars": "●●●●●",
+      "svg": "img/skills/npm.svg"
+    },
+    {
+      "title": "SQL",
+      "cssClassName": "icon--svg",
+      "stars": "●●●◐○",
+      "svg": "img/skills/mysql.svg"
+    },
+    {
+      "title": "Python",
+      "cssClassName": "icon--svg icon--padding-small",
+      "stars": "●○○○○",
+      "svg": "img/skills/python.svg"
+    },
+    {
+      "title": "Invision, Zeplin, Figma",
+      "cssClassName": "icon--svg icon--padding-superbig icon--invision",
+      "stars": "●●●●●",
+      "svg": "img/skills/invision.svg"
+    },
+    {
+      "title": "Photoshop",
+      "cssClassName": "icon--svg icon--padding-small",
+      "stars": "●●◐○○",
+      "svg": "img/skills/adobephotoshop.svg"
+    }
+  ]
+}

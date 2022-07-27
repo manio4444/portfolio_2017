@@ -1,5 +1,7 @@
 <?php
 function includeSvg($url) { if (file_exists($url)) include $url; }
+
+$skillsConfig = json_decode(file_get_contents('src/config/data/skills.json'), true);
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -49,242 +51,18 @@ function includeSvg($url) { if (file_exists($url)) include $url; }
         <div class="wrapper wrapper--section_skills">
           <h2 class="heading -section_skills">Umiejętności</h2>
           <div class="section_skills_el_container">
+            <?php foreach ($skillsConfig["data"] as $skill) : ?>
             <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--hmtl icon--fa">
+              <div class="section_skills_el_icon <?= $skill["cssClassName"] ?>">
+                <?php if (isset($skill["svg"])) includeSvg($skill["svg"]); ?>
               </div>
               <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">HTML5</h3>
+                <h3 class="section_skills_el_title"><?= $skill["title"] ?></h3>
                 <!-- EXAMPLE STARTS - ●●◐○○ -->
-                <div class="section_skills_el_star">●●●●●</div>
+                <div class="section_skills_el_star"><?= $skill["stars"] ?></div>
               </div>
             </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--css icon--fa">
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">CSS3</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--noborder icon--svg">
-                <?php includeSvg('img/skills/sass.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">SASS, LESS</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/styled.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Styled components</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--padding-big icon--svg">
-                <?php includeSvg('img/skills/material.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Bootstrap, Semantic, Material UI</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--rwd icon--fa">
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Responsive Web Design</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--noborder icon--svg">
-                <?php includeSvg('img/skills/javascript.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">JavaScript</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--noborder icon--svg">
-                <?php includeSvg('img/skills/typescript.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">TypeScript</h3>
-                <div class="section_skills_el_star">●●◐○○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--react icon--svg">
-                <?php includeSvg('img/skills/react.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">React</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/vuejs.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Vue.js</h3>
-                <div class="section_skills_el_star">●◐○○○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--padding-big icon--svg">
-                <?php includeSvg('img/skills/redux.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Redux, Vuex</h3>
-                <div class="section_skills_el_star">●●●●○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--padding-big icon--svg">
-                <?php includeSvg('img/skills/rest-api.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">REST API</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/git.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Git, Svn</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/gulp.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Grunt, Gulp, Webpack</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg icon--padding-small">
-                <?php includeSvg('img/skills/docker.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Vagrant, Docker</h3>
-                <div class="section_skills_el_star">●●●●○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/linux.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Windows, MacOS, Linux</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/vmware.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">VMware, VirtualBox</h3>
-                <div class="section_skills_el_star">●●●●○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/php.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">PHP</h3>
-                <div class="section_skills_el_star">●●●◐○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--twig icon--fa">
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Smarty, Twig</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/npm.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Npm, Yarn</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg">
-                <?php includeSvg('img/skills/mysql.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">SQL</h3>
-                <div class="section_skills_el_star">●●●◐○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg icon--padding-small">
-                <?php includeSvg('img/skills/python.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Python</h3>
-                <div class="section_skills_el_star">●○○○○</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg icon--padding-superbig icon--invision">
-                <?php includeSvg('img/skills/invision.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Invision, Zeplin, Figma</h3>
-                <div class="section_skills_el_star">●●●●●</div>
-              </div>
-            </article>
-
-            <article data-aos="zoom-in-up" class="section_skills_el">
-              <div class="section_skills_el_icon icon--svg icon--padding-small">
-                <?php includeSvg('img/skills/adobephotoshop.svg'); ?>
-              </div>
-              <div class="section_skills_el_content">
-                <h3 class="section_skills_el_title">Photoshop</h3>
-                <div class="section_skills_el_star">●●◐○○</div>
-              </div>
-            </article>
+          <?php endforeach; ?>
           </div>
         </div>
       </section>

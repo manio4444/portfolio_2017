@@ -123,7 +123,7 @@ $educationConfig = json_decode(file_get_contents('src/config/data/education.json
           <div class="section_expectations_desc">
             <h2 class="heading">Wymagania</h2>
             <ul class="section_filler_ul">
-              <li>Możliwość pracy zdalnej 100%, po pandemii ok. 40%</li>
+              <li>Możliwość pracy zdalnej 100%</li>
               <li>Forma zatrudnienia: B2B</li>
             </ul>
           </div>

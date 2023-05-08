@@ -42,7 +42,7 @@
     {
       "title": "TypeScript",
       "cssClassName": "icon--noborder icon--svg",
-      "stars": "●●◐○○",
+      "stars": "●●●●○",
       "svg": "img/skills/typescript.svg"
     },
     {
@@ -52,13 +52,7 @@
       "svg": "img/skills/react.svg"
     },
     {
-      "title": "Vue.js",
-      "cssClassName": "icon--svg",
-      "stars": "●◐○○○",
-      "svg": "img/skills/vuejs.svg"
-    },
-    {
-      "title": "Redux, Vuex",
+      "title": "Redux",
       "cssClassName": "icon--padding-big icon--svg",
       "stars": "●●●●○",
       "svg": "img/skills/redux.svg"
@@ -68,6 +62,18 @@
       "cssClassName": "icon--padding-big icon--svg",
       "stars": "●●●●●",
       "svg": "img/skills/rest-api.svg"
+    },
+    {
+      "title": "Cypress",
+      "cssClassName": "icon--noborder icon--svg",
+      "stars": "●●●●○",
+      "svg": "img/skills/cypress.svg"
+    },
+    {
+      "title": "Jest, Testing Library",
+      "cssClassName": "icon--padding-big icon--svg",
+      "stars": "●●●○○",
+      "svg": "img/skills/jest.svg"
     },
     {
       "title": "Git, Svn",
@@ -121,12 +127,6 @@
       "cssClassName": "icon--svg",
       "stars": "●●●◐○",
       "svg": "img/skills/mysql.svg"
-    },
-    {
-      "title": "Python",
-      "cssClassName": "icon--svg icon--padding-small",
-      "stars": "●○○○○",
-      "svg": "img/skills/python.svg"
     },
     {
       "title": "Invision, Zeplin, Figma",

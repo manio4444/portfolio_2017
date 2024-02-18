@@ -88,6 +88,22 @@
     }
     p {line-height: 1.6em;}
   }
+  .section_experience_el_tags {
+    max-width: 500px;
+    margin-bottom: 8px;
+    line-height: 1.4em;
+    @media print {
+      display: none;
+    }
+    span {
+      font-size: 0.8em;
+      background-color: $red;
+      color: $white;
+      font-weight: 500;
+      padding: 2px 3px;
+      border-radius: 3px;
+    }
+  }
 
 @media screen and (max-width: 767px) {
 

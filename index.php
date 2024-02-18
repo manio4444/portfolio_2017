@@ -5,6 +5,9 @@ $aboutConfig = json_decode(file_get_contents('src/config/data/about.json'), true
 $skillsConfig = json_decode(file_get_contents('src/config/data/skills.json'), true);
 $experienceConfig = json_decode(file_get_contents('src/config/data/experience.json'), true);
 $educationConfig = json_decode(file_get_contents('src/config/data/education.json'), true);
+
+$package = file_get_contents('package.json');
+$package = json_decode($package,true);
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -82,6 +85,16 @@ $educationConfig = json_decode(file_get_contents('src/config/data/education.json
                   <h3 data-aos="fade-right" class="section_experience_el_title"><?= $job["title"] ?></h3>
                   <time data-aos="fade-right" class="section_experience_el_date" datetime="<?= $job["datetimeTag"] ?>"><?= $job["datetimeText"] ?></time>
                   <p data-aos="fade-right" class="section_experience_el_desc"><?= $job["description"] ?></p>
+                  <?php if (isset($job["subprojects"])) foreach ($job["subprojects"] as $subproject) : ?>
+                    <p data-aos="fade-right" class="section_experience_el_desc"><strong><?= $subproject['title'] ?> -</strong> <?= $subproject['description'] ?></p>
+                    <?php if (isset($subproject["tags"])) : ?>
+                      <p data-aos="fade-right" class="section_experience_el_tags">
+                        <?php foreach ($subproject["tags"] as $tag) : ?>
+                          <span><?= $tag ?></span>
+                        <?php endforeach; ?>
+                      </p>
+                    <?php endif; ?>
+                  <?php endforeach; ?>
                 </div>
               </article>
             <?php endforeach; ?>
@@ -329,7 +342,7 @@ $educationConfig = json_decode(file_get_contents('src/config/data/education.json
 
       <footer id="section_footer" class="page_section">
         <div class="wrapper wrapper--section_footer">
-          <p class="section_footer_copyright screen-only">Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone.</p>
+          <p class="section_footer_copyright screen-only">Copyright &copy; <?= date('Y') ?> Wszelkie prawa zastrzeżone. v<?php echo $package['version']; ?></p>
           <p class="section_footer_agreement print-only">Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w ofercie pracy dla potrzeb procesu rekrutacji zgodnie z ustawą z dnia 27.08.1997r. Dz. U. z 2002 r., Nr 101, poz. 923 ze zm.</p>
         </div>
       </footer>

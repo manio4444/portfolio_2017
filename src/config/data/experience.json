@@ -4,7 +4,59 @@
       "title": "Edge One Solutions",
       "datetimeTag": "2020",
       "datetimeText": "2020 - obecnie",
-      "description": "Zdalnie 100%. Projekt utrzymaniowy serwisów chroma.pl. Utrzymanie platformy e-commerce do projektowania i zamawiania wydruków w drukarni dla klientów B2B. Dodatkowo utrzymanie i rozwój platform resellerskich podpiętych do serwisów chroma."
+      "description": "Zdalnie 100%.",
+      "subprojects": [
+        {
+          "title": "Twój e-PIT, Ministerstwo Finansów",
+          "description": "Praca przy migracji aplikacji z vue2 do wersji vue3, otypowanie kodu przy pomocy TypeScript, oraz dostosowanie konfiguracji do nowego sezonu rozliczeniowego. ",
+          "tags": [
+            "JavaScript",
+            "TypeScript",
+            "Vue"
+          ]
+        },
+        {
+          "title": "Allegro.pl",
+          "description": "Utrzymanie architektury mikrofrontendów allegro.pl, refaktoryzacja panelu konfiguracyjnego Regulaminu Zwrotów dla Sprzedawcy, dostosowanie kilku komponentów do pracy na platformie allegro.cz, utworzenie nowego wewnętrznego panelu administracyjnego do wyszukiwania i zarządzania instancjami zwrotów, rozwijanie wewnętrznego panelu administracyjnego rozliczeń przewoźników.",
+          "tags": [
+            "React",
+            "Redux",
+            "Micro Frontends Architecture",
+            "TypeScript",
+            "GraphQL"
+          ]
+        },
+        {
+          "title": " Mubi.pl",
+          "description": " Rozwój zupełnie nowej aplikacji do tworzenia raportów sprzedaży dla ubezpieczycieli i wyświetlania zaawansowanych wykresów, React, TS, REST, Material UI",
+          "tags": [
+            "React",
+            "Redux",
+            "TypeScript",
+            "REST",
+            "Echarts"
+          ]
+        },
+        {
+          "title": "TaskRabbit",
+          "description": "Projekt utrzymanioworozwojowy dla TaskRabbit, polegający na dodaniu nowych funkcjonalności do istniejącej aplikacji webowej umożliwiającej zamawianie usług typu user-to-user takich jak sprzątanie, montaż mebli",
+          "tags": [
+            "React",
+            "Redux",
+            "TypeScript",
+            "REST"
+          ]
+        },
+        {
+          "title": "chroma.pl",
+          "description": "Utrzymanie platformy e-commerce do projektowania i zamawiania wydruków w drukarni dla klientów B2B. Dodatkowo utrzymanie i rozwój platform resellerskich podpiętych do serwisów chroma.",
+          "tags": [
+            "React",
+            "Redux",
+            "REST"
+          ]
+        }
+      ]
     },
     {
       "title": "intive GmbH - Software Engineer",

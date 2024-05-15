@@ -49,7 +49,8 @@ $package = json_decode($package,true);
       <section id="section_about" class="page_section screen-only">
         <div class="wrapper">
           <h2 class="heading"><?= $aboutConfig["title"] ?></h2>
-          <p class="section_about_desc"><?= $aboutConfig["description"] ?></div>
+          <p class="section_about_desc"><?= $aboutConfig["description"] ?></p>
+        </div>
       </section>
 
       <section id="section_skills" class="page_section">

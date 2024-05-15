@@ -58,6 +58,18 @@
       "svg": "img/skills/redux.svg"
     },
     {
+      "title": "Next.js",
+      "cssClassName": "icon--padding-big icon--svg",
+      "stars": "●●●○○",
+      "svg": "img/skills/next-js.svg"
+    },
+    {
+      "title": "Server Side Rendering",
+      "cssClassName": "icon--padding-big icon--svg",
+      "stars": "●●●○○",
+      "svg": "img/skills/ssr.svg"
+    },
+    {
       "title": "REST API",
       "cssClassName": "icon--padding-big icon--svg",
       "stars": "●●●●●",
